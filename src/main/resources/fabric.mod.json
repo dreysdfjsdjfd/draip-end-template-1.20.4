@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "draip-end",
+	"version": "${version}",
+	"name": "Draip End",
+	"description": "Draip's end dimension mod! <3",
+	"authors": [
+		"ya boi draip"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/draip-end/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.draip.end.DraipEnd"
+		],
+		"client": [
+			"net.draip.end.DraipEndClient"
+		],
+		"fabric-datagen": [
+			"net.draip.end.DraipEndDataGenerator"
+		]
+	},
+	"mixins": [
+		"draip-end.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
