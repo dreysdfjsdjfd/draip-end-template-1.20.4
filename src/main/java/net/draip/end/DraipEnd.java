@@ -1,5 +1,8 @@
 package net.draip.end;
 
+import net.draip.end.block.ModBlocks;
+import net.draip.end.item.ModItemGroups;
+import net.draip.end.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +15,8 @@ public class DraipEnd implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

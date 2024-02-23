@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "draip-end:block/silverite_block"
+  }
+}
