@@ -5,5 +5,8 @@
   "block.draip-end.silverite_block": "Silverite Block",
   "block.draip-end.endstone_deeper": "Deeper Endstone",
 
+  "block.draip-end.silverite_ore_endstone": "Silverite Ore",
+  "block.draip-end.silverite_ore_deeper_endstone": "Deeper Silverite Ore",
+
   "itemgroup.custom_end": "Draip's End Dimension! <3"
 }

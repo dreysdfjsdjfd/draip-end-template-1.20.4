@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "draip-end:silverite_ingot"
+    }
+  },
+  "result": {
+    "item": "draip-end:silverite_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "draip-end:silverite_block"
+    }
+  ],
+  "result": {
+    "item": "draip-end:silverite_ingot",
+    "count": 9
+  }
+}

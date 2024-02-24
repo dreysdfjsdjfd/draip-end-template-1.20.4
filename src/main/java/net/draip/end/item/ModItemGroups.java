@@ -18,10 +18,12 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SILVERITE_DUST)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SILVERITE_DUST);
                         entries.add(ModItems.SILVERITE_INGOT);
-
                         entries.add(ModBlocks.SILVERITE_BLOCK);
+
                         entries.add(ModBlocks.ENDSTONE_DEEPER);
 
+                        entries.add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE);
+                        entries.add(ModBlocks.SILVERITE_ORE_ENDSTONE);
 
                     }).build());
     public  static  void registerItemGroups() {
