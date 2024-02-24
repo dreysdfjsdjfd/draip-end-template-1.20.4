@@ -91,8 +91,6 @@ public class SilveriteOreEndstoneBlock extends ExperienceDroppingBlock {
             zPlayer /= 5;
 
             player.addVelocity(xPlayer, yPlayer, zPlayer);
-            // Do something with the player's position
-            // For example, print the position
 
             System.out.println("Player position: " + xPlayer + ", " + yPlayer + ", " + zPlayer);
         }

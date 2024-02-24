@@ -2,14 +2,33 @@
   "item.draip-end.silverite_dust": "Silverite Dust",
   "item.draip-end.silverite_ingot": "Silverite Ingot",
 
+  "item.draip-end.silverite_pickaxe": "Silverite Pickaxe",
+  "item.draip-end.silverite_axe": "Silverite Axe",
+  "item.draip-end.silverite_shovel": "Silverite Shovel",
+  "item.draip-end.silverite_sword": "Silverite Sword",
+  "item.draip-end.silverite_hoe": "Silverite Hoe",
+
+  "item.draip-end.silverite_helmet": "Silverite Helmet",
+  "item.draip-end.silverite_chestplate": "Silverite Chestplate",
+  "item.draip-end.silverite_leggings": "Silverite Leggings",
+  "item.draip-end.silverite_boots": "Silverite Boots",
+
+
   "block.draip-end.silverite_block": "Silverite Block",
-  "block.draip-end.endstone_deeper": "Deeper Endstone",
+  "block.draip-end.endstone_deeper": "Deeper End Stone",
+  "block.draip-end.endstone_stairs": "End Stone Stairs",
+  "block.draip-end.endstone_slab": "End Stone Slab",
+  "block.draip-end.endstone_button": "End Stone Button",
+  "block.draip-end.endstone_pressure_plate": "End Stone Pressure Plate",
+  "block.draip-end.endstone_wall": "End Stone Wall",
 
   "block.draip-end.silverite_ore_endstone": "Silverite Ore",
   "block.draip-end.silverite_ore_deeper_endstone": "Deeper Silverite Ore",
   "item.draip-end.chorus_fruit_golden": "Golden Chorus Fruit",
 
   "tooltip.draip-end.silverite_ore_explosion": "boom boom!",
+
+
 
   "itemgroup.custom_end": "Draip's End Dimension! <3"
 }

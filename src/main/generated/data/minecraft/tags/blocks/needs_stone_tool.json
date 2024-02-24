@@ -3,6 +3,10 @@
   "values": [
     "draip-end:silverite_block",
     "draip-end:silverite_ore_deeper_endstone",
-    "draip-end:silverite_ore_endstone"
+    "draip-end:silverite_ore_endstone",
+    "draip-end:endstone_button",
+    "draip-end:endstone_pressure_plate",
+    "draip-end:endstone_stairs",
+    "draip-end:endstone_slab"
   ]
 }

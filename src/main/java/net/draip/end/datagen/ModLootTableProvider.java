@@ -26,8 +26,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.ENDSTONE_DEEPER);
         addDrop(ModBlocks.SILVERITE_BLOCK);
+        addDrop(ModBlocks.ENDSTONE_STAIRS);
+        addDrop(ModBlocks.ENDSTONE_WALL);
+        addDrop(ModBlocks.ENDSTONE_BUTTON);
+        addDrop(ModBlocks.ENDSTONE_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.ENDSTONE_SLAB, slabDrops(ModBlocks.ENDSTONE_SLAB));
+
+
+
 
         addDrop(ModBlocks.SILVERITE_ORE_ENDSTONE, copperLikeOreDrops(ModBlocks.SILVERITE_ORE_ENDSTONE, ModItems.SILVERITE_DUST));
+        addDrop(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE, copperLikeOreDrops(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE, ModItems.SILVERITE_DUST));
+
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

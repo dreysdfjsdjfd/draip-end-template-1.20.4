@@ -26,6 +26,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE);
                         entries.add(ModBlocks.SILVERITE_ORE_ENDSTONE);
 
+                        entries.add(ModBlocks.ENDSTONE_STAIRS);
+                        entries.add(ModBlocks.ENDSTONE_SLAB);
+                        entries.add(ModBlocks.ENDSTONE_BUTTON);
+                        entries.add(ModBlocks.ENDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ENDSTONE_WALL);
+
+
+                        entries.add(ModItems.SILVERITE_PICKAXE);
+                        entries.add(ModItems.SILVERITE_AXE);
+                        entries.add(ModItems.SILVERITE_SHOVEL);
+                        entries.add(ModItems.SILVERITE_SWORD);
+                        entries.add(ModItems.SILVERITE_HOE);
+
+                        entries.add(ModItems.SILVERITE_HELMET);
+                        entries.add(ModItems.SILVERITE_CHESTPLATE);
+                        entries.add(ModItems.SILVERITE_LEGGINGS);
+                        entries.add(ModItems.SILVERITE_BOOTS);
+
                     }).build());
     public  static  void registerItemGroups() {
         DraipEnd.LOGGER.info("Registering item groups for " +DraipEnd.MOD_ID);

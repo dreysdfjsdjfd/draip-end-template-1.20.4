@@ -30,6 +30,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SILVERITE_ORE_ENDSTONE)
                 .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
                 .add(ModBlocks.ENDSTONE_DEEPER)
+
+                .add(ModBlocks.ENDSTONE_BUTTON)
+                .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.ENDSTONE_STAIRS)
+                .add(ModBlocks.ENDSTONE_SLAB)
                 ;
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -42,6 +47,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SILVERITE_BLOCK)
                 .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
                 .add(ModBlocks.SILVERITE_ORE_ENDSTONE)
+
+                .add(ModBlocks.ENDSTONE_BUTTON)
+                .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.ENDSTONE_STAIRS)
+                .add(ModBlocks.ENDSTONE_SLAB)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
@@ -51,6 +61,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_4")))
+        ;
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+        ;
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.ENDSTONE_WALL)
         ;
 
     }
