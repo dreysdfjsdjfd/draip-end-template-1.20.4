@@ -7,6 +7,9 @@
 
   "block.draip-end.silverite_ore_endstone": "Silverite Ore",
   "block.draip-end.silverite_ore_deeper_endstone": "Deeper Silverite Ore",
+  "item.draip-end.chorus_fruit_golden": "Golden Chorus Fruit",
+
+  "tooltip.draip-end.silverite_ore_explosion": "boom boom!",
 
   "itemgroup.custom_end": "Draip's End Dimension! <3"
 }

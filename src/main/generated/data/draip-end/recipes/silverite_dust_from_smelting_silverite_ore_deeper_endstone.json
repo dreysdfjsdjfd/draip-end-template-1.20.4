@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "silverite",
+  "ingredient": {
+    "item": "draip-end:silverite_ore_deeper_endstone"
+  },
+  "result": "draip-end:silverite_dust"
+}

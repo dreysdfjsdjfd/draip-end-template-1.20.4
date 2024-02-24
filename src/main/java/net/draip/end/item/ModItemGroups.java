@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.SILVERITE_DUST)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SILVERITE_DUST);
                         entries.add(ModItems.SILVERITE_INGOT);
+                        entries.add(ModItems.CHORUS_FRUIT_GOLDEN);
                         entries.add(ModBlocks.SILVERITE_BLOCK);
 
                         entries.add(ModBlocks.ENDSTONE_DEEPER);

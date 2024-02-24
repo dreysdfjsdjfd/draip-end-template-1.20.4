@@ -22,7 +22,7 @@ public class ModBlocks {
     public static final Block ENDSTONE_DEEPER = registerBlock("endstone_deeper",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block SILVERITE_ORE_DEEPER_ENDSTONE = registerBlock("silverite_ore_deeper_endstone",
-            new ExperienceDroppingBlock(UniformIntProvider.create(4, 7), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
+            new SilveriteOreEndstoneBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
     public static final Block SILVERITE_ORE_ENDSTONE = registerBlock("silverite_ore_endstone",
             new SilveriteOreEndstoneBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 

@@ -1,0 +1,4 @@
+// 1.20.4	2024-02-24T13:57:54.4091408	Draip End/Block Loot Tables
+b334ce8f388302c78dd22f827a2e4582199398af data\draip-end\loot_tables\blocks\silverite_block.json
+a83566c5b82645edeff6e7a9a12fb0ad4daa5c45 data\draip-end\loot_tables\blocks\endstone_deeper.json
+0337cd7912b412be29e300754fd0b6cc74cd7aa2 data\draip-end\loot_tables\blocks\silverite_ore_endstone.json

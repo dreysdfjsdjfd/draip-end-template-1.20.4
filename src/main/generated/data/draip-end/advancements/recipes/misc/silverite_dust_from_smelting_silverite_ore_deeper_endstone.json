@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silverite_ore_deeper_endstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "draip-end:silverite_ore_deeper_endstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:silverite_dust_from_smelting_silverite_ore_deeper_endstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silverite_ore_deeper_endstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:silverite_dust_from_smelting_silverite_ore_deeper_endstone"
+    ]
+  }
+}
