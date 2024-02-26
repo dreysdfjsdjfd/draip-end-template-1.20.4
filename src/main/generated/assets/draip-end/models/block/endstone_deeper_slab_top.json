@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "draip-end:block/endstone_deeper",
+    "side": "draip-end:block/endstone_deeper",
+    "top": "draip-end:block/endstone_deeper"
+  }
+}

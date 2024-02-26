@@ -8,6 +8,19 @@
     "draip-end:endstone_button",
     "draip-end:endstone_pressure_plate",
     "draip-end:endstone_stairs",
-    "draip-end:endstone_slab"
+    "draip-end:endstone_slab",
+    "draip-end:endstone_brick_pillar",
+    "draip-end:purpur_wall",
+    "draip-end:endstone_deeper_button",
+    "draip-end:endstone_deeper_pressure_plate",
+    "draip-end:endstone_deeper_stairs",
+    "draip-end:endstone_deeper_slab",
+    "draip-end:endstone_deeper_wall",
+    "draip-end:endstone_decaying",
+    "draip-end:endstone_grass",
+    "draip-end:endstone_grass_full",
+    "draip-end:endstone_grass_full_slab",
+    "draip-end:endstone_grass_slabmain",
+    "draip-end:endstone_grass_slabmain_slab"
   ]
 }

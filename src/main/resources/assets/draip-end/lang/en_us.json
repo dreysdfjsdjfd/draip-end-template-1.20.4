@@ -15,12 +15,31 @@
 
 
   "block.draip-end.silverite_block": "Silverite Block",
+  "block.draip-end.endstone_decaying": "Decaying Endstone",
+
+
   "block.draip-end.endstone_deeper": "Deeper End Stone",
+  "block.draip-end.endstone_deeper_stairs": "Deeper End Stone Stairs",
+  "block.draip-end.endstone_deeper_slab": "Deeper End Stone Slab",
+  "block.draip-end.endstone_deeper_button": "Deeper End Stone Button",
+  "block.draip-end.endstone_deeper_pressure_plate": "Deeper End Stone Pressure Plate",
+  "block.draip-end.endstone_deeper_wall": "Deeper End Stone Wall",
+  "block.draip-end.endstone_grass": "Grassy End Stone",
+  "block.draip-end.endstone_grass_full": "Mossy End Stone",
+  "block.draip-end.endstone_grass_full_slab": "Mossy End Stone Slab",
+
   "block.draip-end.endstone_stairs": "End Stone Stairs",
   "block.draip-end.endstone_slab": "End Stone Slab",
   "block.draip-end.endstone_button": "End Stone Button",
   "block.draip-end.endstone_pressure_plate": "End Stone Pressure Plate",
   "block.draip-end.endstone_wall": "End Stone Wall",
+
+  "block.draip-end.endstone_grass_slabmain_slab": "Grassy End Stone Slab",
+
+
+  "block.draip-end.endstone_brick_pillar": "End Stone Brick Pillar",
+
+  "block.draip-end.purpur_wall": "Purpur Wall",
 
   "block.draip-end.silverite_ore_endstone": "Silverite Ore",
   "block.draip-end.silverite_ore_deeper_endstone": "Deeper Silverite Ore",

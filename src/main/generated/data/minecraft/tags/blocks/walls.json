@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "draip-end:endstone_wall"
+    "draip-end:endstone_wall",
+    "draip-end:purpur_wall",
+    "draip-end:endstone_deeper_wall"
   ]
 }

@@ -35,7 +35,31 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
                 .add(ModBlocks.ENDSTONE_STAIRS)
                 .add(ModBlocks.ENDSTONE_SLAB)
-                ;
+                .add(ModBlocks.ENDSTONE_BRICK_PILLAR)
+                .add(ModBlocks.PURPUR_WALL)
+
+
+                .add(ModBlocks.ENDSTONE_DEEPER_BUTTON)
+                .add(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE)
+                .add(ModBlocks.ENDSTONE_DEEPER_STAIRS)
+                .add(ModBlocks.ENDSTONE_DEEPER_SLAB)
+                .add(ModBlocks.ENDSTONE_DEEPER_WALL)
+
+                .add(ModBlocks.ENDSTONE_DECAYING)
+
+                .add(ModBlocks.ENDSTONE_GRASS)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB)
+
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB)
+
+
+
+
+
+
+        ;
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
         ;
@@ -52,6 +76,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
                 .add(ModBlocks.ENDSTONE_STAIRS)
                 .add(ModBlocks.ENDSTONE_SLAB)
+                .add(ModBlocks.ENDSTONE_BRICK_PILLAR)
+                .add(ModBlocks.PURPUR_WALL)
+
+                .add(ModBlocks.ENDSTONE_DEEPER_BUTTON)
+                .add(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE)
+                .add(ModBlocks.ENDSTONE_DEEPER_STAIRS)
+                .add(ModBlocks.ENDSTONE_DEEPER_SLAB)
+                .add(ModBlocks.ENDSTONE_DEEPER_WALL)
+
+                .add(ModBlocks.ENDSTONE_DECAYING)
+                .add(ModBlocks.ENDSTONE_GRASS)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL)
+
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB)
+
+
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
@@ -68,6 +110,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ENDSTONE_WALL)
+                .add(ModBlocks.PURPUR_WALL)
+                .add(ModBlocks.ENDSTONE_DEEPER_WALL)
         ;
 
     }

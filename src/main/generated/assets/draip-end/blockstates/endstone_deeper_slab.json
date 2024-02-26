@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/endstone_deeper_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/endstone_deeper"
+    },
+    "type=top": {
+      "model": "draip-end:block/endstone_deeper_slab_top"
+    }
+  }
+}

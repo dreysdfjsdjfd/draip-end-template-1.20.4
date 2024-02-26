@@ -24,14 +24,36 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.ENDSTONE_DEEPER);
+
         addDrop(ModBlocks.SILVERITE_BLOCK);
+
         addDrop(ModBlocks.ENDSTONE_STAIRS);
         addDrop(ModBlocks.ENDSTONE_WALL);
         addDrop(ModBlocks.ENDSTONE_BUTTON);
         addDrop(ModBlocks.ENDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ENDSTONE_BRICK_PILLAR);
+        addDrop(ModBlocks.PURPUR_WALL);
+
+        addDrop(ModBlocks.ENDSTONE_DEEPER);
+        addDrop(ModBlocks.ENDSTONE_DEEPER_STAIRS);
+        addDrop(ModBlocks.ENDSTONE_DEEPER_BUTTON);
+        addDrop(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE);
+        addDrop(ModBlocks.ENDSTONE_DEEPER_WALL);
+
+
+
+
+        addDrop(ModBlocks.ENDSTONE_DECAYING);
+        addDrop(ModBlocks.ENDSTONE_GRASS);
+        addDrop(ModBlocks.ENDSTONE_GRASS_FULL);
+
+        addDrop(ModBlocks.ENDSTONE_GRASS_SLABMAIN);
+
 
         addDrop(ModBlocks.ENDSTONE_SLAB, slabDrops(ModBlocks.ENDSTONE_SLAB));
+        addDrop(ModBlocks.ENDSTONE_GRASS_FULL_SLAB, slabDrops(ModBlocks.ENDSTONE_GRASS_FULL_SLAB));
+        addDrop(ModBlocks.ENDSTONE_DEEPER_SLAB, slabDrops(ModBlocks.ENDSTONE_DEEPER_SLAB));
+        addDrop(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB, slabDrops(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB));
 
 
 

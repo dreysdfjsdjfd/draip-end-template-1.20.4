@@ -17,10 +17,22 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDSTONE_DEEPER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_ORE_ENDSTONE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDSTONE_DECAYING);
+
+        BlockStateModelGenerator.BlockTexturePool endstoneGrassFullPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDSTONE_GRASS_FULL);
+        endstoneGrassFullPool.slab(ModBlocks.ENDSTONE_GRASS_FULL_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool endstoneDeeperPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDSTONE_DEEPER);
+        endstoneDeeperPool.stairs(ModBlocks.ENDSTONE_DEEPER_STAIRS);
+        endstoneDeeperPool.slab(ModBlocks.ENDSTONE_DEEPER_SLAB);
+        endstoneDeeperPool.button(ModBlocks.ENDSTONE_DEEPER_BUTTON);
+        endstoneDeeperPool.pressurePlate(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE);
+        endstoneDeeperPool.wall(ModBlocks.ENDSTONE_DEEPER_WALL);
+
 
         BlockStateModelGenerator.BlockTexturePool endstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
         endstonePool.stairs(ModBlocks.ENDSTONE_STAIRS);
@@ -29,11 +41,8 @@ public class ModModelProvider extends FabricModelProvider {
         endstonePool.pressurePlate(ModBlocks.ENDSTONE_PRESSURE_PLATE);
         endstonePool.wall(ModBlocks.ENDSTONE_WALL);
 
-
-
-
-
-
+        BlockStateModelGenerator.BlockTexturePool purpurPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
+        purpurPool.wall(ModBlocks.PURPUR_WALL);
     }
 
     @Override

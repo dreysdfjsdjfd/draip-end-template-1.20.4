@@ -22,7 +22,6 @@ public class ChorusFruitGoldenItem extends Item {
         double y = player.getY() + (double) (random.nextInt(16) - 8);
         double z = player.getZ() + (random.nextDouble() - 0.5) * 8.0;
 
-        // Ensure the destination is a safe location (air or replaceable block)
         BlockPos.Mutable blockPos = new BlockPos.Mutable(x, y, z);
         while (!world.getBlockState(blockPos).isAir() && !world.getBlockState(blockPos).isReplaceable()) {
             y++;
@@ -32,8 +31,7 @@ public class ChorusFruitGoldenItem extends Item {
             blockPos.set(x, y, z);
         }
 
-        // Find the nearest solid block below
-        BlockPos solidBlockPos = findNearestSolidBlockBelow(world, blockPos);
+         BlockPos solidBlockPos = findNearestSolidBlockBelow(world, blockPos);
 
         if (player.hasVehicle()) {
             player.stopRiding();
