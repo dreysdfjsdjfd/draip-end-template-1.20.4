@@ -72,14 +72,11 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
 
-    public static final Block ENDER_BERRY_CROP = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "ender_berry_crop"),
-            new EnderBerryCropBlock(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH)));
-
-
-
-    //public static final Block FLOWER_DESTINATIONAL = registerBlock("flower_destinational",
-    //        new FlowerBlock(StatusEffects.HERO_OF_THE_VILLAGE,10,FabricBlockSettings.copyOf(Blocks.SHORT_GRASS).nonOpaque().noCollision()));
-
+    public static final Block DESTINATIONAL_FLOWER = registerBlock("destinational_flower",
+            new FlowerBlock(StatusEffects.LEVITATION, 10,
+                    FabricBlockSettings.copyOf(Blocks.WARPED_FUNGUS).nonOpaque().noCollision()));
+    public static final Block POTTED_DESTINATIONAL_FLOWER = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_destinational_flower"),
+            new FlowerPotBlock(DESTINATIONAL_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_WARPED_FUNGUS).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block) {
