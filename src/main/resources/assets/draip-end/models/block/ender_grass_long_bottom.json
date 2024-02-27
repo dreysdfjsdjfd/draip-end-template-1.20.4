@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "draip-end:block/ender_grass_long_bottom"
+  }
+}

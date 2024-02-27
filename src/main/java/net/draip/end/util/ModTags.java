@@ -10,8 +10,8 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> EXPLOSIVE_BLOCKS =
-                createTag("explosive_blocks");
+        public static final TagKey<Block> ENDSTONE_BLOCKS =
+                createTag("endstone_blocks");
 
         private static TagKey<Block> createTag(String name) {
             return  TagKey.of(RegistryKeys.BLOCK, new Identifier(DraipEnd.MOD_ID, name));

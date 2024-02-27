@@ -41,6 +41,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENDSTONE_DEEPER_WALL);
 
 
+        addDrop(ModBlocks.DESTINATIONAL_FLOWER);
+        addPottedPlantDrops(ModBlocks.POTTED_DESTINATIONAL_FLOWER);
+
+        addDrop(ModBlocks.ENDSTONE_TULIP);
+        addPottedPlantDrops(ModBlocks.POTTED_ENDSTONE_TULIP);
+
+        addDrop(ModBlocks.STAINED_POPPY);
+        addPottedPlantDrops(ModBlocks.POTTED_STAINED_POPPY);
+
+        addDrop(ModBlocks.LILY_OF_THE_END);
+        addPottedPlantDrops(ModBlocks.POTTED_LILY_OF_THE_END);
+
+
+        addDrop(ModBlocks.ENDER_GRASS_SHORT);
+        addDrop(ModBlocks.ENDER_GRASS_LONG, tallPlantDrops(ModBlocks.ENDER_GRASS_LONG, ModBlocks.ENDER_GRASS_LONG));
+
 
 
         addDrop(ModBlocks.ENDSTONE_DECAYING);

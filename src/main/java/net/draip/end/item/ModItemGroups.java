@@ -58,6 +58,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB);
                         entries.add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB);
 
+                        entries.add(ModBlocks.DESTINATIONAL_FLOWER);
+                        entries.add(ModBlocks.ENDSTONE_TULIP);
+                        entries.add(ModBlocks.STAINED_POPPY);
+                        entries.add(ModBlocks.LILY_OF_THE_END);
+
+                        entries.add(ModBlocks.ENDER_GRASS_LONG);
+                        entries.add(ModBlocks.ENDER_GRASS_SHORT);
+
 
                     }).build());
     public  static  void registerItemGroups() {

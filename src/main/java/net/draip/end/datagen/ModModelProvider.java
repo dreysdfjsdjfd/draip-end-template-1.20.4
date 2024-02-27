@@ -43,6 +43,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         BlockStateModelGenerator.BlockTexturePool purpurPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
         purpurPool.wall(ModBlocks.PURPUR_WALL);
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DESTINATIONAL_FLOWER,ModBlocks.POTTED_DESTINATIONAL_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ENDSTONE_TULIP,ModBlocks.POTTED_ENDSTONE_TULIP, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.STAINED_POPPY,ModBlocks.POTTED_STAINED_POPPY, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.LILY_OF_THE_END,ModBlocks.POTTED_LILY_OF_THE_END, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

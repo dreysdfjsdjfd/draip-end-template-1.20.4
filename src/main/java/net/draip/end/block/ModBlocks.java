@@ -1,8 +1,7 @@
 package net.draip.end.block;
 
 import net.draip.end.DraipEnd;
-import net.draip.end.block.custom.EnderBerryCropBlock;
-import net.draip.end.block.custom.SilveriteOreEndstoneBlock;
+import net.draip.end.block.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -71,13 +70,35 @@ public class ModBlocks {
     public static final Block ENDSTONE_GRASS_SLABMAIN_SLAB = registerBlock("endstone_grass_slabmain_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
+    public static final Block ENDER_GRASS_SHORT = registerBlock("ender_grass_short",
+            new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS).nonOpaque().noCollision()));
+
+    public static final Block ENDER_GRASS_LONG = registerBlock("ender_grass_long",
+            new EnderGrassLongBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS).nonOpaque().noCollision()));
 
     public static final Block DESTINATIONAL_FLOWER = registerBlock("destinational_flower",
-            new FlowerBlock(StatusEffects.LEVITATION, 10,
+            new EndStoneFlowerBlock(StatusEffects.LEVITATION, 10,
                     FabricBlockSettings.copyOf(Blocks.WARPED_FUNGUS).nonOpaque().noCollision()));
     public static final Block POTTED_DESTINATIONAL_FLOWER = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_destinational_flower"),
             new FlowerPotBlock(DESTINATIONAL_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_WARPED_FUNGUS).nonOpaque()));
 
+    public static final Block ENDSTONE_TULIP = registerBlock("endstone_tulip",
+            new EndStoneFlowerBlock(StatusEffects.LEVITATION, 10,
+                    FabricBlockSettings.copyOf(Blocks.RED_TULIP).nonOpaque().noCollision()));
+    public static final Block POTTED_ENDSTONE_TULIP = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_endstone_tulip"),
+            new FlowerPotBlock(ENDSTONE_TULIP, FabricBlockSettings.copyOf(Blocks.POTTED_RED_TULIP).nonOpaque()));
+
+    public static final Block STAINED_POPPY = registerBlock("stained_poppy",
+            new EndStoneFlowerBlock(StatusEffects.LEVITATION, 10,
+                    FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
+    public static final Block POTTED_STAINED_POPPY = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_stained_poppy"),
+            new FlowerPotBlock(STAINED_POPPY, FabricBlockSettings.copyOf(Blocks.POTTED_POPPY).nonOpaque()));
+
+    public static final Block LILY_OF_THE_END = registerBlock("lily_of_the_end",
+            new EndStoneFlowerBlock(StatusEffects.LEVITATION, 10,
+                    FabricBlockSettings.copyOf(Blocks.LILY_OF_THE_VALLEY).nonOpaque().noCollision()));
+    public static final Block POTTED_LILY_OF_THE_END = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_lily_of_the_end"),
+            new FlowerPotBlock(LILY_OF_THE_END, FabricBlockSettings.copyOf(Blocks.POTTED_LILY_OF_THE_VALLEY).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

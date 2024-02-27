@@ -4,6 +4,7 @@ import net.draip.end.block.ModBlocks;
 import net.draip.end.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -20,9 +21,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(ModTags.Blocks.EXPLOSIVE_BLOCKS)
-                .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
+        getOrCreateTagBuilder(ModTags.Blocks.ENDSTONE_BLOCKS)
                 .add(ModBlocks.SILVERITE_ORE_ENDSTONE)
+                .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
+                .add(ModBlocks.ENDSTONE_DEEPER)
+                .add(Blocks.END_STONE)
+                .add(ModBlocks.ENDSTONE_DECAYING)
+                .add(ModBlocks.ENDSTONE_DEEPER)
+                .add(ModBlocks.ENDSTONE_GRASS)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL)
                 ;
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
