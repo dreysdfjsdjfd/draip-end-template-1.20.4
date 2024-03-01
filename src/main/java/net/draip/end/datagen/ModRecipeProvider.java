@@ -35,6 +35,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_SLAB, Blocks.END_STONE);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_DEEPER_SLAB, ModBlocks.ENDSTONE_DEEPER);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDER_ALVES_PLANKS_SLAB, ModBlocks.ENDER_ALVES_PLANKS);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WINDY_MAPLE_PLANKS_SLAB, ModBlocks.WINDY_MAPLE_PLANKS);
 
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_WALL, Blocks.END_STONE);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_DEEPER_WALL, ModBlocks.ENDSTONE_DEEPER);
@@ -42,6 +43,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerPressurePlateRecipe(exporter, ModBlocks.ENDSTONE_PRESSURE_PLATE, Blocks.END_STONE);
         offerPressurePlateRecipe(exporter, ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE, ModBlocks.ENDSTONE_DEEPER);
         offerPressurePlateRecipe(exporter, ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE, ModBlocks.ENDER_ALVES_PLANKS);
+        offerPressurePlateRecipe(exporter, ModBlocks.WINDY_MAPLE_PLANKS_PRESSURE_PLATE, ModBlocks.WINDY_MAPLE_PLANKS);
 
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPUR_WALL, Blocks.PURPUR_BLOCK);
 

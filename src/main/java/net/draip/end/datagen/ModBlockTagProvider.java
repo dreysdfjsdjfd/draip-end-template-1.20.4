@@ -93,9 +93,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDER_ALVES_LOG)
                 .add(ModBlocks.ENDER_ALVES_WOOD)
                 .add(ModBlocks.STRIPPED_ENDER_ALVES_LOG)
-                .add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD);
+                .add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD)
+
+                .add(ModBlocks.WINDY_MAPLE_LOG)
+                .add(ModBlocks.WINDY_MAPLE_WOOD)
+                .add(ModBlocks.STRIPPED_WINDY_MAPLE_LOG)
+                .add(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.ENDER_ALVES_PLANKS)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_STAIRS)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_SLAB)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_BUTTON)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE)
+
+                .add(ModBlocks.WINDY_MAPLE_PLANKS)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_PRESSURE_PLATE)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_STAIRS)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_SLAB)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_BUTTON)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE)
         ;
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
@@ -166,10 +186,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE)
                 ;
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
-                .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE)
+                .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE)
         ;
     }
 }

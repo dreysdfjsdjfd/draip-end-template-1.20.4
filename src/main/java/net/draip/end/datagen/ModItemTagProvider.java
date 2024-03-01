@@ -21,14 +21,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(ModBlocks.ENDER_ALVES_PLANKS.asItem());
+                .add(ModBlocks.ENDER_ALVES_PLANKS.asItem())
+                .add(ModBlocks.WINDY_MAPLE_PLANKS.asItem());
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.ENDER_ALVES_LOG.asItem())
                 .add(ModBlocks.ENDER_ALVES_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_ENDER_ALVES_LOG.asItem())
-                .add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD.asItem())
 
+                .add(ModBlocks.WINDY_MAPLE_LOG.asItem())
+                .add(ModBlocks.WINDY_MAPLE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_WINDY_MAPLE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD.asItem());
         }
 
     }

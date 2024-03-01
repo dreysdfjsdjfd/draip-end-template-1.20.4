@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "draip-end:block/windy_maple_planks_pressure_plate"
+    },
+    "powered=true": {
+      "model": "draip-end:block/windy_maple_planks_pressure_plate_down"
+    }
+  }
+}

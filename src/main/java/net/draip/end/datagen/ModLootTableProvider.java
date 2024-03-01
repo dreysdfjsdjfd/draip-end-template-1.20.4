@@ -107,10 +107,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_BUTTON);
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_SLAB, slabDrops(ModBlocks.ENDER_ALVES_PLANKS_SLAB));
 
-
-
         addDrop(ModBlocks.ENDER_ALVES_LEAVES, leavesDrops(ModBlocks.ENDER_ALVES_LEAVES, ModBlocks.ENDER_ALVES_LEAVES, 0.005f));
         addDrop(ModBlocks.GILDED_ENDER_ALVES_LEAVES, leavesDrops(ModBlocks.GILDED_ENDER_ALVES_LEAVES, ModBlocks.GILDED_ENDER_ALVES_LEAVES, 0.005f));
+
+
+
+        addDrop(ModBlocks.WINDY_MAPLE_WOOD);
+        addDrop(ModBlocks.WINDY_MAPLE_LOG);
+        addDrop(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
+        addDrop(ModBlocks.STRIPPED_WINDY_MAPLE_LOG);
+
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS);
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS_STAIRS);
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS_FENCE);
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE);
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS_BUTTON);
+        addDrop(ModBlocks.WINDY_MAPLE_PLANKS_SLAB, slabDrops(ModBlocks.WINDY_MAPLE_PLANKS_SLAB));
+
+        addDrop(ModBlocks.WINDY_MAPLE_LEAVES, leavesDrops(ModBlocks.WINDY_MAPLE_LEAVES, ModBlocks.WINDY_MAPLE_LEAVES, 0.005f));
+        addDrop(ModBlocks.GILDED_WINDY_MAPLE_LEAVES, leavesDrops(ModBlocks.GILDED_WINDY_MAPLE_LEAVES, ModBlocks.GILDED_WINDY_MAPLE_LEAVES, 0.005f));
 
 
 

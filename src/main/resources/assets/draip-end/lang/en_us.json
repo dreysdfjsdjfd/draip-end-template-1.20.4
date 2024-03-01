@@ -65,9 +65,25 @@
   "block.draip-end.ender_alves_planks_fence": "Ender Alves Fence",
   "block.draip-end.ender_alves_planks_fence_gate": "Ender Alves Fence Gate",
 
-
   "block.draip-end.ender_alves_leaves": "Ender Alves Leaves",
   "block.draip-end.gilded_ender_alves_leaves": "Gilded Ender Alves Leaves",
+
+  "block.draip-end.windy_maple_log": "Windy Maple Log",
+  "block.draip-end.windy_maple_wood": "Windy Maple Wood",
+  "block.draip-end.stripped_windy_maple_log": "Stripped Windy Maple Log",
+  "block.draip-end.stripped_windy_maple_wood": "Stripped Windy Maple Wood",
+
+  "block.draip-end.windy_maple_planks": "Windy Maple Planks",
+  "block.draip-end.windy_maple_planks_stairs": "Windy Maple Stairs",
+  "block.draip-end.windy_maple_planks_slab": "Windy Maple Slab",
+  "block.draip-end.windy_maple_planks_button": "Windy Maple Button",
+  "block.draip-end.windy_maple_planks_pressure_plate": "Windy Maple Pressure Plate",
+  "block.draip-end.windy_maple_planks_fence": "Windy Maple Fence",
+  "block.draip-end.windy_maple_planks_fence_gate": "Windy Maple Fence Gate",
+
+  "block.draip-end.windy_maple_leaves": "Windy Maple Leaves",
+  "block.draip-end.gilded_windy_maple_leaves": "Gilded Windy Maple Leaves",
+
   "block.draip-end.ender_petals": "Ender Petals",
   "block.draip-end.ender_vines": "Ender Vines",
 

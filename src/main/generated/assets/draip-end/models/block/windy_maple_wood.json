@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "draip-end:block/windy_maple_log",
+    "side": "draip-end:block/windy_maple_log"
+  }
+}

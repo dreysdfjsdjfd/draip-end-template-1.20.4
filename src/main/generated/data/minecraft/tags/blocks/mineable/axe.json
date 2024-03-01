@@ -1,4 +1,19 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "draip-end:ender_alves_planks",
+    "draip-end:ender_alves_planks_pressure_plate",
+    "draip-end:ender_alves_planks_stairs",
+    "draip-end:ender_alves_planks_slab",
+    "draip-end:ender_alves_planks_button",
+    "draip-end:ender_alves_planks_fence_gate",
+    "draip-end:ender_alves_planks_fence",
+    "draip-end:windy_maple_planks",
+    "draip-end:windy_maple_planks_pressure_plate",
+    "draip-end:windy_maple_planks_stairs",
+    "draip-end:windy_maple_planks_slab",
+    "draip-end:windy_maple_planks_button",
+    "draip-end:windy_maple_planks_fence_gate",
+    "draip-end:windy_maple_planks_fence"
+  ]
 }

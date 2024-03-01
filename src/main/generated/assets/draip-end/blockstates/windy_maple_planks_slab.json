@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/windy_maple_planks_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/windy_maple_planks"
+    },
+    "type=top": {
+      "model": "draip-end:block/windy_maple_planks_slab_top"
+    }
+  }
+}

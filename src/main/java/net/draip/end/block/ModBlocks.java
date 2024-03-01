@@ -68,7 +68,6 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
     public static final Block STRIPPED_ENDER_ALVES_WOOD = registerBlock("stripped_ender_alves_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
-
     public static final Block ENDER_ALVES_PLANKS = registerBlock("ender_alves_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block ENDER_ALVES_PLANKS_STAIRS = registerBlock("ender_alves_planks_stairs",
@@ -83,6 +82,39 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block ENDER_ALVES_PLANKS_FENCE_GATE = registerBlock("ender_alves_planks_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block ENDER_ALVES_LEAVES = registerBlock("ender_alves_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+    public static final Block GILDED_ENDER_ALVES_LEAVES = registerBlock("gilded_ender_alves_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+
+    public static final Block WINDY_MAPLE_LOG = registerBlock("windy_maple_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+    public static final Block WINDY_MAPLE_WOOD = registerBlock("windy_maple_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_WINDY_MAPLE_LOG = registerBlock("stripped_windy_maple_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_WINDY_MAPLE_WOOD = registerBlock("stripped_windy_maple_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block WINDY_MAPLE_PLANKS = registerBlock("windy_maple_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WINDY_MAPLE_PLANKS_STAIRS = registerBlock("windy_maple_planks_stairs",
+            new StairsBlock(Blocks.OAK_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WINDY_MAPLE_PLANKS_SLAB = registerBlock("windy_maple_planks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WINDY_MAPLE_PLANKS_BUTTON = registerBlock("windy_maple_planks_button",
+            new ButtonBlock(BlockSetType.OAK, 10, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WINDY_MAPLE_PLANKS_PRESSURE_PLATE = registerBlock("windy_maple_planks_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK,FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WINDY_MAPLE_PLANKS_FENCE = registerBlock("windy_maple_planks_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block WINDY_MAPLE_PLANKS_FENCE_GATE = registerBlock("windy_maple_planks_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block WINDY_MAPLE_LEAVES = registerBlock("windy_maple_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+    public static final Block GILDED_WINDY_MAPLE_LEAVES = registerBlock("gilded_windy_maple_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
 
     public static final Block GRAINY_ENDSTONE = registerBlock("grainy_endstone",
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)) {
@@ -99,10 +131,6 @@ public class ModBlocks {
             new EnderPetalsBlock(FabricBlockSettings.copyOf(Blocks.PINK_PETALS)));
     public static final Block ENDER_BERRY_CROP = registerBlock("ender_berry_crop",
             new EnderBerryCropBlock(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH)));
-    public static final Block ENDER_ALVES_LEAVES = registerBlock("ender_alves_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
-    public static final Block GILDED_ENDER_ALVES_LEAVES = registerBlock("gilded_ender_alves_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
     public static final Block ENDSTONE_GRASS = registerBlock("endstone_grass",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block ENDSTONE_GRASS_FULL = registerBlock("endstone_grass_full",

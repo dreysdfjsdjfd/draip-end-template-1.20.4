@@ -67,17 +67,13 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool purpurPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
         purpurPool.wall(ModBlocks.PURPUR_WALL);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAINY_ENDSTONE);
 
 
         blockStateModelGenerator.registerLog(ModBlocks.ENDER_ALVES_LOG).log(ModBlocks.ENDER_ALVES_LOG).wood(ModBlocks.ENDER_ALVES_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ENDER_ALVES_LOG).log(ModBlocks.STRIPPED_ENDER_ALVES_LOG).wood(ModBlocks.STRIPPED_ENDER_ALVES_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDER_ALVES_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GILDED_ENDER_ALVES_LEAVES);
-
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAINY_ENDSTONE);
-
-
-
 
         BlockStateModelGenerator.BlockTexturePool enderAlvesPlanks = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ENDER_ALVES_PLANKS);
         enderAlvesPlanks.stairs(ModBlocks.ENDER_ALVES_PLANKS_STAIRS);
@@ -86,6 +82,19 @@ public class ModModelProvider extends FabricModelProvider {
         enderAlvesPlanks.pressurePlate(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
         enderAlvesPlanks.fence(ModBlocks.ENDER_ALVES_PLANKS_FENCE);
         enderAlvesPlanks.fenceGate(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE);
+
+        blockStateModelGenerator.registerLog(ModBlocks.WINDY_MAPLE_LOG).log(ModBlocks.WINDY_MAPLE_LOG).wood(ModBlocks.WINDY_MAPLE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_WINDY_MAPLE_LOG).log(ModBlocks.STRIPPED_WINDY_MAPLE_LOG).wood(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WINDY_MAPLE_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GILDED_WINDY_MAPLE_LEAVES);
+
+        BlockStateModelGenerator.BlockTexturePool windyMaplePlanks = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WINDY_MAPLE_PLANKS);
+        windyMaplePlanks.stairs(ModBlocks.WINDY_MAPLE_PLANKS_STAIRS);
+        windyMaplePlanks.slab(ModBlocks.WINDY_MAPLE_PLANKS_SLAB);
+        windyMaplePlanks.button(ModBlocks.WINDY_MAPLE_PLANKS_BUTTON);
+        windyMaplePlanks.pressurePlate(ModBlocks.WINDY_MAPLE_PLANKS_PRESSURE_PLATE);
+        windyMaplePlanks.fence(ModBlocks.WINDY_MAPLE_PLANKS_FENCE);
+        windyMaplePlanks.fenceGate(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE);
 
 
 

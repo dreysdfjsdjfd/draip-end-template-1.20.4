@@ -117,6 +117,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_SLAB);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
 
+                        entries.add(ModBlocks.WINDY_MAPLE_LOG);
+                        entries.add(ModBlocks.WINDY_MAPLE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_WINDY_MAPLE_LOG);
+                        entries.add(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
+                        entries.add(ModBlocks.WINDY_MAPLE_LEAVES);
+                        entries.add(ModBlocks.GILDED_WINDY_MAPLE_LEAVES);
+
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS);
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS_BUTTON);
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE);
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE);
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS_STAIRS);
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS_SLAB);
+                        entries.add(ModBlocks.WINDY_MAPLE_PLANKS_PRESSURE_PLATE);
+
                         entries.add(ModBlocks.GRAINY_ENDSTONE);
 
                         entries.add(ModBlocks.ENDER_BERRY_CROP);

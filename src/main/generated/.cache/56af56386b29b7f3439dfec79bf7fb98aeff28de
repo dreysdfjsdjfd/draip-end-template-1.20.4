@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-29T22:29:33.5559998	Draip End/Recipes
+// 1.20.4	2024-02-29T23:07:26.0151485	Draip End/Recipes
 72310702b7d456753f12ad3ab1a6dbea5b2345fd data\draip-end\advancements\recipes\building_blocks\endstone_deeper_wall.json
 58e76076f12247469beb0b9b661e315fa319cf71 data\draip-end\advancements\recipes\misc\endstone_axe.json
 3076dd4d496b3a336c0577a854594d6f59148784 data\draip-end\recipes\endstone_slab.json
@@ -14,6 +14,7 @@ f68b678a0e5c77be67df798f82c832a5fdaacd04 data\draip-end\advancements\recipes\mis
 5e04dadfb0bd7a8f85be4d1a6aaf00976f53ee36 data\draip-end\advancements\recipes\misc\silverite_shovel.json
 ed6eceaa08f1e765bdc3b52da590da4985ea8311 data\draip-end\recipes\silverite_sword.json
 f05e3ae6978560d03cfd19e46721449bf5be3de9 data\draip-end\recipes\endstone_wall.json
+afb9271ea7ea0177d44d84adba029f947ada54c0 data\draip-end\recipes\windy_maple_planks_pressure_plate.json
 c4b670cf959c8d48b2ad12e99fc9b5bff6e5789d data\draip-end\recipes\silverite_pickaxe.json
 551dfb11d833dd5b067d63807e5042f46ebddf26 data\draip-end\advancements\recipes\building_blocks\purpur_wall.json
 a7fea365e4f426a3ac48a831e73b951474e91b5b data\draip-end\recipes\endstone_sword.json
@@ -39,13 +40,16 @@ a1801fcd589b8f7fa9ce156e566853b866b95354 data\draip-end\advancements\recipes\bui
 5e74f107f9a759116e6433e46693a541c0d7dfaa data\draip-end\advancements\recipes\misc\sunstone_shovel.json
 e8d4688e039bcce32c42367f9d8df16cf364cd72 data\draip-end\recipes\endstone_brick_pillar.json
 4f3bffb1478885ccb9a3e43f8190271f920960b7 data\draip-end\advancements\recipes\misc\endstone_shovel.json
+08d9029d08530b117c0a0e1931e37d4c892d490d data\draip-end\recipes\windy_maple_planks_slab.json
 8e6b2579e31782f7a7bbb60fc77ea37de427fb83 data\draip-end\advancements\recipes\misc\silverite_dust_from_smelting_silverite_ore_endstone.json
 13c90a704914f6cd4ba09865f5afc37bf21379c8 data\draip-end\advancements\recipes\misc\silverite_dust_from_blasting_silverite_ore_endstone.json
 a5e4fce7588fe4d8eec20874c3a656abfd326cae data\draip-end\recipes\endstone_deeper_wall.json
 e92bee2d32abcd9973ac0a76cab28f587e266d4e data\draip-end\recipes\endstone_hoe.json
+c420d98b6f4d13b9104ab45f0633601f93f9ad0a data\draip-end\advancements\recipes\building_blocks\windy_maple_planks_slab.json
 50699e39ac96fdef624d2b971dd8c46eccc69b74 data\draip-end\recipes\silverite_dust_from_smelting_silverite_ore_deeper_endstone.json
 ef87e45a92503e5c0ad368cfa5aa84ed26d14dc0 data\draip-end\recipes\ender_alves_planks_pressure_plate.json
 bbff26f2aee5c240e7923b4750d7ed1c63b7c7f9 data\draip-end\recipes\silverite_hoe.json
+aa9b7efba7bbff71bb4ef2389aaf822f3d5b93df data\draip-end\advancements\recipes\redstone\windy_maple_planks_pressure_plate.json
 1b535aa7e24732728598e487a23af7da48944e03 data\draip-end\recipes\silverite_dust_from_blasting_silverite_ore_deeper_endstone.json
 9603716291a5af661d2a16f099bd51e073fc1363 data\draip-end\advancements\recipes\misc\silverite_dust_from_blasting_silverite_dust.json
 b55ec11209fdc64ebd49080db97fa4430ae642de data\draip-end\recipes\sunstone_sword.json
