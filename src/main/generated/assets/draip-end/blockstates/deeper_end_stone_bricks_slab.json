@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/deeper_end_stone_bricks_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/deeper_end_stone_bricks"
+    },
+    "type=top": {
+      "model": "draip-end:block/deeper_end_stone_bricks_slab_top"
+    }
+  }
+}

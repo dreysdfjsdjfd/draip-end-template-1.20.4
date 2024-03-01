@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "draip-end:windy_maple_log"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "draip-end:windy_maple_planks",
+    "count": 4
+  }
+}

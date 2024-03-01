@@ -135,10 +135,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRAINY_ENDSTONE);
 
                         entries.add(ModBlocks.ENDER_BERRY_CROP);
+                        entries.add(ModBlocks.ENDER_BERRY_CROP_BLUE);
                         entries.add(ModItems.ENDER_BERRIES);
 
 
                         entries.add(ModItems.SUNSTONE_SHARD);
+
+                        entries.add(ModBlocks.DEEPER_END_STONE_BRICKS);
+                        entries.add(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON);
+                        entries.add(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB);
+                        entries.add(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.DEEPER_END_STONE_BRICKS_WALL);
+                        entries.add(ModBlocks.DEEPER_END_STONE_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR);
 
 
 

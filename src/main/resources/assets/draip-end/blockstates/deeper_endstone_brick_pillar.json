@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "draip-end:block/deeper_endstone_brick_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "draip-end:block/deeper_endstone_brick_pillar"
+    },
+    "axis=z": {
+      "model": "draip-endt:block/deeper_endstone_brick_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -33,6 +33,13 @@
     "draip-end:endstone_grass_slabmain_blue",
     "draip-end:endstone_grass_slabmain_slab_blue",
     "draip-end:gilded_endstone_grass_full_blue",
-    "draip-end:gilded_endstone_grass_full_slab_blue"
+    "draip-end:gilded_endstone_grass_full_slab_blue",
+    "draip-end:deeper_end_stone_bricks",
+    "draip-end:deeper_endstone_brick_pillar",
+    "draip-end:deeper_end_stone_bricks_pressure_plate",
+    "draip-end:deeper_end_stone_bricks_wall",
+    "draip-end:deeper_end_stone_bricks_button",
+    "draip-end:deeper_end_stone_bricks_slab",
+    "draip-end:deeper_end_stone_bricks_stairs"
   ]
 }

@@ -20,6 +20,19 @@ public class ModBlocks {
 
     public static final Block ENDSTONE_DEEPER = registerBlock("endstone_deeper",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block DEEPER_END_STONE_BRICKS = registerBlock("deeper_end_stone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block DEEPER_END_STONE_BRICKS_STAIRS = registerBlock("deeper_end_stone_bricks_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block DEEPER_END_STONE_BRICKS_SLAB = registerBlock("deeper_end_stone_bricks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block DEEPER_END_STONE_BRICKS_BUTTON = registerBlock("deeper_end_stone_bricks_button",
+            new ButtonBlock(BlockSetType.STONE, 10, FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block DEEPER_END_STONE_BRICKS_PRESSURE_PLATE = registerBlock("deeper_end_stone_bricks_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE,FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block DEEPER_END_STONE_BRICKS_WALL = registerBlock("deeper_end_stone_bricks_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
     public static final Block ENDSTONE_DECAYING = registerBlock("endstone_decaying",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block SILVERITE_ORE_DEEPER_ENDSTONE = registerBlock("silverite_ore_deeper_endstone",
@@ -53,6 +66,8 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
     public static final Block ENDSTONE_BRICK_PILLAR = registerBlock("endstone_brick_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
+    public static final Block DEEPER_ENDSTONE_BRICK_PILLAR = registerBlock("deeper_endstone_brick_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
 
 

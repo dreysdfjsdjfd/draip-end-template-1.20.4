@@ -128,7 +128,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WINDY_MAPLE_LEAVES, leavesDrops(ModBlocks.WINDY_MAPLE_LEAVES, ModBlocks.WINDY_MAPLE_LEAVES, 0.005f));
         addDrop(ModBlocks.GILDED_WINDY_MAPLE_LEAVES, leavesDrops(ModBlocks.GILDED_WINDY_MAPLE_LEAVES, ModBlocks.GILDED_WINDY_MAPLE_LEAVES, 0.005f));
 
+        addDrop(ModBlocks.DEEPER_END_STONE_BRICKS);
+        addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS);
+        addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON);
+        addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_WALL);
 
+        addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB, slabDrops(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB));
+
+
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_STAIRS);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_FENCE);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_BUTTON);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_SLAB, slabDrops(ModBlocks.ENDER_ALVES_PLANKS_SLAB));
+
+        addDrop(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR);
 
 
         addDrop(ModBlocks.ENDSTONE_SLAB, slabDrops(ModBlocks.ENDSTONE_SLAB));

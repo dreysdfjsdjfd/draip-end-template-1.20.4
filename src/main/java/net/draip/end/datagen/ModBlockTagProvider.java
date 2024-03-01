@@ -38,6 +38,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_GRASS_BLUE)
                 .add(ModBlocks.ENDSTONE_GRASS_FULL_BLUE)
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
+
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS)
+                .add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR)
                 ;
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
@@ -83,6 +86,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB_BLUE)
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB_BLUE)
+
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS)
+                .add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_PRESSURE_PLATE)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_WALL)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS)
 
 
 
@@ -162,6 +173,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB_BLUE)
 
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS)
+                .add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_PRESSURE_PLATE)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_WALL)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS)
+
 
 
         ;
@@ -182,6 +201,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_WALL)
                 .add(ModBlocks.PURPUR_WALL)
                 .add(ModBlocks.ENDSTONE_DEEPER_WALL)
+                .add(ModBlocks.DEEPER_END_STONE_BRICKS_WALL)
         ;
 
         getOrCreateTagBuilder(BlockTags.FENCES)

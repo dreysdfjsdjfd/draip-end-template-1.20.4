@@ -96,6 +96,14 @@ public class ModModelProvider extends FabricModelProvider {
         windyMaplePlanks.fence(ModBlocks.WINDY_MAPLE_PLANKS_FENCE);
         windyMaplePlanks.fenceGate(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE);
 
+        BlockStateModelGenerator.BlockTexturePool deeperEndstoneBricks = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPER_END_STONE_BRICKS);
+        deeperEndstoneBricks.stairs(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS);
+        deeperEndstoneBricks.slab(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB);
+        deeperEndstoneBricks.button(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON);
+        deeperEndstoneBricks.pressurePlate(ModBlocks.DEEPER_END_STONE_BRICKS_PRESSURE_PLATE);
+        deeperEndstoneBricks.wall(ModBlocks.DEEPER_END_STONE_BRICKS_WALL);
+
+
 
 
 

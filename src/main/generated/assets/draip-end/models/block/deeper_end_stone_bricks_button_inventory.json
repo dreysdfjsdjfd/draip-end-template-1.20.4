@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "draip-end:block/deeper_end_stone_bricks"
+  }
+}
