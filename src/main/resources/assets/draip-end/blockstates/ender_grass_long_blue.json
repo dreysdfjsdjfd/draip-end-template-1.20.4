@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "draip-end:block/ender_grass_long_blue_bottom"
+    },
+    "half=upper": {
+      "model": "draip-end:block/ender_grass_long_blue_top"
+    }
+  }
+}

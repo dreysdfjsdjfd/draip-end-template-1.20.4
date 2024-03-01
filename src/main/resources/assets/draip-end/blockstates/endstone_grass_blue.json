@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "draip-end:block/endstone_grass_blue"
+      },
+      {
+        "model": "draip-end:block/endstone_grass_blue",
+        "y": 90
+      },
+      {
+        "model": "draip-end:block/endstone_grass_blue",
+        "y": 180
+      },
+      {
+        "model": "draip-end:block/endstone_grass_blue",
+        "y": 270
+      }
+    ]
+  }
+}

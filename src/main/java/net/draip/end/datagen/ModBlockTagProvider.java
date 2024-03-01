@@ -9,6 +9,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
@@ -30,6 +31,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_DEEPER)
                 .add(ModBlocks.ENDSTONE_GRASS)
                 .add(ModBlocks.ENDSTONE_GRASS_FULL)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL)
+                .add(ModBlocks.GRAINY_ENDSTONE)
+
+                .add(ModBlocks.ENDSTONE_GRASS_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_BLUE)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
                 ;
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
@@ -61,17 +69,37 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN)
                 .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB)
 
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB)
 
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB)
+
+                .add(ModBlocks.ENDSTONE_GRASS_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB_BLUE)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB_BLUE)
 
 
 
 
         ;
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.ENDER_ALVES_LOG)
+                .add(ModBlocks.ENDER_ALVES_WOOD)
+                .add(ModBlocks.STRIPPED_ENDER_ALVES_LOG)
+                .add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
         ;
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.GRAINY_ENDSTONE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -93,12 +121,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_DEEPER_WALL)
 
                 .add(ModBlocks.ENDSTONE_DECAYING)
+
                 .add(ModBlocks.ENDSTONE_GRASS)
                 .add(ModBlocks.ENDSTONE_GRASS_FULL)
-
                 .add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB)
                 .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN)
                 .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB)
+
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB)
+
+                .add(ModBlocks.ENDSTONE_GRASS_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_BLUE)
+                .add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB_BLUE)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
+                .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB_BLUE)
+
 
 
         ;
@@ -121,5 +164,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_DEEPER_WALL)
         ;
 
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE)
+                ;
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE)
+        ;
     }
 }

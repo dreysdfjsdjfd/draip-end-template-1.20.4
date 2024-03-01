@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "draip-end:block/endstone_grass_blue_bottom",
+    "side": "draip-end:block/endstone_grass_slabmain_blue_side",
+    "top": "draip-end:block/endstone_grass_blue_top"
+  }
+}

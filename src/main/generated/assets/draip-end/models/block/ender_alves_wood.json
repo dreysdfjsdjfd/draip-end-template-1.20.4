@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "draip-end:block/ender_alves_log",
+    "side": "draip-end:block/ender_alves_log"
+  }
+}

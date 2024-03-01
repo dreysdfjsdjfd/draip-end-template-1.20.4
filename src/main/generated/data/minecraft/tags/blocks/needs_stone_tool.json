@@ -20,6 +20,18 @@
     "draip-end:endstone_grass_full",
     "draip-end:endstone_grass_full_slab",
     "draip-end:endstone_grass_slabmain",
-    "draip-end:endstone_grass_slabmain_slab"
+    "draip-end:endstone_grass_slabmain_slab",
+    "draip-end:gilded_endstone_grass",
+    "draip-end:gilded_endstone_grass_full",
+    "draip-end:gilded_endstone_grass_full_slab",
+    "draip-end:gilded_endstone_grass_slabmain",
+    "draip-end:gilded_endstone_grass_slabmain_slab",
+    "draip-end:endstone_grass_blue",
+    "draip-end:endstone_grass_full_blue",
+    "draip-end:endstone_grass_full_slab_blue",
+    "draip-end:endstone_grass_slabmain_blue",
+    "draip-end:endstone_grass_slabmain_slab_blue",
+    "draip-end:gilded_endstone_grass_full_blue",
+    "draip-end:gilded_endstone_grass_full_slab_blue"
   ]
 }

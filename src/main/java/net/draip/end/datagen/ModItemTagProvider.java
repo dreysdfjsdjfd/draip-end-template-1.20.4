@@ -1,5 +1,6 @@
 package net.draip.end.datagen;
 
+import net.draip.end.block.ModBlocks;
 import net.draip.end.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -17,6 +18,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.SILVERITE_HELMET,ModItems.SILVERITE_CHESTPLATE,ModItems.SILVERITE_LEGGINGS,ModItems.SILVERITE_BOOTS);
+
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.ENDER_ALVES_PLANKS.asItem());
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.ENDER_ALVES_LOG.asItem())
+                .add(ModBlocks.ENDER_ALVES_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_ENDER_ALVES_LOG.asItem())
+                .add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD.asItem());
 
         }
 

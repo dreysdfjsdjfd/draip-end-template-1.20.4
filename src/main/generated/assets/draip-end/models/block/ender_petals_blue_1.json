@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flowerbed_1",
+  "textures": {
+    "flowerbed": "draip-end:block/ender_petals_blue",
+    "stem": "draip-end:block/ender_petals_blue_stem"
+  }
+}

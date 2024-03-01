@@ -44,6 +44,18 @@ public class ModItemGroups {
                         entries.add(ModItems.SILVERITE_SWORD);
                         entries.add(ModItems.SILVERITE_HOE);
 
+                        entries.add(ModItems.ENDSTONE_PICKAXE);
+                        entries.add(ModItems.ENDSTONE_AXE);
+                        entries.add(ModItems.ENDSTONE_SHOVEL);
+                        entries.add(ModItems.ENDSTONE_SWORD);
+                        entries.add(ModItems.ENDSTONE_HOE);
+
+                        entries.add(ModItems.SUNSTONE_PICKAXE);
+                        entries.add(ModItems.SUNSTONE_AXE);
+                        entries.add(ModItems.SUNSTONE_SHOVEL);
+                        entries.add(ModItems.SUNSTONE_SWORD);
+                        entries.add(ModItems.SUNSTONE_HOE);
+
                         entries.add(ModItems.SILVERITE_HELMET);
                         entries.add(ModItems.SILVERITE_CHESTPLATE);
                         entries.add(ModItems.SILVERITE_LEGGINGS);
@@ -53,18 +65,68 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURPUR_WALL);
 
                         entries.add(ModBlocks.ENDSTONE_DECAYING);
+
                         entries.add(ModBlocks.ENDSTONE_GRASS);
                         entries.add(ModBlocks.ENDSTONE_GRASS_FULL);
                         entries.add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB);
                         entries.add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB);
-
+                        entries.add(ModBlocks.GILDED_ENDSTONE_GRASS);
+                        entries.add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL);
+                        entries.add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB);
+                        entries.add(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB);
                         entries.add(ModBlocks.DESTINATIONAL_FLOWER);
                         entries.add(ModBlocks.ENDSTONE_TULIP);
                         entries.add(ModBlocks.STAINED_POPPY);
                         entries.add(ModBlocks.LILY_OF_THE_END);
-
+                        entries.add(ModBlocks.ENDER_FLOWER);
                         entries.add(ModBlocks.ENDER_GRASS_LONG);
                         entries.add(ModBlocks.ENDER_GRASS_SHORT);
+                        entries.add(ModBlocks.ENDER_VINES);
+                        entries.add(ModBlocks.ENDER_PETALS);
+
+                        entries.add(ModBlocks.ENDSTONE_GRASS_BLUE);
+                        entries.add(ModBlocks.ENDSTONE_GRASS_FULL_BLUE);
+                        entries.add(ModBlocks.ENDSTONE_GRASS_FULL_SLAB_BLUE);
+                        entries.add(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB_BLUE);
+                        entries.add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE);
+                        entries.add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB_BLUE);
+                        entries.add(ModBlocks.DESTINATIONAL_FLOWER_BLUE);
+                        entries.add(ModBlocks.ENDSTONE_TULIP_BLUE);
+                        entries.add(ModBlocks.STAINED_POPPY_BLUE);
+                        entries.add(ModBlocks.LILY_OF_THE_END_BLUE);
+                        entries.add(ModBlocks.ENDER_FLOWER_BLUE);
+                        entries.add(ModBlocks.ENDER_GRASS_LONG_BLUE);
+                        entries.add(ModBlocks.ENDER_GRASS_SHORT_BLUE);
+                        entries.add(ModBlocks.ENDER_VINES_BLUE);
+                        entries.add(ModBlocks.ENDER_PETALS_BLUE);
+
+                        entries.add(ModItems.ENDERSNAIL_SPAWN_EGG);
+
+                        entries.add(ModBlocks.ENDER_ALVES_LOG);
+                        entries.add(ModBlocks.ENDER_ALVES_WOOD);
+                        entries.add(ModBlocks.STRIPPED_ENDER_ALVES_LOG);
+                        entries.add(ModBlocks.STRIPPED_ENDER_ALVES_WOOD);
+                        entries.add(ModBlocks.ENDER_ALVES_LEAVES);
+                        entries.add(ModBlocks.GILDED_ENDER_ALVES_LEAVES);
+
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_BUTTON);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_FENCE);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_STAIRS);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_SLAB);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.GRAINY_ENDSTONE);
+
+                        entries.add(ModBlocks.ENDER_BERRY_CROP);
+                        entries.add(ModItems.ENDER_BERRIES);
+
+
+                        entries.add(ModItems.SUNSTONE_SHARD);
+
+
+
 
 
                     }).build());

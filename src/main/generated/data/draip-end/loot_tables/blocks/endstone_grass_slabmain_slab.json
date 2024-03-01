@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "draip-end:endstone_grass_slabmain_slab",
+                  "block": "draip-end:endstone_grass_slabmain_slab_blue",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,7 +25,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "draip-end:endstone_grass_slabmain_slab"
+          "name": "draip-end:endstone_grass_slabmain_slab_blue"
         }
       ],
       "rolls": 1.0

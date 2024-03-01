@@ -1,6 +1,9 @@
 package net.draip.end.item;
 
+import net.draip.end.util.ModTags;
 import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -8,7 +11,14 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
     SILVERITE(MiningLevels.IRON, 250, 6.0f, 2.0f, 14,
-            () -> Ingredient.ofItems(ModItems.SILVERITE_INGOT));
+            () -> Ingredient.ofItems(ModItems.SILVERITE_INGOT)),
+    ENDSTONE(MiningLevels.STONE, 131, 4.0f, 1.0f, 5,
+            () -> Ingredient.ofItems(Blocks.END_STONE)),
+    SUNSTONE(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10,
+            () -> Ingredient.ofItems(ModItems.SUNSTONE_SHARD));
+
+
+
 
     private final int miningLevel;
     private final int itemDurability;
@@ -25,6 +35,8 @@ public enum ModToolMaterial implements ToolMaterial {
         this.enchantability = enchantability;
         this.repairIngredient = repairIngredient;
     }
+
+
 
 
     @Override

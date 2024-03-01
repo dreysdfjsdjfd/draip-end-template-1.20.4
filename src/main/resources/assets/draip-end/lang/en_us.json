@@ -8,10 +8,25 @@
   "item.draip-end.silverite_sword": "Silverite Sword",
   "item.draip-end.silverite_hoe": "Silverite Hoe",
 
+  "item.draip-end.endstone_pickaxe": "Endstone Pickaxe",
+  "item.draip-end.endstone_axe": "Endstone Axe",
+  "item.draip-end.endstone_shovel": "Endstone Shovel",
+  "item.draip-end.endstone_sword": "Endstone Sword",
+  "item.draip-end.endstone_hoe": "Endstone Hoe",
+
+  "item.draip-end.sunstone_pickaxe": "Sunstone Pickaxe",
+  "item.draip-end.sunstone_axe": "Sunstone Axe",
+  "item.draip-end.sunstone_shovel": "Sunstone Shovel",
+  "item.draip-end.sunstone_sword": "Sunstone Sword",
+  "item.draip-end.sunstone_hoe": "Sunstone Hoe",
+
   "item.draip-end.silverite_helmet": "Silverite Helmet",
   "item.draip-end.silverite_chestplate": "Silverite Chestplate",
   "item.draip-end.silverite_leggings": "Silverite Leggings",
   "item.draip-end.silverite_boots": "Silverite Boots",
+  "item.draip-end.ender_berries": "Ender Berries",
+
+  "item.draip-end.sunstone_shard": "Sunstone Shard",
 
 
   "block.draip-end.silverite_block": "Silverite Block",
@@ -19,11 +34,46 @@
   "block.draip-end.ender_grass_short": "Grass of the End",
   "block.draip-end.ender_grass_long": "Tall Grass of the End",
 
+  "block.draip-end.ender_grass_short_blue": "Blue Grass of the End",
+  "block.draip-end.ender_grass_long_blue": "Blue Tall Grass of the End",
 
   "block.draip-end.destinational_flower": "Destinational Flower",
   "block.draip-end.endstone_tulip": "End Stone Tulip",
   "block.draip-end.stained_poppy": "Stained Poppy",
   "block.draip-end.lily_of_the_end": "Lily of the End",
+  "block.draip-end.ender_flower": "Ender Flower",
+
+  "block.draip-end.destinational_flower_blue": "Blue Destinational Flower",
+  "block.draip-end.endstone_tulip_blue": "Blue End Stone Tulip",
+  "block.draip-end.stained_poppy_blue": "Blue Stained Poppy",
+  "block.draip-end.lily_of_the_end_blue": "Blue Lily of the End",
+  "block.draip-end.ender_flower_blue": "Blue Ender Flower",
+
+  "block.draip-end.endersnail_spawn_egg": "Endersnail Spawn Egg",
+
+
+  "block.draip-end.ender_alves_log": "Ender Alves Log",
+  "block.draip-end.ender_alves_wood": "Ender Alves Wood",
+  "block.draip-end.stripped_ender_alves_log": "Stripped Ender Alves Log",
+  "block.draip-end.stripped_ender_alves_wood": "Stripped Ender Alves Wood",
+
+  "block.draip-end.ender_alves_planks": "Ender Alves Planks",
+  "block.draip-end.ender_alves_planks_stairs": "Ender Alves Stairs",
+  "block.draip-end.ender_alves_planks_slab": "Ender Alves Slab",
+  "block.draip-end.ender_alves_planks_button": "Ender Alves Button",
+  "block.draip-end.ender_alves_planks_pressure_plate": "Ender Alves Pressure Plate",
+  "block.draip-end.ender_alves_planks_fence": "Ender Alves Fence",
+  "block.draip-end.ender_alves_planks_fence_gate": "Ender Alves Fence Gate",
+
+
+  "block.draip-end.ender_alves_leaves": "Ender Alves Leaves",
+  "block.draip-end.gilded_ender_alves_leaves": "Gilded Ender Alves Leaves",
+  "block.draip-end.ender_petals": "Ender Petals",
+  "block.draip-end.ender_vines": "Ender Vines",
+
+  "block.draip-end.ender_petals_blue": "Blue Ender Petals",
+  "block.draip-end.ender_vines_blue": "Blue Ender Vines",
+
 
 
   "block.draip-end.endstone_deeper": "Deeper End Stone",
@@ -32,9 +82,24 @@
   "block.draip-end.endstone_deeper_button": "Deeper End Stone Button",
   "block.draip-end.endstone_deeper_pressure_plate": "Deeper End Stone Pressure Plate",
   "block.draip-end.endstone_deeper_wall": "Deeper End Stone Wall",
+
   "block.draip-end.endstone_grass": "Grassy End Stone",
   "block.draip-end.endstone_grass_full": "Mossy End Stone",
   "block.draip-end.endstone_grass_full_slab": "Mossy End Stone Slab",
+  "block.draip-end.endstone_grass_slabmain_slab": "Grassy End Stone Slab",
+  "block.draip-end.gilded_endstone_grass": "Gilded Grassy End Stone",
+  "block.draip-end.gilded_endstone_grass_full": "Gilded Mossy End Stone",
+  "block.draip-end.gilded_endstone_grass_full_slab": "Gilded Mossy End Stone Slab",
+  "block.draip-end.gilded_endstone_grass_slabmain_slab": "Gilded Grassy End Stone Slab",
+
+  "block.draip-end.endstone_grass_blue": "Blue Grassy End Stone",
+  "block.draip-end.endstone_grass_full_blue": "Blue Mossy End Stone",
+  "block.draip-end.endstone_grass_full_slab_blue": "Blue Mossy End Stone Slab",
+  "block.draip-end.endstone_grass_slabmain_slab_blue": "Blue Grassy End Stone Slab",
+  "block.draip-end.gilded_endstone_grass_blue": "Blue Gilded Grassy End Stone",
+  "block.draip-end.gilded_endstone_grass_full_blue": "Blue Gilded Mossy End Stone",
+  "block.draip-end.gilded_endstone_grass_full_slab_blue": "Blue Gilded Mossy End Stone Slab",
+  "block.draip-end.gilded_endstone_grass_slabmain_slab_blue": "Blue Gilded Grassy End Stone Slab",
 
   "block.draip-end.endstone_stairs": "End Stone Stairs",
   "block.draip-end.endstone_slab": "End Stone Slab",
@@ -42,7 +107,6 @@
   "block.draip-end.endstone_pressure_plate": "End Stone Pressure Plate",
   "block.draip-end.endstone_wall": "End Stone Wall",
 
-  "block.draip-end.endstone_grass_slabmain_slab": "Grassy End Stone Slab",
 
 
   "block.draip-end.endstone_brick_pillar": "End Stone Brick Pillar",

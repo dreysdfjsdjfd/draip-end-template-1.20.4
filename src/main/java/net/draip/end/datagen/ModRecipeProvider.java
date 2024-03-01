@@ -34,12 +34,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_SLAB, Blocks.END_STONE);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_DEEPER_SLAB, ModBlocks.ENDSTONE_DEEPER);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDER_ALVES_PLANKS_SLAB, ModBlocks.ENDER_ALVES_PLANKS);
 
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_WALL, Blocks.END_STONE);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDSTONE_DEEPER_WALL, ModBlocks.ENDSTONE_DEEPER);
 
         offerPressurePlateRecipe(exporter, ModBlocks.ENDSTONE_PRESSURE_PLATE, Blocks.END_STONE);
         offerPressurePlateRecipe(exporter, ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE, ModBlocks.ENDSTONE_DEEPER);
+        offerPressurePlateRecipe(exporter, ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE, ModBlocks.ENDER_ALVES_PLANKS);
 
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPUR_WALL, Blocks.PURPUR_BLOCK);
 
@@ -101,9 +103,105 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ENDSTONE_BRICK_PILLAR)));
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SUNSTONE_PICKAXE, 1)
+                .pattern("RRR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', ModItems.SUNSTONE_SHARD)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.SUNSTONE_SHARD), conditionsFromItem(ModItems.SUNSTONE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SUNSTONE_PICKAXE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SUNSTONE_AXE, 1)
+                .pattern("RR")
+                .pattern("SR")
+                .pattern("S ")
+                .input('S', Items.STICK)
+                .input('R', ModItems.SUNSTONE_SHARD)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.SUNSTONE_SHARD), conditionsFromItem(ModItems.SUNSTONE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SUNSTONE_AXE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SUNSTONE_SHOVEL, 1)
+                .pattern("R")
+                .pattern("S")
+                .pattern("S")
+                .input('S', Items.STICK)
+                .input('R', ModItems.SUNSTONE_SHARD)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.SUNSTONE_SHARD), conditionsFromItem(ModItems.SUNSTONE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SUNSTONE_SHOVEL)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SUNSTONE_SWORD, 1)
+                .pattern("R")
+                .pattern("R")
+                .pattern("S")
+                .input('S', Items.STICK)
+                .input('R', ModItems.SUNSTONE_SHARD)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.SUNSTONE_SHARD), conditionsFromItem(ModItems.SUNSTONE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SUNSTONE_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SUNSTONE_HOE, 1)
+                .pattern("RR")
+                .pattern("S ")
+                .pattern("S ")
+                .input('S', Items.STICK)
+                .input('R', ModItems.SUNSTONE_SHARD)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.SUNSTONE_SHARD), conditionsFromItem(ModItems.SUNSTONE_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SUNSTONE_HOE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ENDSTONE_PICKAXE, 1)
+                .pattern("RRR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('R', Items.END_STONE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.END_STONE), conditionsFromItem(Items.END_STONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDSTONE_PICKAXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ENDSTONE_AXE, 1)
+                .pattern("RR")
+                .pattern("SR")
+                .pattern("S ")
+                .input('S', Items.STICK)
+                .input('R', Items.END_STONE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.END_STONE), conditionsFromItem(Items.END_STONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDSTONE_AXE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ENDSTONE_SHOVEL, 1)
+                .pattern("R")
+                .pattern("S")
+                .pattern("S")
+                .input('S', Items.STICK)
+                .input('R', Items.END_STONE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.END_STONE), conditionsFromItem(Items.END_STONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDSTONE_SHOVEL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ENDSTONE_SWORD, 1)
+                .pattern("R")
+                .pattern("R")
+                .pattern("S")
+                .input('S', Items.STICK)
+                .input('R', Items.END_STONE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.END_STONE), conditionsFromItem(Items.END_STONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDSTONE_SWORD)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ENDSTONE_HOE, 1)
+                .pattern("RR")
+                .pattern("S ")
+                .pattern("S ")
+                .input('S', Items.STICK)
+                .input('R', Items.END_STONE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.END_STONE), conditionsFromItem(Items.END_STONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ENDSTONE_HOE)));
 
 
 

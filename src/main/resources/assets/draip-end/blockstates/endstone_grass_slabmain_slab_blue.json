@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/endstone_grass_slabmain_slab_blue"
+    },
+    "type=double": {
+      "model": "draip-end:block/endstone_grass_blue"
+    },
+    "type=top": {
+      "model": "draip-end:block/endstone_grass_slabmain_slab_blue_top"
+    }
+  }
+}

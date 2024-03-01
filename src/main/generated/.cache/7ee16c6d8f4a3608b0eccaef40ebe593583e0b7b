@@ -1,11 +1,13 @@
-// 1.20.4	2024-02-27T16:59:05.1537119	Draip End/Tags for minecraft:block
-ab7f5f55f8db11ee09992d41eed4982b80710a60 data\draip-end\tags\blocks\endstone_blocks.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\fences.json
+// 1.20.4	2024-02-29T22:29:33.562507	Draip End/Tags for minecraft:block
+38ef5116f40384af6da3f8b7e9abe052dbcae5a1 data\draip-end\tags\blocks\endstone_blocks.json
+15e5a6aa362ee0f9d513cb2de74bba335a05fb03 data\minecraft\tags\blocks\fence_gates.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+e30b6257ca4fc1912693d60013f67152632189d3 data\minecraft\tags\blocks\walls.json
+97ebefc1c04e97c23b01d8b54030bb6d183848fb data\minecraft\tags\blocks\needs_stone_tool.json
+e942881ec26520cddc07b238609a7a68c1c9f1c8 data\minecraft\tags\blocks\logs_that_burn.json
+de9e1b075084a165c9b39b2bf14aea8939860de8 data\minecraft\tags\blocks\mineable\shovel.json
+58f711f3057f00c386ed5519b05cdc49cf393636 data\minecraft\tags\blocks\mineable\pickaxe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
+34c302b72c746bb043b52d7d8ceaba0e22f71b17 data\minecraft\tags\blocks\fences.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\axe.json
-e30b6257ca4fc1912693d60013f67152632189d3 data\minecraft\tags\blocks\walls.json
-b17ee2e0d17d958ccbb1776643bdee4160563cb9 data\minecraft\tags\blocks\needs_stone_tool.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\shovel.json
-61f26dbd59ca2449d7db6aa9d618352c12194ab7 data\minecraft\tags\blocks\mineable\pickaxe.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json

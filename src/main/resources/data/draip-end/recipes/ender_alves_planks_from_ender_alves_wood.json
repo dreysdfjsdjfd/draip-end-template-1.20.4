@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "draip-end:ender_alves_wood"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "draip-end:ender_alves_planks",
+    "count": 4
+  }
+}
