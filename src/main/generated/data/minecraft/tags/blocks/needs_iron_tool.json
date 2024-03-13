@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "draip-end:auravine_ore",
+    "draip-end:auravine_ore_deeper"
+  ]
 }

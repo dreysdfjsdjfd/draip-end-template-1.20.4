@@ -13,8 +13,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item SILVERITE_DUST = registerItem("silverite_dust", new Item(new FabricItemSettings()));
-    public static final Item SILVERITE_INGOT = registerItem("silverite_ingot", new Item(new FabricItemSettings()));
+    public static final Item augrite_DUST = registerItem("augrite_dust", new Item(new FabricItemSettings()));
+    public static final Item augrite_INGOT = registerItem("augrite_ingot", new Item(new FabricItemSettings()));
 
     public static final Item ENDSTONE_PICKAXE = registerItem("endstone_pickaxe", new PickaxeItem(ModToolMaterial.ENDSTONE, 1, -2.8f,new FabricItemSettings()));
     public static final Item ENDSTONE_AXE = registerItem("endstone_axe", new AxeItem(ModToolMaterial.ENDSTONE, 6, -3.1f,new FabricItemSettings()));
@@ -22,24 +22,31 @@ public class ModItems {
     public static final Item ENDSTONE_SWORD = registerItem("endstone_sword", new SwordItem(ModToolMaterial.ENDSTONE, 3, -2.4f,new FabricItemSettings()));
     public static final Item ENDSTONE_HOE = registerItem("endstone_hoe", new HoeItem(ModToolMaterial.ENDSTONE, -2, -1f,new FabricItemSettings()));
 
-    public static final Item SILVERITE_PICKAXE = registerItem("silverite_pickaxe", new PickaxeItem(ModToolMaterial.SILVERITE, 1, -2.8f,new FabricItemSettings()));
-    public static final Item SILVERITE_AXE = registerItem("silverite_axe", new AxeItem(ModToolMaterial.SILVERITE, 6, -3.1f,new FabricItemSettings()));
-    public static final Item SILVERITE_SHOVEL = registerItem("silverite_shovel", new ShovelItem(ModToolMaterial.SILVERITE, 1, -3f,new FabricItemSettings()));
-    public static final Item SILVERITE_SWORD = registerItem("silverite_sword", new SwordItem(ModToolMaterial.SILVERITE, 3, -2.4f,new FabricItemSettings()));
-    public static final Item SILVERITE_HOE = registerItem("silverite_hoe", new HoeItem(ModToolMaterial.SILVERITE, -2, -1f,new FabricItemSettings()));
+    public static final Item augrite_PICKAXE = registerItem("augrite_pickaxe", new PickaxeItem(ModToolMaterial.augrite, 1, -2.8f,new FabricItemSettings()));
+    public static final Item augrite_AXE = registerItem("augrite_axe", new AxeItem(ModToolMaterial.augrite, 6, -3.1f,new FabricItemSettings()));
+    public static final Item augrite_SHOVEL = registerItem("augrite_shovel", new ShovelItem(ModToolMaterial.augrite, 1, -3f,new FabricItemSettings()));
+    public static final Item augrite_SWORD = registerItem("augrite_sword", new SwordItem(ModToolMaterial.augrite, 3, -2.4f,new FabricItemSettings()));
+    public static final Item augrite_HOE = registerItem("augrite_hoe", new HoeItem(ModToolMaterial.augrite, -2, -1f,new FabricItemSettings()));
 
-    public static final Item SILVERITE_HELMET = registerItem("silverite_helmet", new ArmorItem(ModArmorMaterials.SILVERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item SILVERITE_CHESTPLATE = registerItem("silverite_chestplate", new ArmorItem(ModArmorMaterials.SILVERITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item SILVERITE_LEGGINGS = registerItem("silverite_leggings", new ArmorItem(ModArmorMaterials.SILVERITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item SILVERITE_BOOTS = registerItem("silverite_boots", new ArmorItem(ModArmorMaterials.SILVERITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item augrite_HELMET = registerItem("augrite_helmet", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item augrite_CHESTPLATE = registerItem("augrite_chestplate", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item augrite_LEGGINGS = registerItem("augrite_leggings", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item augrite_BOOTS = registerItem("augrite_boots", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    public static final Item SUNSTONE_SHARD = registerItem("sunstone_shard", new Item(new FabricItemSettings()));
+    public static final Item auravine_SHARD = registerItem("auravine_shard", new Item(new FabricItemSettings()));
 
-    public static final Item SUNSTONE_PICKAXE = registerItem("sunstone_pickaxe", new PickaxeItem(ModToolMaterial.SUNSTONE, 1, -2.8f,new FabricItemSettings()));
-    public static final Item SUNSTONE_AXE = registerItem("sunstone_axe", new AxeItem(ModToolMaterial.SUNSTONE, 6, -3.1f,new FabricItemSettings()));
-    public static final Item SUNSTONE_SHOVEL = registerItem("sunstone_shovel", new ShovelItem(ModToolMaterial.SUNSTONE, 1, -3f,new FabricItemSettings()));
-    public static final Item SUNSTONE_SWORD = registerItem("sunstone_sword", new SwordItem(ModToolMaterial.SUNSTONE, 3, -2.4f,new FabricItemSettings()));
-    public static final Item SUNSTONE_HOE = registerItem("sunstone_hoe", new HoeItem(ModToolMaterial.SUNSTONE, -2, -1f,new FabricItemSettings()));
+    public static final Item auravine_PICKAXE = registerItem("auravine_pickaxe", new PickaxeItem(ModToolMaterial.auravine, 1, -2.8f,new FabricItemSettings()));
+    public static final Item auravine_AXE = registerItem("auravine_axe", new AxeItem(ModToolMaterial.auravine, 6, -3.1f,new FabricItemSettings()));
+    public static final Item auravine_SHOVEL = registerItem("auravine_shovel", new ShovelItem(ModToolMaterial.auravine, 1, -3f,new FabricItemSettings()));
+    public static final Item auravine_SWORD = registerItem("auravine_sword", new SwordItem(ModToolMaterial.auravine, 3, -2.4f,new FabricItemSettings()));
+    public static final Item auravine_HOE = registerItem("auravine_hoe", new HoeItem(ModToolMaterial.auravine, -2, -1f,new FabricItemSettings()));
+
+    public static final Item auravine_HELMET = registerItem("auravine_helmet", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item auravine_CHESTPLATE = registerItem("auravine_chestplate", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item auravine_LEGGINGS = registerItem("auravine_leggings", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item auravine_BOOTS = registerItem("auravine_boots", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item evil_CHESTPLATE = registerItem("evil_chestplate", new ArmorItem(ModArmorMaterials.evil, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
 
 
 
@@ -52,7 +59,7 @@ public class ModItems {
 
 
     private static void addItemsToIngredientTabItemGrouo(FabricItemGroupEntries entries) {
-        entries.add(SILVERITE_DUST);
+        entries.add(augrite_DUST);
     }
 
     private static Item registerItem(String name, Item item) {

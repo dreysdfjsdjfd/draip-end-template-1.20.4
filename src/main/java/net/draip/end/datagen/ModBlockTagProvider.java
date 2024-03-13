@@ -23,8 +23,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.ENDSTONE_BLOCKS)
-                .add(ModBlocks.SILVERITE_ORE_ENDSTONE)
-                .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
+                .add(ModBlocks.augrite_ORE_ENDSTONE)
+                .add(ModBlocks.augrite_ORE_DEEPER_ENDSTONE)
                 .add(ModBlocks.ENDSTONE_DEEPER)
                 .add(Blocks.END_STONE)
                 .add(ModBlocks.ENDSTONE_DECAYING)
@@ -41,12 +41,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS)
                 .add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR)
+
+                .add(ModBlocks.auravine_ORE)
+                .add(ModBlocks.auravine_ORE_DEEPER)
                 ;
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.SILVERITE_BLOCK)
-                .add(ModBlocks.SILVERITE_ORE_ENDSTONE)
-                .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
+                .add(ModBlocks.augrite_BLOCK)
+                .add(ModBlocks.augrite_ORE_ENDSTONE)
+                .add(ModBlocks.augrite_ORE_DEEPER_ENDSTONE)
                 .add(ModBlocks.ENDSTONE_DEEPER)
 
                 .add(ModBlocks.ENDSTONE_BUTTON)
@@ -55,6 +58,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_SLAB)
                 .add(ModBlocks.ENDSTONE_BRICK_PILLAR)
                 .add(ModBlocks.PURPUR_WALL)
+
+                .add(ModBlocks.auravine_ORE)
+                .add(ModBlocks.auravine_ORE_DEEPER)
 
 
                 .add(ModBlocks.ENDSTONE_DEEPER_BUTTON)
@@ -127,6 +133,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_BUTTON)
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE)
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE)
+
+                .add(ModBlocks.ENDER_ALVES_PLANKS_LADDER)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR)
         ;
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
@@ -134,9 +143,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.SILVERITE_BLOCK)
-                .add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE)
-                .add(ModBlocks.SILVERITE_ORE_ENDSTONE)
+                .add(ModBlocks.augrite_BLOCK)
+                .add(ModBlocks.augrite_ORE_DEEPER_ENDSTONE)
+                .add(ModBlocks.augrite_ORE_ENDSTONE)
 
                 .add(ModBlocks.ENDSTONE_BUTTON)
                 .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
@@ -186,6 +195,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+
+                .add(ModBlocks.auravine_ORE)
+                .add(ModBlocks.auravine_ORE_DEEPER)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "draip-end:silverite_block",
-    "draip-end:silverite_ore_endstone",
-    "draip-end:silverite_ore_deeper_endstone",
+    "draip-end:augrite_block",
+    "draip-end:augrite_ore_endstone",
+    "draip-end:augrite_ore_deeper_endstone",
     "draip-end:endstone_deeper",
     "draip-end:endstone_button",
     "draip-end:endstone_pressure_plate",
@@ -11,6 +11,8 @@
     "draip-end:endstone_slab",
     "draip-end:endstone_brick_pillar",
     "draip-end:purpur_wall",
+    "draip-end:auravine_ore",
+    "draip-end:auravine_ore_deeper",
     "draip-end:endstone_deeper_button",
     "draip-end:endstone_deeper_pressure_plate",
     "draip-end:endstone_deeper_stairs",

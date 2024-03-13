@@ -17,7 +17,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.SILVERITE_HELMET,ModItems.SILVERITE_CHESTPLATE,ModItems.SILVERITE_LEGGINGS,ModItems.SILVERITE_BOOTS);
+                .add(ModItems.augrite_HELMET,ModItems.augrite_CHESTPLATE,ModItems.augrite_LEGGINGS,ModItems.augrite_BOOTS)
+                .add(ModItems.auravine_HELMET,ModItems.auravine_CHESTPLATE,ModItems.auravine_LEGGINGS,ModItems.auravine_BOOTS)
+                .add(ModItems.auravine_CHESTPLATE);
 
 
         getOrCreateTagBuilder(ItemTags.PLANKS)

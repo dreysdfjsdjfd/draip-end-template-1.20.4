@@ -15,16 +15,16 @@ public class ModItemGroups {
     public static final ItemGroup CUSTOM_END_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(DraipEnd.MOD_ID, "custom_end"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.custom_end"))
-                    .icon(() -> new ItemStack(ModItems.SILVERITE_DUST)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.SILVERITE_DUST);
-                        entries.add(ModItems.SILVERITE_INGOT);
+                    .icon(() -> new ItemStack(ModItems.augrite_DUST)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.augrite_DUST);
+                        entries.add(ModItems.augrite_INGOT);
                         entries.add(ModItems.CHORUS_FRUIT_GOLDEN);
-                        entries.add(ModBlocks.SILVERITE_BLOCK);
+                        entries.add(ModBlocks.augrite_BLOCK);
 
                         entries.add(ModBlocks.ENDSTONE_DEEPER);
 
-                        entries.add(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE);
-                        entries.add(ModBlocks.SILVERITE_ORE_ENDSTONE);
+                        entries.add(ModBlocks.augrite_ORE_DEEPER_ENDSTONE);
+                        entries.add(ModBlocks.augrite_ORE_ENDSTONE);
 
                         entries.add(ModBlocks.ENDSTONE_STAIRS);
                         entries.add(ModBlocks.ENDSTONE_SLAB);
@@ -38,11 +38,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE);
                         entries.add(ModBlocks.ENDSTONE_DEEPER_WALL);
 
-                        entries.add(ModItems.SILVERITE_PICKAXE);
-                        entries.add(ModItems.SILVERITE_AXE);
-                        entries.add(ModItems.SILVERITE_SHOVEL);
-                        entries.add(ModItems.SILVERITE_SWORD);
-                        entries.add(ModItems.SILVERITE_HOE);
+                        entries.add(ModItems.augrite_PICKAXE);
+                        entries.add(ModItems.augrite_AXE);
+                        entries.add(ModItems.augrite_SHOVEL);
+                        entries.add(ModItems.augrite_SWORD);
+                        entries.add(ModItems.augrite_HOE);
 
                         entries.add(ModItems.ENDSTONE_PICKAXE);
                         entries.add(ModItems.ENDSTONE_AXE);
@@ -50,16 +50,23 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDSTONE_SWORD);
                         entries.add(ModItems.ENDSTONE_HOE);
 
-                        entries.add(ModItems.SUNSTONE_PICKAXE);
-                        entries.add(ModItems.SUNSTONE_AXE);
-                        entries.add(ModItems.SUNSTONE_SHOVEL);
-                        entries.add(ModItems.SUNSTONE_SWORD);
-                        entries.add(ModItems.SUNSTONE_HOE);
+                        entries.add(ModItems.auravine_PICKAXE);
+                        entries.add(ModItems.auravine_AXE);
+                        entries.add(ModItems.auravine_SHOVEL);
+                        entries.add(ModItems.auravine_SWORD);
+                        entries.add(ModItems.auravine_HOE);
 
-                        entries.add(ModItems.SILVERITE_HELMET);
-                        entries.add(ModItems.SILVERITE_CHESTPLATE);
-                        entries.add(ModItems.SILVERITE_LEGGINGS);
-                        entries.add(ModItems.SILVERITE_BOOTS);
+                        entries.add(ModItems.augrite_HELMET);
+                        entries.add(ModItems.augrite_CHESTPLATE);
+                        entries.add(ModItems.augrite_LEGGINGS);
+                        entries.add(ModItems.augrite_BOOTS);
+
+                        entries.add(ModItems.auravine_HELMET);
+                        entries.add(ModItems.auravine_CHESTPLATE);
+                        entries.add(ModItems.auravine_LEGGINGS);
+                        entries.add(ModItems.auravine_BOOTS);
+
+                        entries.add(ModItems.evil_CHESTPLATE);
 
                         entries.add(ModBlocks.ENDSTONE_BRICK_PILLAR);
                         entries.add(ModBlocks.PURPUR_WALL);
@@ -116,6 +123,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_STAIRS);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_SLAB);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR);
 
                         entries.add(ModBlocks.WINDY_MAPLE_LOG);
                         entries.add(ModBlocks.WINDY_MAPLE_WOOD);
@@ -139,7 +147,10 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDER_BERRIES);
 
 
-                        entries.add(ModItems.SUNSTONE_SHARD);
+                        entries.add(ModItems.auravine_SHARD);
+
+                        entries.add(ModBlocks.auravine_ORE);
+                        entries.add(ModBlocks.auravine_ORE_DEEPER);
 
                         entries.add(ModBlocks.DEEPER_END_STONE_BRICKS);
                         entries.add(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON);

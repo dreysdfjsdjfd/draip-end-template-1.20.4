@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_bottom",
+  "textures": {
+    "texture": "draip-end:block/ender_alves_planks_trapdoor"
+  }
+}

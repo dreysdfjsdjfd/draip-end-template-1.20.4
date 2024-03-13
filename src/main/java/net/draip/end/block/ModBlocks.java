@@ -32,15 +32,19 @@ public class ModBlocks {
             new PressurePlateBlock(BlockSetType.STONE,FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block DEEPER_END_STONE_BRICKS_WALL = registerBlock("deeper_end_stone_bricks_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-
     public static final Block ENDSTONE_DECAYING = registerBlock("endstone_decaying",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
-    public static final Block SILVERITE_ORE_DEEPER_ENDSTONE = registerBlock("silverite_ore_deeper_endstone",
-            new SilveriteOreEndstoneBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
-    public static final Block SILVERITE_ORE_ENDSTONE = registerBlock("silverite_ore_endstone",
-            new SilveriteOreEndstoneBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
-    public static final Block SILVERITE_BLOCK = registerBlock("silverite_block",
+    public static final Block augrite_ORE_DEEPER_ENDSTONE = registerBlock("augrite_ore_deeper_endstone",
+            new augriteOreEndstoneBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
+    public static final Block augrite_ORE_ENDSTONE = registerBlock("augrite_ore_endstone",
+            new augriteOreEndstoneBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
+    public static final Block augrite_BLOCK = registerBlock("augrite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block auravine_ORE_DEEPER = registerBlock("auravine_ore_deeper",
+            new auravineOreBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
+    public static final Block auravine_ORE = registerBlock("auravine_ore",
+            new auravineOreBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 
     public static final Block ENDSTONE_STAIRS = registerBlock("endstone_stairs",
             new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
@@ -97,6 +101,12 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block ENDER_ALVES_PLANKS_FENCE_GATE = registerBlock("ender_alves_planks_fence_gate",
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block ENDER_ALVES_PLANKS_TRAPDOOR = registerBlock("ender_alves_planks_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    public static final Block ENDER_ALVES_PLANKS_LADDER = registerBlock("ender_alves_planks_ladder",
+            new LadderBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block ENDER_ALVES_LEAVES = registerBlock("ender_alves_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": {
-      "item": "draip-end:silverite_ingot"
+      "item": "draip-end:augrite_ingot"
     },
     "S": {
       "item": "minecraft:stick"
@@ -15,6 +15,6 @@
     " S"
   ],
   "result": {
-    "item": "draip-end:silverite_axe"
+    "item": "draip-end:augrite_axe"
   }
 }

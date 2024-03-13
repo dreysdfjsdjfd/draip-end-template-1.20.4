@@ -21,9 +21,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVERITE_ORE_ENDSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.augrite_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.augrite_ORE_DEEPER_ENDSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.augrite_ORE_ENDSTONE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDSTONE_DECAYING);
 //
@@ -69,6 +69,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAINY_ENDSTONE);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE_DEEPER);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE);
+
 
         blockStateModelGenerator.registerLog(ModBlocks.ENDER_ALVES_LOG).log(ModBlocks.ENDER_ALVES_LOG).wood(ModBlocks.ENDER_ALVES_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ENDER_ALVES_LOG).log(ModBlocks.STRIPPED_ENDER_ALVES_LOG).wood(ModBlocks.STRIPPED_ENDER_ALVES_WOOD);
@@ -82,6 +85,8 @@ public class ModModelProvider extends FabricModelProvider {
         enderAlvesPlanks.pressurePlate(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
         enderAlvesPlanks.fence(ModBlocks.ENDER_ALVES_PLANKS_FENCE);
         enderAlvesPlanks.fenceGate(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE);
+
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR);
 
         blockStateModelGenerator.registerLog(ModBlocks.WINDY_MAPLE_LOG).log(ModBlocks.WINDY_MAPLE_LOG).wood(ModBlocks.WINDY_MAPLE_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_WINDY_MAPLE_LOG).log(ModBlocks.STRIPPED_WINDY_MAPLE_LOG).wood(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
@@ -113,14 +118,14 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CHORUS_FRUIT_GOLDEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_BERRIES, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SILVERITE_DUST, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SILVERITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.augrite_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.augrite_INGOT, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.SILVERITE_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SILVERITE_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SILVERITE_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SILVERITE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SILVERITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.augrite_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.augrite_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.augrite_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.augrite_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.augrite_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.ENDSTONE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDSTONE_AXE, Models.HANDHELD);
@@ -128,18 +133,26 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDSTONE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDSTONE_HOE, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.SUNSTONE_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SUNSTONE_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SUNSTONE_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SUNSTONE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.SUNSTONE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.auravine_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.auravine_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.auravine_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.auravine_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.auravine_HOE, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERITE_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERITE_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERITE_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.SILVERITE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.augrite_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.augrite_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.augrite_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.augrite_BOOTS));
 
-        itemModelGenerator.register(ModItems.SUNSTONE_SHARD, Models.GENERATED);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.evil_CHESTPLATE));
+
+
+        itemModelGenerator.register(ModItems.auravine_SHARD, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ENDERSNAIL_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));

@@ -25,7 +25,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
-        addDrop(ModBlocks.SILVERITE_BLOCK);
+        addDrop(ModBlocks.augrite_BLOCK);
 
         addDrop(ModBlocks.ENDSTONE_STAIRS);
         addDrop(ModBlocks.ENDSTONE_WALL);
@@ -117,6 +117,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
         addDrop(ModBlocks.STRIPPED_WINDY_MAPLE_LOG);
 
+
+
         addDrop(ModBlocks.WINDY_MAPLE_PLANKS);
         addDrop(ModBlocks.WINDY_MAPLE_PLANKS_STAIRS);
         addDrop(ModBlocks.WINDY_MAPLE_PLANKS_FENCE);
@@ -141,20 +143,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_FENCE);
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE);
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR);
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_BUTTON);
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_SLAB, slabDrops(ModBlocks.ENDER_ALVES_PLANKS_SLAB));
 
         addDrop(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR);
+        addDrop(ModBlocks.ENDER_ALVES_PLANKS_LADDER);
 
 
         addDrop(ModBlocks.ENDSTONE_SLAB, slabDrops(ModBlocks.ENDSTONE_SLAB));
         addDrop(ModBlocks.ENDSTONE_DEEPER_SLAB, slabDrops(ModBlocks.ENDSTONE_DEEPER_SLAB));
 
 
+        addDrop(ModBlocks.augrite_ORE_ENDSTONE);
+        addDrop(ModBlocks.augrite_ORE_DEEPER_ENDSTONE);
 
 
-        addDrop(ModBlocks.SILVERITE_ORE_ENDSTONE, copperLikeOreDrops(ModBlocks.SILVERITE_ORE_ENDSTONE, ModItems.SILVERITE_DUST));
-        addDrop(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE, copperLikeOreDrops(ModBlocks.SILVERITE_ORE_DEEPER_ENDSTONE, ModItems.SILVERITE_DUST));
+        addDrop(ModBlocks.auravine_ORE, copperLikeOreDrops(ModBlocks.auravine_ORE, ModItems.auravine_SHARD));
+        addDrop(ModBlocks.auravine_ORE_DEEPER, copperLikeOreDrops(ModBlocks.auravine_ORE_DEEPER, ModItems.auravine_SHARD));
 
     }
 
@@ -164,7 +170,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         ItemEntry.builder(item)
                                 .apply(SetCountLootFunction
                                         .builder(UniformLootNumberProvider
-                                                .create(1.0f, 4.0f))))
+                                                .create(1.0f, 2.0f))))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }

@@ -10,12 +10,12 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    SILVERITE(MiningLevels.IRON, 250, 6.0f, 2.0f, 14,
-            () -> Ingredient.ofItems(ModItems.SILVERITE_INGOT)),
+    augrite(MiningLevels.IRON, 250, 6.0f, 2.0f, 14,
+            () -> Ingredient.ofItems(ModItems.augrite_INGOT)),
     ENDSTONE(MiningLevels.STONE, 131, 4.0f, 1.0f, 5,
             () -> Ingredient.ofItems(Blocks.END_STONE)),
-    SUNSTONE(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10,
-            () -> Ingredient.ofItems(ModItems.SUNSTONE_SHARD));
+    auravine(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10,
+            () -> Ingredient.ofItems(ModItems.auravine_SHARD));
 
 
 

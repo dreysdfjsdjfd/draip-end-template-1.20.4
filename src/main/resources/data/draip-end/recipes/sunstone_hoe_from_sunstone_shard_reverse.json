@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": {
-      "item": "draip-end:sunstone_shard"
+      "item": "draip-end:auravine_shard"
     },
     "S": {
       "item": "minecraft:stick"
@@ -15,6 +15,6 @@
     " S"
   ],
   "result": {
-    "item": "draip-end:sunstone_hoe"
+    "item": "draip-end:auravine_hoe"
   }
 }

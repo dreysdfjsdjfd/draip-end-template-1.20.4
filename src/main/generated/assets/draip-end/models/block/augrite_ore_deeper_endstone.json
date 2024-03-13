@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "draip-end:block/augrite_ore_deeper_endstone"
+  }
+}

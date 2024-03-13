@@ -1,12 +1,12 @@
 {
-  "item.draip-end.silverite_dust": "Silverite Dust",
-  "item.draip-end.silverite_ingot": "Silverite Ingot",
+  "item.draip-end.augrite_dust": "Augrite Dust",
+  "item.draip-end.augrite_ingot": "Augrite Ingot",
 
-  "item.draip-end.silverite_pickaxe": "Silverite Pickaxe",
-  "item.draip-end.silverite_axe": "Silverite Axe",
-  "item.draip-end.silverite_shovel": "Silverite Shovel",
-  "item.draip-end.silverite_sword": "Silverite Sword",
-  "item.draip-end.silverite_hoe": "Silverite Hoe",
+  "item.draip-end.augrite_pickaxe": "Augrite Pickaxe",
+  "item.draip-end.augrite_axe": "Augrite Axe",
+  "item.draip-end.augrite_shovel": "Augrite Shovel",
+  "item.draip-end.augrite_sword": "Augrite Sword",
+  "item.draip-end.augrite_hoe": "Augrite Hoe",
 
   "item.draip-end.endstone_pickaxe": "Endstone Pickaxe",
   "item.draip-end.endstone_axe": "Endstone Axe",
@@ -14,22 +14,29 @@
   "item.draip-end.endstone_sword": "Endstone Sword",
   "item.draip-end.endstone_hoe": "Endstone Hoe",
 
-  "item.draip-end.sunstone_pickaxe": "Sunstone Pickaxe",
-  "item.draip-end.sunstone_axe": "Sunstone Axe",
-  "item.draip-end.sunstone_shovel": "Sunstone Shovel",
-  "item.draip-end.sunstone_sword": "Sunstone Sword",
-  "item.draip-end.sunstone_hoe": "Sunstone Hoe",
+  "item.draip-end.auravine_pickaxe": "Auravine Pickaxe",
+  "item.draip-end.auravine_axe": "Auravine Axe",
+  "item.draip-end.auravine_shovel": "Auravine Shovel",
+  "item.draip-end.auravine_sword": "Auravine Sword",
+  "item.draip-end.auravine_hoe": "Auravine Hoe",
 
-  "item.draip-end.silverite_helmet": "Silverite Helmet",
-  "item.draip-end.silverite_chestplate": "Silverite Chestplate",
-  "item.draip-end.silverite_leggings": "Silverite Leggings",
-  "item.draip-end.silverite_boots": "Silverite Boots",
+  "item.draip-end.augrite_helmet": "Augrite Helmet",
+  "item.draip-end.augrite_chestplate": "Augrite Chestplate",
+  "item.draip-end.augrite_leggings": "Augrite Leggings",
+  "item.draip-end.augrite_boots": "Augrite Boots",
+
+  "item.draip-end.auravine_helmet": "Auravine Helmet",
+  "item.draip-end.auravine_chestplate": "Auravine Chestplate",
+  "item.draip-end.auravine_leggings": "Auravine Leggings",
+  "item.draip-end.auravine_boots": "Auravine Boots",
+
+
   "item.draip-end.ender_berries": "Ender Berries",
 
-  "item.draip-end.sunstone_shard": "Sunstone Shard",
+  "item.draip-end.auravine_shard": "Auravine Shard",
 
 
-  "block.draip-end.silverite_block": "Silverite Block",
+  "block.draip-end.augrite_block": "Augrite Block",
   "block.draip-end.endstone_decaying": "Decaying Endstone",
   "block.draip-end.ender_grass_short": "Grass of the End",
   "block.draip-end.ender_grass_long": "Tall Grass of the End",
@@ -50,6 +57,8 @@
   "block.draip-end.ender_flower_blue": "Blue Ender Flower",
 
   "block.draip-end.endersnail_spawn_egg": "Endersnail Spawn Egg",
+
+  "item.draip-end.evil_chestplate": "Organisation Chestplate",
 
 
   "block.draip-end.ender_alves_log": "Ender Alves Log",
@@ -90,6 +99,9 @@
   "block.draip-end.ender_petals_blue": "Blue Ender Petals",
   "block.draip-end.ender_vines_blue": "Blue Ender Vines",
 
+  "block.draip-end.auravine_ore": "Auravine Ore",
+  "block.draip-end.auravine_ore_deeper": "Deeper Auravine Ore",
+
   "block.draip-end.deeper_end_stone_bricks": "Deeper End Stone Bricks",
   "block.draip-end.deeper_end_stone_bricks_button": "Deeper End Stone Bricks Button",
   "block.draip-end.deeper_end_stone_bricks_slab": "Deeper End Stone Bricks Slab",
@@ -98,14 +110,14 @@
   "block.draip-end.deeper_end_stone_bricks_pressure_plate": "Deeper End Stone Bricks Pressure Plate",
   "block.draip-end.deeper_endstone_deeper_brick_pillar": "Deeper End Stone Bricks Pillar",
 
-
-
   "block.draip-end.endstone_deeper": "Deeper End Stone",
   "block.draip-end.endstone_deeper_stairs": "Deeper End Stone Stairs",
   "block.draip-end.endstone_deeper_slab": "Deeper End Stone Slab",
   "block.draip-end.endstone_deeper_button": "Deeper End Stone Button",
   "block.draip-end.endstone_deeper_pressure_plate": "Deeper End Stone Pressure Plate",
   "block.draip-end.endstone_deeper_wall": "Deeper End Stone Wall",
+
+  "block.draip-end.grainy_endstone": "Grainy Endstone",
 
   "block.draip-end.endstone_grass": "Grassy End Stone",
   "block.draip-end.endstone_grass_full": "Mossy End Stone",
@@ -131,17 +143,19 @@
   "block.draip-end.endstone_pressure_plate": "End Stone Pressure Plate",
   "block.draip-end.endstone_wall": "End Stone Wall",
 
+  "block.draip-end.ender_alves_planks_trapdoor": "Ender Alves Trapdoor",
+
 
 
   "block.draip-end.endstone_brick_pillar": "End Stone Brick Pillar",
 
   "block.draip-end.purpur_wall": "Purpur Wall",
 
-  "block.draip-end.silverite_ore_endstone": "Silverite Ore",
-  "block.draip-end.silverite_ore_deeper_endstone": "Deeper Silverite Ore",
+  "block.draip-end.augrite_ore_endstone": "Augrite Ore",
+  "block.draip-end.augrite_ore_deeper_endstone": "Deeper Augrite Ore",
   "item.draip-end.chorus_fruit_golden": "Golden Chorus Fruit",
 
-  "tooltip.draip-end.silverite_ore_explosion": "boom boom!",
+  "tooltip.draip-end.augrite_ore_explosion": "boom boom!",
 
 
 

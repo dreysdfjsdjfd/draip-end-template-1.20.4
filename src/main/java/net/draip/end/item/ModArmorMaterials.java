@@ -3,16 +3,26 @@ package net.draip.end.item;
 import net.draip.end.DraipEnd;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.Util;
 
+import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SILVERITE("silverite",15,new int[] {2, 6, 5, 2}, 9,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.SILVERITE_INGOT))
+    augrite("augrite",15,new int[] {2, 6, 5, 2}, 9,
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.augrite_INGOT)),
+    auravine("auravine",25,new int[] {3, 8, 6, 3}, 15,
+    SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(ModItems.auravine_SHARD)),
+    evil("evil",25,new int[] {3, 8, 6, 3}, 15,
+    SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(Items.BEDROCK))
     ;
+
+
+
 
     private final String name;
     private final int durabilityMultiplier;
@@ -53,7 +63,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public SoundEvent getEquipSound() {
-        return null;
+        return this.equipSound;
     }
 
     @Override

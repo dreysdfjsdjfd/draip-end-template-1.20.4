@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "draip-end:silverite_dust"
+      "item": "draip-end:augrite_dust"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
     "##"
   ],
   "result": {
-    "item": "draip-end:silverite_ingot"
+    "item": "draip-end:augrite_ingot"
   }
 }

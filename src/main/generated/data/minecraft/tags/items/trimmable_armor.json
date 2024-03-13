@@ -1,9 +1,14 @@
 {
   "replace": false,
   "values": [
-    "draip-end:silverite_helmet",
-    "draip-end:silverite_chestplate",
-    "draip-end:silverite_leggings",
-    "draip-end:silverite_boots"
+    "draip-end:augrite_helmet",
+    "draip-end:augrite_chestplate",
+    "draip-end:augrite_leggings",
+    "draip-end:augrite_boots",
+    "draip-end:auravine_helmet",
+    "draip-end:auravine_chestplate",
+    "draip-end:auravine_leggings",
+    "draip-end:auravine_boots",
+    "draip-end:auravine_chestplate"
   ]
 }

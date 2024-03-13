@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "augrite",
+  "ingredient": {
+    "item": "draip-end:augrite_dust"
+  },
+  "result": "draip-end:augrite_ingot"
+}
