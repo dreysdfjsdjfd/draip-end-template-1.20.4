@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "draip-end:block/plentiful_grass_flower_wall",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "draip-end:block/plentiful_grass_flower_wall"
+    },
+    "facing=south": {
+      "model": "draip-end:block/plentiful_grass_flower_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "draip-end:block/plentiful_grass_flower_wall",
+      "y": 270
+    }
+  }
+}

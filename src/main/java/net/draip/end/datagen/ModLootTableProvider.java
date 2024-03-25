@@ -5,6 +5,7 @@ import net.draip.end.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
+import net.minecraft.block.SnowBlock;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
@@ -39,6 +40,37 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENDSTONE_DEEPER_BUTTON);
         addDrop(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE);
         addDrop(ModBlocks.ENDSTONE_DEEPER_WALL);
+        addDrop(ModBlocks.ENDSTONE_WARM);
+
+
+        addDrop(ModBlocks.BLUE_CRYSTAL);
+        addDrop(ModBlocks.BLUE_CRYSTAL_TRANS);
+        addDrop(ModBlocks.PURPLE_CRYSTAL);
+        addDrop(ModBlocks.PURPLE_CRYSTAL_TRANS);
+
+        addDrop(ModBlocks.COBBLED_SCYENSITH);
+        addDrop(ModBlocks.COBBLED_SCYENSITH_STAIRS);
+        addDrop(ModBlocks.COBBLED_SCYENSITH_SLAB, slabDrops(ModBlocks.COBBLED_SCYENSITH_SLAB));
+
+
+
+        addDrop(ModBlocks.POLISHED_SCYENSITH);
+        addDrop(ModBlocks.POLISHED_SCYENSITH_STAIRS);
+        addDrop(ModBlocks.POLISHED_SCYENSITH_SLAB, slabDrops(ModBlocks.POLISHED_SCYENSITH_SLAB));
+
+        addDrop(ModBlocks.CHAINED_STEEL);
+        addDrop(ModBlocks.CHAINED_STEEL_STAIRS);
+        addDrop(ModBlocks.CHAINED_STEEL_SLAB, slabDrops(ModBlocks.CHAINED_STEEL_SLAB));
+
+
+        addDrop(ModBlocks.GRUELING_FLOWER);
+        addDrop(ModBlocks.PLENTIFUL_MOSS_BLOCK);
+        addDrop(ModBlocks.PLENTIFUL_GRASS_BLOCK);
+        addDrop(ModBlocks.PLENTIFUL_GRASS_SHORT);
+        addPottedPlantDrops(ModBlocks.POTTED_GRUELING_FLOWER);
+
+        addDrop(ModBlocks.GLINTING_PURPLE_GRASS, tallPlantDrops(ModBlocks.GLINTING_PURPLE_GRASS, ModBlocks.GLINTING_PURPLE_GRASS));
+        addDrop(ModBlocks.BUTTER_NUT_WEEDS, tallPlantDrops(ModBlocks.BUTTER_NUT_WEEDS, ModBlocks.BUTTER_NUT_WEEDS));
 
 
         addDrop(ModBlocks.DESTINATIONAL_FLOWER);
@@ -67,6 +99,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB, slabDrops(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB));
 
         addDrop(ModBlocks.DESTINATIONAL_FLOWER_BLUE);
+        addDrop(ModBlocks.PLENTIFUL_GRASS_STEM);
         addPottedPlantDrops(ModBlocks.POTTED_DESTINATIONAL_FLOWER_BLUE);
         addDrop(ModBlocks.ENDSTONE_TULIP_BLUE);
         addPottedPlantDrops(ModBlocks.POTTED_ENDSTONE_TULIP_BLUE);
@@ -92,6 +125,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ENDSTONE_DECAYING);
         addDrop(ModBlocks.GRAINY_ENDSTONE);
+        addDrop(ModBlocks.PLENTIFUL_GRASS_FLOWER);
+        addDrop(ModBlocks.PLENTIFUL_MOSS_PILE);
 
 
         addDrop(ModBlocks.ENDER_ALVES_WOOD);
@@ -109,6 +144,25 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ENDER_ALVES_LEAVES, leavesDrops(ModBlocks.ENDER_ALVES_LEAVES, ModBlocks.ENDER_ALVES_LEAVES, 0.005f));
         addDrop(ModBlocks.GILDED_ENDER_ALVES_LEAVES, leavesDrops(ModBlocks.GILDED_ENDER_ALVES_LEAVES, ModBlocks.GILDED_ENDER_ALVES_LEAVES, 0.005f));
+
+
+
+        addDrop(ModBlocks.BUTTER_NUT_WOOD);
+        addDrop(ModBlocks.BUTTER_NUT_LOG);
+        addDrop(ModBlocks.STRIPPED_BUTTER_NUT_WOOD);
+        addDrop(ModBlocks.STRIPPED_BUTTER_NUT_LOG);
+
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS);
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS_STAIRS);
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS_FENCE);
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS_FENCE_GATE);
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS_BUTTON);
+        addDrop(ModBlocks.BUTTER_NUT_PLANKS_SLAB, slabDrops(ModBlocks.BUTTER_NUT_PLANKS_SLAB));
+
+        addDrop(ModBlocks.BUTTER_NUT_LEAVES, leavesDrops(ModBlocks.BUTTER_NUT_LEAVES, ModBlocks.BUTTER_NUT_LEAVES, 0.005f));
+        addDrop(ModBlocks.GILDED_BUTTER_NUT_LEAVES, leavesDrops(ModBlocks.GILDED_BUTTER_NUT_LEAVES, ModBlocks.GILDED_BUTTER_NUT_LEAVES, 0.005f));
+
 
 
 
@@ -137,6 +191,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_WALL);
 
         addDrop(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB, slabDrops(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB));
+        addDrop(ModBlocks.GILDED_PURPUR_BLOCK);
+        addDrop(ModBlocks.PURPUR_STONE);
+        addDrop(ModBlocks.GILDED_PURPUR_STONE);
 
 
         addDrop(ModBlocks.ENDER_ALVES_PLANKS_STAIRS);

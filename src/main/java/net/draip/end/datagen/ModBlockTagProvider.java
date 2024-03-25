@@ -29,6 +29,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(Blocks.END_STONE)
                 .add(ModBlocks.ENDSTONE_DECAYING)
                 .add(ModBlocks.ENDSTONE_DEEPER)
+                .add(ModBlocks.ENDSTONE_WARM)
                 .add(ModBlocks.ENDSTONE_GRASS)
                 .add(ModBlocks.ENDSTONE_GRASS_FULL)
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS)
@@ -38,6 +39,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_GRASS_BLUE)
                 .add(ModBlocks.ENDSTONE_GRASS_FULL_BLUE)
                 .add(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_BLUE)
+
+
+                .add(ModBlocks.PLENTIFUL_GRASS_BLOCK)
+                .add(ModBlocks.PLENTIFUL_MOSS_BLOCK)
 
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS)
                 .add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR)
@@ -52,6 +57,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.augrite_ORE_DEEPER_ENDSTONE)
                 .add(ModBlocks.ENDSTONE_DEEPER)
 
+                .add(ModBlocks.GILDED_PURPUR_BLOCK)
+                .add(ModBlocks.PURPUR_STONE)
+                .add(ModBlocks.ENDSTONE_WARM)
+
+
+                .add(ModBlocks.COBBLED_SCYENSITH)
+                .add(ModBlocks.COBBLED_SCYENSITH_SLAB)
+                .add(ModBlocks.COBBLED_SCYENSITH_STAIRS)
+
+                .add(ModBlocks.POLISHED_SCYENSITH)
+                .add(ModBlocks.POLISHED_SCYENSITH_SLAB)
+                .add(ModBlocks.POLISHED_SCYENSITH_STAIRS)
+
+                .add(ModBlocks.CHAINED_STEEL)
+                .add(ModBlocks.CHAINED_STEEL_SLAB)
+                .add(ModBlocks.CHAINED_STEEL_STAIRS)
+
+
                 .add(ModBlocks.ENDSTONE_BUTTON)
                 .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
                 .add(ModBlocks.ENDSTONE_STAIRS)
@@ -61,6 +84,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.auravine_ORE)
                 .add(ModBlocks.auravine_ORE_DEEPER)
+                .add(ModBlocks.GILDED_PURPUR_STONE)
+
 
 
                 .add(ModBlocks.ENDSTONE_DEEPER_BUTTON)
@@ -101,6 +126,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB)
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS)
 
+                .add(ModBlocks.BLUE_CRYSTAL)
+                .add(ModBlocks.BLUE_CRYSTAL_TRANS)
+                .add(ModBlocks.PURPLE_CRYSTAL)
+                .add(ModBlocks.PURPLE_CRYSTAL_TRANS)
+
+                .add(ModBlocks.PLENTIFUL_MOSS_BLOCK)
+                .add(ModBlocks.PLENTIFUL_GRASS_BLOCK)
+                .add(ModBlocks.PLENTIFUL_GRASS_SHORT)
+
+
+
 
 
 
@@ -115,7 +151,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WINDY_MAPLE_LOG)
                 .add(ModBlocks.WINDY_MAPLE_WOOD)
                 .add(ModBlocks.STRIPPED_WINDY_MAPLE_LOG)
-                .add(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD);
+                .add(ModBlocks.STRIPPED_WINDY_MAPLE_WOOD)
+
+                .add(ModBlocks.BUTTER_NUT_LOG)
+                .add(ModBlocks.BUTTER_NUT_WOOD)
+                .add(ModBlocks.STRIPPED_BUTTER_NUT_LOG)
+                .add(ModBlocks.STRIPPED_BUTTER_NUT_WOOD)
+        ;
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.ENDER_ALVES_PLANKS)
@@ -134,12 +176,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE)
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE)
 
+                .add(ModBlocks.BUTTER_NUT_PLANKS)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_PRESSURE_PLATE)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_STAIRS)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_SLAB)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_BUTTON)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_FENCE_GATE)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_FENCE)
+
                 .add(ModBlocks.ENDER_ALVES_PLANKS_LADDER)
                 .add(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR)
+
         ;
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.GRAINY_ENDSTONE)
+                .add(ModBlocks.PLENTIFUL_MOSS_PILE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -153,6 +205,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_SLAB)
                 .add(ModBlocks.ENDSTONE_BRICK_PILLAR)
                 .add(ModBlocks.PURPUR_WALL)
+                .add(ModBlocks.PURPUR_STONE)
+                .add(ModBlocks.GILDED_PURPUR_STONE)
+
+                .add(ModBlocks.PLENTIFUL_GRASS_BLOCK)
+
+
+                .add(ModBlocks.CHAINED_STEEL)
+                .add(ModBlocks.CHAINED_STEEL_SLAB)
+                .add(ModBlocks.CHAINED_STEEL_STAIRS)
+                .add(ModBlocks.ENDSTONE_WARM)
+
+                .add(ModBlocks.PLENTIFUL_MOSS_BLOCK)
+
+
 
                 .add(ModBlocks.ENDSTONE_DEEPER_BUTTON)
                 .add(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE)
@@ -161,6 +227,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDSTONE_DEEPER_WALL)
 
                 .add(ModBlocks.ENDSTONE_DECAYING)
+
+                .add(ModBlocks.COBBLED_SCYENSITH)
+                .add(ModBlocks.COBBLED_SCYENSITH_SLAB)
+                .add(ModBlocks.COBBLED_SCYENSITH_STAIRS)
+
+
+                .add(ModBlocks.POLISHED_SCYENSITH)
+                .add(ModBlocks.POLISHED_SCYENSITH_SLAB)
+                .add(ModBlocks.POLISHED_SCYENSITH_STAIRS)
+
 
                 .add(ModBlocks.ENDSTONE_GRASS)
                 .add(ModBlocks.ENDSTONE_GRASS_FULL)
@@ -189,6 +265,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS_BUTTON)
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS_SLAB)
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS_STAIRS)
+
+                .add(ModBlocks.GILDED_PURPUR_BLOCK)
 
 
 

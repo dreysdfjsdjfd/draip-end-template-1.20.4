@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/chained_steel_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/chained_steel"
+    },
+    "type=top": {
+      "model": "draip-end:block/chained_steel_slab_top"
+    }
+  }
+}

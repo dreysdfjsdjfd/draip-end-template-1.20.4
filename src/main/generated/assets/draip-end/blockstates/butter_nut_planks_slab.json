@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/butter_nut_planks_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/butter_nut_planks"
+    },
+    "type=top": {
+      "model": "draip-end:block/butter_nut_planks_slab_top"
+    }
+  }
+}

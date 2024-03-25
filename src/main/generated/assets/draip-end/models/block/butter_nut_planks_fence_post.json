@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "draip-end:block/butter_nut_planks"
+  }
+}

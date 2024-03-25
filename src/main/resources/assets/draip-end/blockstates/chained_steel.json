@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "draip-end:block/chained_steel"
+      },
+      {
+        "model": "draip-end:block/chained_steel",
+        "y": 90
+      },
+      {
+        "model": "draip-end:block/chained_steel",
+        "y": 180
+      },
+      {
+        "model": "draip-end:block/chained_steel",
+        "y": 270
+      }
+    ]
+  }
+}

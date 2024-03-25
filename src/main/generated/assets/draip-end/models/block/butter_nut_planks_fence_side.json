@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "draip-end:block/butter_nut_planks"
+  }
+}

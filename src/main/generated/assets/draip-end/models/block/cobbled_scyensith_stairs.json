@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "draip-end:block/cobbled_scyensith",
+    "side": "draip-end:block/cobbled_scyensith",
+    "top": "draip-end:block/cobbled_scyensith"
+  }
+}

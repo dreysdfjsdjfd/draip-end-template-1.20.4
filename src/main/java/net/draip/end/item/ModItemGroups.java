@@ -70,8 +70,39 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ENDSTONE_BRICK_PILLAR);
                         entries.add(ModBlocks.PURPUR_WALL);
+                        entries.add(ModBlocks.GILDED_PURPUR_BLOCK);
+                        entries.add(ModBlocks.PURPUR_STONE);
+                        entries.add(ModBlocks.GILDED_PURPUR_STONE);
 
                         entries.add(ModBlocks.ENDSTONE_DECAYING);
+                        entries.add(ModBlocks.ENDSTONE_WARM);
+                        entries.add(ModBlocks.PLENTIFUL_MOSS_BLOCK);
+                        entries.add(ModBlocks.PLENTIFUL_GRASS_BLOCK);
+                        entries.add(ModBlocks.PLENTIFUL_GRASS_STEM);
+                        entries.add(ModBlocks.PLENTIFUL_GRASS_FLOWER);
+                        entries.add(ModBlocks.PLENTIFUL_MOSS_PILE);
+
+
+
+                        entries.add(ModBlocks.COBBLED_SCYENSITH);
+                        entries.add(ModBlocks.COBBLED_SCYENSITH_SLAB);
+                        entries.add(ModBlocks.COBBLED_SCYENSITH_STAIRS);
+                        entries.add(ModBlocks.POLISHED_SCYENSITH);
+                        entries.add(ModBlocks.POLISHED_SCYENSITH_SLAB);
+                        entries.add(ModBlocks.POLISHED_SCYENSITH_STAIRS);
+
+                        entries.add(ModBlocks.CHAINED_STEEL);
+                        entries.add(ModBlocks.CHAINED_STEEL_SLAB);
+
+
+
+                        entries.add(ModBlocks.BLUE_CRYSTAL);
+                        entries.add(ModBlocks.BLUE_CRYSTAL_TRANS);
+                        entries.add(ModBlocks.PURPLE_CRYSTAL);
+                        entries.add(ModBlocks.PURPLE_CRYSTAL_TRANS);
+
+                        entries.add(ModBlocks.GRUELING_FLOWER);
+                        entries.add(ModBlocks.GLINTING_PURPLE_GRASS);
 
                         entries.add(ModBlocks.ENDSTONE_GRASS);
                         entries.add(ModBlocks.ENDSTONE_GRASS_FULL);
@@ -124,6 +155,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_SLAB);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR);
+
+                        entries.add(ModBlocks.BUTTER_NUT_LOG);
+                        entries.add(ModBlocks.BUTTER_NUT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BUTTER_NUT_LOG);
+                        entries.add(ModBlocks.STRIPPED_BUTTER_NUT_WOOD);
+                        entries.add(ModBlocks.BUTTER_NUT_LEAVES);
+                        entries.add(ModBlocks.GILDED_BUTTER_NUT_LEAVES);
+
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS);
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS_BUTTON);
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS_FENCE);
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS_FENCE_GATE);
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS_STAIRS);
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS_SLAB);
+                        entries.add(ModBlocks.BUTTER_NUT_PLANKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BUTTER_NUT_WEEDS);
+                        entries.add(ModBlocks.PLENTIFUL_GRASS_SHORT);
+                        entries.add(ModBlocks.HANGING_BUTTER_NUT);
+
+
+
 
                         entries.add(ModBlocks.WINDY_MAPLE_LOG);
                         entries.add(ModBlocks.WINDY_MAPLE_WOOD);

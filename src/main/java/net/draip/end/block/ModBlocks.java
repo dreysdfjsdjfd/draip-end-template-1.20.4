@@ -41,6 +41,32 @@ public class ModBlocks {
     public static final Block augrite_BLOCK = registerBlock("augrite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+    public static final Block ENDSTONE_WARM = registerBlock("endstone_warm",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block PLENTIFUL_MOSS_BLOCK = registerBlock("plentiful_moss_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block PLENTIFUL_GRASS_BLOCK = registerBlock("plentiful_grass_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+
+
+
+    public static final Block PLENTIFUL_GRASS_STEM = registerBlock("plentiful_grass_stem",
+            new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS)));
+
+    public static final Block PLENTIFUL_GRASS_FLOWER = registerBlock("plentiful_grass_flower",
+            new PlentifulGrassFan(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS)));
+
+    public static final Block GILDED_PURPUR_BLOCK = registerBlock("gilded_purpur_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.PURPUR_BLOCK).lightLevel(14)));
+
+    public static final Block PURPUR_STONE = registerBlock("purpur_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.PURPUR_BLOCK)));
+    public static final Block GILDED_PURPUR_STONE = registerBlock("gilded_purpur_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.PURPUR_BLOCK)));
+
     public static final Block auravine_ORE_DEEPER = registerBlock("auravine_ore_deeper",
             new auravineOreBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
     public static final Block auravine_ORE = registerBlock("auravine_ore",
@@ -109,9 +135,9 @@ public class ModBlocks {
             new LadderBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block ENDER_ALVES_LEAVES = registerBlock("ender_alves_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+            new enderAlvesLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
     public static final Block GILDED_ENDER_ALVES_LEAVES = registerBlock("gilded_ender_alves_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+            new enderAlvesLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
 
     public static final Block WINDY_MAPLE_LOG = registerBlock("windy_maple_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
@@ -137,9 +163,50 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
     public static final Block WINDY_MAPLE_LEAVES = registerBlock("windy_maple_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+            new windyMaplesLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
     public static final Block GILDED_WINDY_MAPLE_LEAVES = registerBlock("gilded_windy_maple_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+            new windyMaplesLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+
+    public static final Block HANGING_BUTTER_NUT = registerBlock("hanging_butter_nut",
+            new HangingButterNutBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+
+
+
+    public static final Block BUTTER_NUT_LOG = registerBlock("butter_nut_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+    public static final Block BUTTER_NUT_WOOD = registerBlock("butter_nut_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_BUTTER_NUT_LOG = registerBlock("stripped_butter_nut_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_BUTTER_NUT_WOOD = registerBlock("stripped_butter_nut_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block BUTTER_NUT_PLANKS = registerBlock("butter_nut_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BUTTER_NUT_PLANKS_STAIRS = registerBlock("butter_nut_planks_stairs",
+            new StairsBlock(Blocks.OAK_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BUTTER_NUT_PLANKS_SLAB = registerBlock("butter_nut_planks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BUTTER_NUT_PLANKS_BUTTON = registerBlock("butter_nut_planks_button",
+            new ButtonBlock(BlockSetType.OAK, 10, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BUTTER_NUT_PLANKS_PRESSURE_PLATE = registerBlock("butter_nut_planks_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK,FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BUTTER_NUT_PLANKS_FENCE = registerBlock("butter_nut_planks_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block BUTTER_NUT_PLANKS_FENCE_GATE = registerBlock("butter_nut_planks_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block BUTTER_NUT_LEAVES = registerBlock("butter_nut_leaves",
+            new butterNutLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+    public static final Block GILDED_BUTTER_NUT_LEAVES = registerBlock("gilded_butter_nut_leaves",
+            new butterNutLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+
+
+    public static final Block BUTTER_NUT_WEEDS = registerBlock("butter_nut_weeds",
+            new EnderGrassLongBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS).nonOpaque().noCollision()));
+    public static final Block PLENTIFUL_GRASS_SHORT = registerBlock("plentiful_grass_short",
+            new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS).nonOpaque().noCollision()));
+
+
 
     public static final Block GRAINY_ENDSTONE = registerBlock("grainy_endstone",
             new FallingBlock(FabricBlockSettings.copyOf(Blocks.SAND)) {
@@ -148,6 +215,9 @@ public class ModBlocks {
                     return null;
                 }
             });
+
+    public static final Block PLENTIFUL_MOSS_PILE = registerBlock("plentiful_moss_pile",
+            new PlentifulMossPilesBlock(FabricBlockSettings.copyOf(Blocks.SNOW)));
 
 
     public static final Block ENDER_VINES = registerBlock("ender_vines",
@@ -207,6 +277,43 @@ public class ModBlocks {
             new FlowerPotBlock(ENDER_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_CORNFLOWER).nonOpaque()));
 
 
+
+    public static final Block GLINTING_PURPLE_GRASS = registerBlock("glinting_purple_grass",
+            new EnderGrassLongBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS).nonOpaque().noCollision()));
+
+
+    public static final Block COBBLED_SCYENSITH = registerBlock("cobbled_scyensith",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE)));
+    public static final Block COBBLED_SCYENSITH_SLAB = registerBlock("cobbled_scyensith_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE)));
+    public static final Block COBBLED_SCYENSITH_STAIRS = registerBlock("cobbled_scyensith_stairs",
+            new StairsBlock(Blocks.COBBLED_DEEPSLATE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE)));
+
+    public static final Block POLISHED_SCYENSITH = registerBlock("polished_scyensith",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE)));
+    public static final Block POLISHED_SCYENSITH_SLAB = registerBlock("polished_scyensith_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE)));
+    public static final Block POLISHED_SCYENSITH_STAIRS = registerBlock("polished_scyensith_stairs",
+            new StairsBlock(Blocks.COBBLED_DEEPSLATE_STAIRS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE_STAIRS)));
+
+    public static final Block CHAINED_STEEL = registerBlock("chained_steel",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHAIN)));
+    public static final Block CHAINED_STEEL_SLAB = registerBlock("chained_steel_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CHAIN)));
+    public static final Block CHAINED_STEEL_STAIRS = registerBlock("chained_steel_stairs",
+            new StairsBlock(Blocks.CHAIN.getDefaultState(),FabricBlockSettings.copyOf(Blocks.CHAIN)));
+
+
+    public static final Block BLUE_CRYSTAL = registerBlock("blue_crystal",
+            new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));
+    public static final Block BLUE_CRYSTAL_TRANS = registerBlock("blue_crystal_trans",
+            new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+
+    public static final Block PURPLE_CRYSTAL = registerBlock("purple_crystal",
+            new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));
+    public static final Block PURPLE_CRYSTAL_TRANS = registerBlock("purple_crystal_trans",
+            new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+
     public static final Block ENDER_VINES_BLUE = registerBlock("ender_vines_blue",
             new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
     public static final Block ENDER_PETALS_BLUE = registerBlock("ender_petals_blue",
@@ -256,6 +363,12 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.CORNFLOWER).nonOpaque().noCollision()));
     public static final Block POTTED_ENDER_FLOWER_BLUE = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_ender_flower_blue"),
             new FlowerPotBlock(ENDER_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_CORNFLOWER).nonOpaque()));
+
+    public static final Block GRUELING_FLOWER = registerBlock("grueling_flower",
+            new EndStoneFlowerBlock(StatusEffects.LEVITATION, 10,
+                    FabricBlockSettings.copyOf(Blocks.SHORT_GRASS).nonOpaque().noCollision()));
+    public static final Block POTTED_GRUELING_FLOWER = Registry.register(Registries.BLOCK, new Identifier(DraipEnd.MOD_ID, "potted_grueling_flower"),
+            new FlowerPotBlock(GRUELING_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_CORNFLOWER).nonOpaque()));
 
 
 

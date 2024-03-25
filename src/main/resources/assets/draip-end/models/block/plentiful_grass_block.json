@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/end_stone",
+    "side": "draip-end:block/plentiful_grass_side",
+    "top": "draip-end:block/plentiful_moss_block"
+  }
+}

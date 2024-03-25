@@ -7,7 +7,7 @@ import net.minecraft.client.render.entity.animation.Transformation;
 
 public class ModAnimations {
 
-    public static final Animation ENDERSNAIL_IDLE = Animation.Builder.create(5.083433f).looping()
+    public static final Animation ENDERSNAIL_IDLE = Animation.Builder.create(5f).looping()
             .addBoneAnimation("body",
                     new Transformation(Transformation.Targets.ROTATE,
                             new Keyframe(0f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
@@ -16,7 +16,7 @@ public class ModAnimations {
                                     Transformation.Interpolations.CUBIC),
                             new Keyframe(3.0834335f, AnimationHelper.createRotationalVector(0f, 0f, -3f),
                                     Transformation.Interpolations.CUBIC),
-                            new Keyframe(5.083433f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
+                            new Keyframe(5f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.CUBIC),
                             new Keyframe(6.541677f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.CUBIC)))
@@ -28,7 +28,7 @@ public class ModAnimations {
                                     Transformation.Interpolations.CUBIC),
                             new Keyframe(3.0834335f, AnimationHelper.createRotationalVector(0f, 0f, -2f),
                                     Transformation.Interpolations.CUBIC),
-                            new Keyframe(5.083433f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
+                            new Keyframe(5f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.LINEAR)))
             .addBoneAnimation("left_eye",
                     new Transformation(Transformation.Targets.ROTATE,
@@ -38,7 +38,7 @@ public class ModAnimations {
                                     Transformation.Interpolations.CUBIC),
                             new Keyframe(3.5416765f, AnimationHelper.createRotationalVector(0f, 0f, 3f),
                                     Transformation.Interpolations.CUBIC),
-                            new Keyframe(5.083433f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
+                            new Keyframe(5f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.CUBIC)))
             .addBoneAnimation("right_eye",
                     new Transformation(Transformation.Targets.ROTATE,
@@ -48,7 +48,7 @@ public class ModAnimations {
                                     Transformation.Interpolations.CUBIC),
                             new Keyframe(3.75f, AnimationHelper.createRotationalVector(0f, 0f, 3f),
                                     Transformation.Interpolations.CUBIC),
-                            new Keyframe(5.083433f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
+                            new Keyframe(5f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.CUBIC))).build();
     public static final Animation ENDERSNAIL_WALK = Animation.Builder.create(5f).looping()
             .addBoneAnimation("body",
@@ -92,3 +92,4 @@ public class ModAnimations {
                             new Keyframe(5f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.LINEAR))).build();
 }
+

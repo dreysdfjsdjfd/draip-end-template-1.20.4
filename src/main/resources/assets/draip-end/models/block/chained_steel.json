@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "draip-end:block/chained_steel_bottom",
+    "side": "draip-end:block/chained_steel_side",
+    "top": "draip-end:block/chained_steel_top"
+  }
+}

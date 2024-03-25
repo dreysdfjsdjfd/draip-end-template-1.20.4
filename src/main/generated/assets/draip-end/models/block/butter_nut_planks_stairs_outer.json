@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "draip-end:block/butter_nut_planks",
+    "side": "draip-end:block/butter_nut_planks",
+    "top": "draip-end:block/butter_nut_planks"
+  }
+}

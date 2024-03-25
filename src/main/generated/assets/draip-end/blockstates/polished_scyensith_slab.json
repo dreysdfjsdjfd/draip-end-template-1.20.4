@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/polished_scyensith_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/polished_scyensith"
+    },
+    "type=top": {
+      "model": "draip-end:block/polished_scyensith_slab_top"
+    }
+  }
+}

@@ -14,6 +14,35 @@
   "item.draip-end.endstone_sword": "Endstone Sword",
   "item.draip-end.endstone_hoe": "Endstone Hoe",
 
+  "block.draip-end.grueling_flower": "Grueling Flower",
+  "block.draip-end.glinting_purple_grass": "Tall Glinting Purple Grass",
+
+
+
+  "block.draip-end.cobbled_scyensith": "Cobbled Scyensith",
+  "block.draip-end.cobbled_scyensith_slab": "Cobbled Scyensith Slab",
+  "block.draip-end.cobbled_scyensith_stairs": "Cobbled Scyensith Stairs",
+  "block.draip-end.polished_scyensith": "Polished Scyensith",
+  "block.draip-end.polished_scyensith_slab": "Polished Scyensith Slab",
+  "block.draip-end.polished_scyensith_stairs": "Polished Scyensith Stairs",
+
+
+  "block.draip-end.chained_steel": "Chained Steel",
+  "block.draip-end.chained_steel_slab": "Chained Steel Slab",
+  "block.draip-end.chained_steel_stairs": "Chained Steel Stairs",
+  "block.draip-end.endstone_warm": "Warm End Stone",
+  "block.draip-end.plentiful_moss_block": "Plentiful Moss Block",
+  "block.draip-end.plentiful_grass_block": "Plentiful Grass Block",
+  "block.draip-end.plentiful_grass_stem": "Plentiful Grass Stem",
+  "block.draip-end.plentiful_grass_flower": "Plentiful Flower",
+
+
+
+  "block.draip-end.blue_crystal": "Blue Crystal",
+  "block.draip-end.blue_crystal_trans": "Translucent Blue Crystal",
+  "block.draip-end.purple_crystal": "Purple Crystal",
+  "block.draip-end.purple_crystal_trans": "Translucent Purple Crystal",
+
   "item.draip-end.auravine_pickaxe": "Auravine Pickaxe",
   "item.draip-end.auravine_axe": "Auravine Axe",
   "item.draip-end.auravine_shovel": "Auravine Shovel",
@@ -34,7 +63,9 @@
   "item.draip-end.ender_berries": "Ender Berries",
 
   "item.draip-end.auravine_shard": "Auravine Shard",
-
+  "block.draip-end.gilded_purpur_block": "Gilded Purpur Block",
+  "block.draip-end.purpur_stone": "Purpur Stone",
+  "block.draip-end.gilded_purpur_stone": "Gilded Purpur Stone",
 
   "block.draip-end.augrite_block": "Augrite Block",
   "block.draip-end.endstone_decaying": "Decaying Endstone",
@@ -93,8 +124,28 @@
   "block.draip-end.windy_maple_leaves": "Windy Maple Leaves",
   "block.draip-end.gilded_windy_maple_leaves": "Gilded Windy Maple Leaves",
 
+
+
+  "block.draip-end.butter_nut_log": "Butter Nut Log",
+  "block.draip-end.butter_nut_wood": "Butter Nut Wood",
+  "block.draip-end.stripped_butter_nut_log": "Stripped Butter Nut Log",
+  "block.draip-end.stripped_butter_nut_wood": "Stripped Butter Nut Wood",
+
+  "block.draip-end.butter_nut_planks": "Butter Nut Planks",
+  "block.draip-end.butter_nut_planks_stairs": "Butter Nut Stairs",
+  "block.draip-end.butter_nut_planks_slab": "Butter Nut Slab",
+  "block.draip-end.butter_nut_planks_button": "Butter Nut Button",
+  "block.draip-end.butter_nut_planks_pressure_plate": "Butter Nut Pressure Plate",
+  "block.draip-end.butter_nut_planks_fence": "Butter Nut Fence",
+  "block.draip-end.butter_nut_planks_fence_gate": "Butter Nut Fence Gate",
+
+  "block.draip-end.butter_nut_leaves": "Butter Nut Leaves",
+  "block.draip-end.gilded_butter_nut_leaves": "Gilded Butter Nut Leaves",
+
   "block.draip-end.ender_petals": "Ender Petals",
   "block.draip-end.ender_vines": "Ender Vines",
+  "block.draip-end.butter_nut_weeds": "Butter Nut Weeds",
+  "block.draip-end.plentiful_grass_short": "Plentiful Grass",
 
   "block.draip-end.ender_petals_blue": "Blue Ender Petals",
   "block.draip-end.ender_vines_blue": "Blue Ender Vines",
