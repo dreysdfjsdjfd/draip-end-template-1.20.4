@@ -66,7 +66,13 @@ public class ModItemGroups {
                         entries.add(ModItems.auravine_LEGGINGS);
                         entries.add(ModItems.auravine_BOOTS);
 
+                        entries.add(ModItems.leafy_ENDER_HELMET);
+                        entries.add(ModItems.leafy_ENDER_CHESTPLATE);
+                        entries.add(ModItems.leafy_ENDER_LEGGINGS);
+                        entries.add(ModItems.leafy_ENDER_BOOTS);
+
                         entries.add(ModItems.evil_CHESTPLATE);
+                        entries.add(ModItems.SHULKER_CANNON);
 
                         entries.add(ModBlocks.ENDSTONE_BRICK_PILLAR);
                         entries.add(ModBlocks.PURPUR_WALL);
@@ -98,8 +104,10 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.BLUE_CRYSTAL);
                         entries.add(ModBlocks.BLUE_CRYSTAL_TRANS);
+                        entries.add(ModBlocks.BLUE_CRYSTAL_TRANS_PANE);
                         entries.add(ModBlocks.PURPLE_CRYSTAL);
                         entries.add(ModBlocks.PURPLE_CRYSTAL_TRANS);
+                        entries.add(ModBlocks.PURPLE_CRYSTAL_TRANS_PANE);
 
                         entries.add(ModBlocks.GRUELING_FLOWER);
                         entries.add(ModBlocks.GLINTING_PURPLE_GRASS);
@@ -173,6 +181,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BUTTER_NUT_WEEDS);
                         entries.add(ModBlocks.PLENTIFUL_GRASS_SHORT);
                         entries.add(ModBlocks.HANGING_BUTTER_NUT);
+                        entries.add(ModItems.BUTTER_NUT_BERRY);
+                        entries.add(ModBlocks.PRISTINE_PINK_FLOWERS);
+                        entries.add(ModBlocks.SCYENSITH_PILLAR);
 
 
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "draip-end:item/leafy_ender_helmet",
+    "layer1": "minecraft:trims/items/helmet_trim_iron"
+  }
+}

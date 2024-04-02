@@ -3,8 +3,9 @@ package net.draip.end;
 import net.draip.end.block.ModBlocks;
 import net.draip.end.entity.ModEntities;
 import net.draip.end.entity.client.*;
+import net.draip.end.item.ModItems;
+import net.draip.end.item.custom.ShulkerCannonItem;
 import net.draip.end.particle.ModParticles;
-import net.draip.end.particle.custom.AlvesLeaves;
 import net.draip.end.particle.custom.AlvesLeavesParticle;
 import net.draip.end.particle.custom.WindyLeavesParticle;
 import net.fabricmc.api.ClientModInitializer;
@@ -12,8 +13,9 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
+import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.util.Identifier;
 
 public class DraipEndClient implements ClientModInitializer {
     @Override
@@ -40,6 +42,8 @@ public class DraipEndClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ENDER_ALVES_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GILDED_ENDER_ALVES_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HANGING_BUTTER_NUT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PRISTINE_PINK_FLOWERS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HANGING_BUTTER_NUT_PLANT, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BUTTER_NUT_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GILDED_BUTTER_NUT_LEAVES, RenderLayer.getCutout());
@@ -70,7 +74,9 @@ public class DraipEndClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLENTIFUL_GRASS_FLOWER, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_CRYSTAL_TRANS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_CRYSTAL_TRANS_PANE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_CRYSTAL_TRANS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_CRYSTAL_TRANS_PANE, RenderLayer.getTranslucent());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHAINED_STEEL, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHAINED_STEEL_SLAB, RenderLayer.getCutout());
@@ -80,13 +86,18 @@ public class DraipEndClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.ENDERSNAIL, EnderSnailRenderer::new);
         EntityRendererRegistry.register(ModEntities.FIREFLY, FireFlyRenderer::new);
+        EntityRendererRegistry.register(ModEntities.ENDGHOST, EndGhostRenderer::new);
+        EntityRendererRegistry.register(ModEntities.WALKINGSHULKER, WalkingShulkerRenderer::new);
 
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.ENDERSNAIL, EnderSnailModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.FIREFLY, FireFlyModel::getTexturedModelData);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.ENDGHOST, EndGhostModel::getTexturedModelData);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.WALKINGSHULKER, WalkingShulkerModel::getTexturedModelData);
 
         ParticleFactoryRegistry.getInstance().register(ModParticles.ALVES_LEAVES_PARTICLE, AlvesLeavesParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.WINDY_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.NUT_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
+
 
 
     }

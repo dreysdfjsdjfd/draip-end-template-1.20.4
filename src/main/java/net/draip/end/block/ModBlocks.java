@@ -168,8 +168,9 @@ public class ModBlocks {
             new windyMaplesLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
 
     public static final Block HANGING_BUTTER_NUT = registerBlock("hanging_butter_nut",
-            new HangingButterNutBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
-
+            new HangingButterNutBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque().noCollision()));
+    public static final Block HANGING_BUTTER_NUT_PLANT = registerBlock("hanging_butter_nut_plant",
+            new HangingButterNutPlantBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque().noCollision()));
 
 
     public static final Block BUTTER_NUT_LOG = registerBlock("butter_nut_log",
@@ -205,7 +206,8 @@ public class ModBlocks {
             new EnderGrassLongBlock(FabricBlockSettings.copyOf(Blocks.TALL_GRASS).nonOpaque().noCollision()));
     public static final Block PLENTIFUL_GRASS_SHORT = registerBlock("plentiful_grass_short",
             new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS).nonOpaque().noCollision()));
-
+    public static final Block PRISTINE_PINK_FLOWERS = registerBlock("pristine_pink_flowers",
+            new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS).nonOpaque().noCollision()));
 
 
     public static final Block GRAINY_ENDSTONE = registerBlock("grainy_endstone",
@@ -296,6 +298,9 @@ public class ModBlocks {
     public static final Block POLISHED_SCYENSITH_STAIRS = registerBlock("polished_scyensith_stairs",
             new StairsBlock(Blocks.COBBLED_DEEPSLATE_STAIRS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE_STAIRS)));
 
+    public static final Block SCYENSITH_PILLAR = registerBlock("scyensith_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.COBBLED_DEEPSLATE)));
+
     public static final Block CHAINED_STEEL = registerBlock("chained_steel",
             new Block(FabricBlockSettings.copyOf(Blocks.CHAIN)));
     public static final Block CHAINED_STEEL_SLAB = registerBlock("chained_steel_slab",
@@ -308,11 +313,16 @@ public class ModBlocks {
             new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));
     public static final Block BLUE_CRYSTAL_TRANS = registerBlock("blue_crystal_trans",
             new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+    public static final Block BLUE_CRYSTAL_TRANS_PANE = registerBlock("blue_crystal_trans_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
 
     public static final Block PURPLE_CRYSTAL = registerBlock("purple_crystal",
             new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));
     public static final Block PURPLE_CRYSTAL_TRANS = registerBlock("purple_crystal_trans",
             new TransparentBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+    public static final Block PURPLE_CRYSTAL_TRANS_PANE = registerBlock("purple_crystal_trans_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS).nonOpaque()));
+
 
     public static final Block ENDER_VINES_BLUE = registerBlock("ender_vines_blue",
             new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE)));

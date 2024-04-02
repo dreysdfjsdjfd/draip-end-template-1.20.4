@@ -1,6 +1,7 @@
 package net.draip.end.item;
 
 import net.draip.end.DraipEnd;
+import net.draip.end.block.ModBlocks;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
@@ -14,13 +15,14 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     augrite("augrite",15,new int[] {2, 6, 5, 2}, 9,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.augrite_INGOT)),
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.augrite_INGOT)),
     auravine("auravine",25,new int[] {3, 8, 6, 3}, 15,
     SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(ModItems.auravine_SHARD)),
     evil("evil",25,new int[] {3, 8, 6, 3}, 15,
-    SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(Items.BEDROCK))
+    SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(Items.BEDROCK)),
+    leafy("leafy",15,new int[] {2, 5, 4, 2}, 15,
+            SoundEvents.BLOCK_AZALEA_LEAVES_STEP, 1.0f, 0.0f, () -> Ingredient.ofItems(ModBlocks.ENDER_ALVES_LEAVES)),
     ;
-
 
 
 

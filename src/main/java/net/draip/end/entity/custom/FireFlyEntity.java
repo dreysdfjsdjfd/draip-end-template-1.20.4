@@ -46,7 +46,6 @@ public class FireFlyEntity extends FlyingEntity{
     static class FlyRandomlyGoal
             extends Goal {
         private final FireFlyEntity firefly;
-
         public FlyRandomlyGoal(FireFlyEntity firefly) {
             this.firefly = firefly;
             this.setControls(EnumSet.of(Control.MOVE));

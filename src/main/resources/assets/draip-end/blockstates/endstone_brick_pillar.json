@@ -9,7 +9,7 @@
       "model": "draip-end:block/endstone_brick_pillar"
     },
     "axis=z": {
-      "model": "draip-endt:block/endstone_brick_pillar_horizontal",
+      "model": "draip-end:block/endstone_brick_pillar_horizontal",
       "x": 90
     }
   }

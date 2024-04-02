@@ -19,6 +19,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.augrite_HELMET,ModItems.augrite_CHESTPLATE,ModItems.augrite_LEGGINGS,ModItems.augrite_BOOTS)
                 .add(ModItems.auravine_HELMET,ModItems.auravine_CHESTPLATE,ModItems.auravine_LEGGINGS,ModItems.auravine_BOOTS)
+                .add(ModItems.leafy_ENDER_HELMET,ModItems.leafy_ENDER_CHESTPLATE,ModItems.leafy_ENDER_LEGGINGS,ModItems.leafy_ENDER_BOOTS)
                 .add(ModItems.auravine_CHESTPLATE);
 
 

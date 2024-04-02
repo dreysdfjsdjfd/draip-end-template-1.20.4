@@ -10,4 +10,6 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 2400),1).alwaysEdible().build();
 
     public  static  final FoodComponent ENDER_BERRIES = new FoodComponent.Builder().hunger(3).saturationModifier(0.5f).build();
+
+    public  static  final FoodComponent BUTTER_NUT_BERRY = new FoodComponent.Builder().hunger(3).saturationModifier(0.5f).build();
 }

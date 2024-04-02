@@ -2,11 +2,15 @@ package net.draip.end;
 
 import net.draip.end.block.ModBlocks;
 import net.draip.end.entity.ModEntities;
+import net.draip.end.entity.custom.EndGhostEntity;
 import net.draip.end.entity.custom.EnderSnailEntity;
 import net.draip.end.entity.custom.FireFlyEntity;
+import net.draip.end.entity.custom.WalkingShulkerEntity;
 import net.draip.end.item.ModItemGroups;
 import net.draip.end.item.ModItems;
 import net.draip.end.particle.ModParticles;
+import net.draip.end.sounds.ModSounds;
+import net.draip.end.util.ModModelPredicateProvider;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -31,9 +35,14 @@ public class DraipEnd implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
+		ModModelPredicateProvider.RegisterModModels();
+
 
 		FabricDefaultAttributeRegistry.register(ModEntities.ENDERSNAIL, EnderSnailEntity.createEnderSnailAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.FIREFLY, FireFlyEntity.createFireFlyAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.ENDGHOST, EndGhostEntity.createEndGhostAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.WALKINGSHULKER, WalkingShulkerEntity.createWalkingShulkerAttributes());
 
 		StrippableBlockRegistry.register(ModBlocks.ENDER_ALVES_LOG, ModBlocks.STRIPPED_ENDER_ALVES_LOG);
 		StrippableBlockRegistry.register(ModBlocks.ENDER_ALVES_WOOD, ModBlocks.STRIPPED_ENDER_ALVES_WOOD);

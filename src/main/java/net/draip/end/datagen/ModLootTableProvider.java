@@ -45,8 +45,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.BLUE_CRYSTAL);
         addDrop(ModBlocks.BLUE_CRYSTAL_TRANS);
+        addDrop(ModBlocks.BLUE_CRYSTAL_TRANS_PANE);
         addDrop(ModBlocks.PURPLE_CRYSTAL);
         addDrop(ModBlocks.PURPLE_CRYSTAL_TRANS);
+        addDrop(ModBlocks.PURPLE_CRYSTAL_TRANS_PANE);
 
         addDrop(ModBlocks.COBBLED_SCYENSITH);
         addDrop(ModBlocks.COBBLED_SCYENSITH_STAIRS);
@@ -65,8 +67,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.GRUELING_FLOWER);
         addDrop(ModBlocks.PLENTIFUL_MOSS_BLOCK);
+        addDrop(ModBlocks.SCYENSITH_PILLAR);
         addDrop(ModBlocks.PLENTIFUL_GRASS_BLOCK);
         addDrop(ModBlocks.PLENTIFUL_GRASS_SHORT);
+        addDrop(ModBlocks.PRISTINE_PINK_FLOWERS);
         addPottedPlantDrops(ModBlocks.POTTED_GRUELING_FLOWER);
 
         addDrop(ModBlocks.GLINTING_PURPLE_GRASS, tallPlantDrops(ModBlocks.GLINTING_PURPLE_GRASS, ModBlocks.GLINTING_PURPLE_GRASS));

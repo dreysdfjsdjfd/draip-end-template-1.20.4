@@ -25,6 +25,12 @@
   "block.draip-end.polished_scyensith": "Polished Scyensith",
   "block.draip-end.polished_scyensith_slab": "Polished Scyensith Slab",
   "block.draip-end.polished_scyensith_stairs": "Polished Scyensith Stairs",
+  "block.draip-end.scyensith_pillar": "Scyensith Pillar",
+
+  "item.draip-end.leafy_ender_helmet": "Leafy Ender Chapeau",
+  "item.draip-end.leafy_ender_chestplate": "Leafy Ender Blouse",
+  "item.draip-end.leafy_ender_leggings": "Leafy Ender Trousers",
+  "item.draip-end.leafy_ender_boots": "Leafy Ender Loafers",
 
 
   "block.draip-end.chained_steel": "Chained Steel",
@@ -35,13 +41,16 @@
   "block.draip-end.plentiful_grass_block": "Plentiful Grass Block",
   "block.draip-end.plentiful_grass_stem": "Plentiful Grass Stem",
   "block.draip-end.plentiful_grass_flower": "Plentiful Flower",
+  "block.draip-end.plentiful_moss_pile": "Plentiful Pile of Moss",
 
 
 
   "block.draip-end.blue_crystal": "Blue Crystal",
+  "block.draip-end.blue_crystal_trans_pane": "Translucent Blue Crystal Pane",
   "block.draip-end.blue_crystal_trans": "Translucent Blue Crystal",
   "block.draip-end.purple_crystal": "Purple Crystal",
   "block.draip-end.purple_crystal_trans": "Translucent Purple Crystal",
+  "block.draip-end.purple_crystal_trans_pane": "Translucent Purple Crystal Pane",
 
   "item.draip-end.auravine_pickaxe": "Auravine Pickaxe",
   "item.draip-end.auravine_axe": "Auravine Axe",
@@ -193,6 +202,7 @@
   "block.draip-end.endstone_button": "End Stone Button",
   "block.draip-end.endstone_pressure_plate": "End Stone Pressure Plate",
   "block.draip-end.endstone_wall": "End Stone Wall",
+  "block.draip-end.pristine_pink_flowers": "Pristine Pink Flowers",
 
   "block.draip-end.ender_alves_planks_trapdoor": "Ender Alves Trapdoor",
 
@@ -205,6 +215,7 @@
   "block.draip-end.augrite_ore_endstone": "Augrite Ore",
   "block.draip-end.augrite_ore_deeper_endstone": "Deeper Augrite Ore",
   "item.draip-end.chorus_fruit_golden": "Golden Chorus Fruit",
+  "item.draip-end.butter_nut_berry": "Butter Nut Berries",
 
   "tooltip.draip-end.augrite_ore_explosion": "boom boom!",
 

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "berries=false": {
+      "model": "draip-end:block/hanging_butter_nut_plant"
+    },
+    "berries=true": {
+      "model": "draip-end:block/hanging_butter_nut_plant_lit"
+    }
+  }
+}

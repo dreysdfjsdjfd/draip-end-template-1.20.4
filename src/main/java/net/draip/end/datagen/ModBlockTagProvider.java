@@ -134,6 +134,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PLENTIFUL_MOSS_BLOCK)
                 .add(ModBlocks.PLENTIFUL_GRASS_BLOCK)
                 .add(ModBlocks.PLENTIFUL_GRASS_SHORT)
+                .add(ModBlocks.PRISTINE_PINK_FLOWERS)
+                .add(ModBlocks.SCYENSITH_PILLAR)
 
 
 

@@ -32,6 +32,8 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAINY_ENDSTONE);
+        blockStateModelGenerator.registerGlassPane(ModBlocks.BLUE_CRYSTAL_TRANS, ModBlocks.BLUE_CRYSTAL_TRANS_PANE);
+        blockStateModelGenerator.registerGlassPane(ModBlocks.PURPLE_CRYSTAL_TRANS, ModBlocks.PURPLE_CRYSTAL_TRANS_PANE);
 
         BlockStateModelGenerator.BlockTexturePool gildedEndstoneGrassFullPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GILDED_ENDSTONE_GRASS_FULL);
         gildedEndstoneGrassFullPool.slab(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB);
@@ -85,9 +87,7 @@ public class ModModelProvider extends FabricModelProvider {
         polishedScy.slab(ModBlocks.POLISHED_SCYENSITH_SLAB);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_CRYSTAL);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_CRYSTAL_TRANS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_CRYSTAL);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_CRYSTAL_TRANS);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE_DEEPER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE);
@@ -160,6 +160,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDER_BERRIES, Models.GENERATED);
         itemModelGenerator.register(ModItems.augrite_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.augrite_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BUTTER_NUT_BERRY, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.augrite_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.augrite_AXE, Models.HANDHELD);
@@ -188,6 +189,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.auravine_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.leafy_ENDER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.leafy_ENDER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.leafy_ENDER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.leafy_ENDER_BOOTS));
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.evil_CHESTPLATE));
 

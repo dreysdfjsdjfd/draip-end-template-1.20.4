@@ -10,4 +10,10 @@ public class ModModelLayers {
 
     public static final EntityModelLayer FIREFLY =
             new EntityModelLayer(new Identifier(DraipEnd.MOD_ID, "firefly"), "main");
+
+    public static final EntityModelLayer ENDGHOST =
+            new EntityModelLayer(new Identifier(DraipEnd.MOD_ID, "endghost"), "main");
+
+    public static final EntityModelLayer WALKINGSHULKER =
+            new EntityModelLayer(new Identifier(DraipEnd.MOD_ID, "walkingshulker"), "main");
 }

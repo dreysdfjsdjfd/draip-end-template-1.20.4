@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "draip-end:block/endstone_grass_blue_bottom",
+    "bottom": "minecraft:block/end_stone",
     "side": "draip-end:block/endstone_grass_blue_side",
     "top": "draip-end:block/endstone_grass_blue_top"
   }

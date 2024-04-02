@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "draip-end:block/blue_crystal_trans_pane_top",
+    "pane": "draip-end:block/blue_crystal_trans"
+  }
+}

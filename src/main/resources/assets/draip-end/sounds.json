@@ -1,0 +1,26 @@
+{
+  "endghost_flicker_one": {
+    "subtitle": "sounds.draip-end.endghost_flicker_one",
+    "sounds": [
+      "draip-end:endghost_flicker_one"
+    ]
+  },
+  "endghost_flicker_two": {
+    "subtitle": "sounds.draip-end.endghost_flicker_two",
+    "sounds": [
+      "draip-end:endghost_flicker_two"
+    ]
+  },
+  "endghost_flicker_three": {
+    "subtitle": "sounds.draip-end.endghost_flicker_three",
+    "sounds": [
+      "draip-end:endghost_flicker_three"
+    ]
+  },
+  "endghost_trigger": {
+    "subtitle": "sounds.draip-end.endghost_trigger",
+    "sounds": [
+      "draip-end:endghost_trigger"
+    ]
+  }
+}

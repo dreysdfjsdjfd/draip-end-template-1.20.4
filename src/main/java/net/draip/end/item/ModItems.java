@@ -4,6 +4,8 @@ import net.draip.end.DraipEnd;
 import net.draip.end.block.custom.EnderBerryCropBlock;
 import net.draip.end.entity.ModEntities;
 import net.draip.end.item.custom.ChorusFruitGoldenItem;
+import net.draip.end.item.custom.ShulkerCannonItem;
+import net.draip.end.item.custom.ShulkerShellItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,6 +17,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item augrite_DUST = registerItem("augrite_dust", new Item(new FabricItemSettings()));
     public static final Item augrite_INGOT = registerItem("augrite_ingot", new Item(new FabricItemSettings()));
+    public static final Item SHULKER_CANNON = registerItem("shulker_cannon", new ShulkerCannonItem(new FabricItemSettings()
+            .maxCount(1)));
 
     public static final Item ENDSTONE_PICKAXE = registerItem("endstone_pickaxe", new PickaxeItem(ModToolMaterial.ENDSTONE, 1, -2.8f,new FabricItemSettings()));
     public static final Item ENDSTONE_AXE = registerItem("endstone_axe", new AxeItem(ModToolMaterial.ENDSTONE, 6, -3.1f,new FabricItemSettings()));
@@ -48,6 +52,12 @@ public class ModItems {
 
     public static final Item evil_CHESTPLATE = registerItem("evil_chestplate", new ArmorItem(ModArmorMaterials.evil, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
 
+    public static final Item leafy_ENDER_HELMET = registerItem("leafy_ender_helmet", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item leafy_ENDER_CHESTPLATE = registerItem("leafy_ender_chestplate", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item leafy_ENDER_LEGGINGS = registerItem("leafy_ender_leggings", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item leafy_ENDER_BOOTS = registerItem("leafy_ender_boots", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
 
 
     public static final Item ENDERSNAIL_SPAWN_EGG = registerItem("endersnail_spawn_egg",
@@ -56,6 +66,7 @@ public class ModItems {
 
     public static final Item CHORUS_FRUIT_GOLDEN = registerItem("chorus_fruit_golden", new ChorusFruitGoldenItem(new FabricItemSettings().food(ModFoodComponents.CHORUS_FRUIT_GOLDEN)));
     public static final Item ENDER_BERRIES = registerItem("ender_berries", new Item(new FabricItemSettings().food(ModFoodComponents.ENDER_BERRIES)));
+    public static final Item BUTTER_NUT_BERRY = registerItem("butter_nut_berry", new Item(new FabricItemSettings().food(ModFoodComponents.BUTTER_NUT_BERRY)));
 
 
     private static void addItemsToIngredientTabItemGrouo(FabricItemGroupEntries entries) {
