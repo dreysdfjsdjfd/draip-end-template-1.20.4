@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "draip-end:block/pure_steel",
+    "side": "draip-end:block/pure_steel",
+    "top": "draip-end:block/pure_steel"
+  }
+}

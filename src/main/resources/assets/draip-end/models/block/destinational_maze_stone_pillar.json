@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "draip-end:block/destinational_maze_stone_pillar_top",
+    "side": "draip-end:block/destinational_maze_stone_pillar"
+  }
+}

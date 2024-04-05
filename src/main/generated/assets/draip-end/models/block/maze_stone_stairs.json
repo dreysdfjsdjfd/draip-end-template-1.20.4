@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "draip-end:block/maze_stone",
+    "side": "draip-end:block/maze_stone",
+    "top": "draip-end:block/maze_stone"
+  }
+}

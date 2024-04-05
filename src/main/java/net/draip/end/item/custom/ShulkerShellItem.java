@@ -1,6 +1,7 @@
 package net.draip.end.item.custom;
 
-import net.draip.end.entity.custom.ExplosiveShulkerShellProjectile;
+import net.draip.end.entity.ModEntities;
+import net.draip.end.entity.custom.ExplosiveShulkerBulletEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;

@@ -4,6 +4,9 @@
     "draip-end:endstone_wall",
     "draip-end:purpur_wall",
     "draip-end:endstone_deeper_wall",
-    "draip-end:deeper_end_stone_bricks_wall"
+    "draip-end:deeper_end_stone_bricks_wall",
+    "draip-end:minty_endstone_wall",
+    "draip-end:withered_endstone_wall",
+    "draip-end:withered_and_minty_endstone_wall"
   ]
 }

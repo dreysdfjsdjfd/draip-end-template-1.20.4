@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "draip-end:windy_maple_planks_fence_gate"
+    "draip-end:ender_alves_planks_fence_gate",
+    "draip-end:windy_maple_planks_fence_gate",
+    "draip-end:butter_nut_planks_fence_gate",
+    "draip-end:terminal_pine_planks_fence_gate"
   ]
 }

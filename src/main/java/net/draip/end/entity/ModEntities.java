@@ -31,10 +31,9 @@ public class ModEntities {
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, WalkingShulkerEntity::new)
                     .dimensions(EntityDimensions.fixed(1.0f,1.0f)).build());
 
-    public static final EntityType<ExplosiveShulkerShellProjectile> EXPLOSIVE_SHULKER_SHELL = Registry.register(Registries.ENTITY_TYPE,
-            new Identifier(DraipEnd.MOD_ID, "explosive_shulker_shell"),
-            FabricEntityTypeBuilder.<ExplosiveShulkerShellProjectile>create(SpawnGroup.MISC, ExplosiveShulkerShellProjectile::new)
-                    .dimensions(EntityDimensions.fixed(0.25f, 0.25f)).build());
-
-
+    public static final EntityType<ExplosiveShulkerBulletEntity> EXPLOSIVESHULKERBULLET = Registry.register(
+            Registries.ENTITY_TYPE,
+            new Identifier(DraipEnd.MOD_ID, "explosive_shulker_bullet"),
+            FabricEntityTypeBuilder.<ExplosiveShulkerBulletEntity>create(SpawnGroup.MISC, ExplosiveShulkerBulletEntity::new).dimensions(EntityDimensions.fixed(0.5F, 0.5F)).build()
+    );
 }

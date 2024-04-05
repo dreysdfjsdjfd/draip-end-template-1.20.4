@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "draip-end:block/withered_and_minty_endstone",
+    "side": "draip-end:block/withered_and_minty_endstone",
+    "top": "draip-end:block/withered_and_minty_endstone"
+  }
+}

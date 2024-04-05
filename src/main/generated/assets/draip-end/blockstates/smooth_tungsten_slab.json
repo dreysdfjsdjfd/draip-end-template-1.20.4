@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/smooth_tungsten_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/smooth_tungsten"
+    },
+    "type=top": {
+      "model": "draip-end:block/smooth_tungsten_slab_top"
+    }
+  }
+}

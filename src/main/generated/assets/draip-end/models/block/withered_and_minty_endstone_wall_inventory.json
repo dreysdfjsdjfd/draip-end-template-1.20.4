@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "draip-end:block/withered_and_minty_endstone"
+  }
+}

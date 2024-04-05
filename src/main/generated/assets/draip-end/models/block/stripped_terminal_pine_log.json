@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "draip-end:block/stripped_terminal_pine_log_top",
+    "side": "draip-end:block/stripped_terminal_pine_log"
+  }
+}

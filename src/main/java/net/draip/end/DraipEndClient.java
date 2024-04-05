@@ -15,6 +15,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.ShulkerBulletEntityRenderer;
 import net.minecraft.util.Identifier;
 
 public class DraipEndClient implements ClientModInitializer {
@@ -73,6 +74,10 @@ public class DraipEndClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLENTIFUL_GRASS_STEM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLENTIFUL_GRASS_FLOWER, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MINTY_SHORT_GRASS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MINTY_ROSES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MINTY_TALL_FLOWERS, RenderLayer.getCutout());
+
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_CRYSTAL_TRANS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_CRYSTAL_TRANS_PANE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_CRYSTAL_TRANS, RenderLayer.getTranslucent());
@@ -88,6 +93,7 @@ public class DraipEndClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.FIREFLY, FireFlyRenderer::new);
         EntityRendererRegistry.register(ModEntities.ENDGHOST, EndGhostRenderer::new);
         EntityRendererRegistry.register(ModEntities.WALKINGSHULKER, WalkingShulkerRenderer::new);
+        EntityRendererRegistry.register(ModEntities.EXPLOSIVESHULKERBULLET, ExplosiveShulkerEntityRenderer::new);
 
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.ENDERSNAIL, EnderSnailModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.FIREFLY, FireFlyModel::getTexturedModelData);
@@ -97,6 +103,7 @@ public class DraipEndClient implements ClientModInitializer {
         ParticleFactoryRegistry.getInstance().register(ModParticles.ALVES_LEAVES_PARTICLE, AlvesLeavesParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.WINDY_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.NUT_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
+        ParticleFactoryRegistry.getInstance().register(ModParticles.TERMINAL_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
 
 
 

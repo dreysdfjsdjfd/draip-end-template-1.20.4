@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "draip-end:block/withered_and_minty_endstone"
+  }
+}

@@ -66,6 +66,29 @@ public class ModModelProvider extends FabricModelProvider {
         endstoneDeeperPool.pressurePlate(ModBlocks.ENDSTONE_DEEPER_PRESSURE_PLATE);
         endstoneDeeperPool.wall(ModBlocks.ENDSTONE_DEEPER_WALL);
 
+        BlockStateModelGenerator.BlockTexturePool endstoneMintyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MINTY_ENDSTONE);
+        endstoneMintyPool.stairs(ModBlocks.MINTY_ENDSTONE_STAIRS);
+        endstoneMintyPool.slab(ModBlocks.MINTY_ENDSTONE_SLAB);
+        endstoneMintyPool.button(ModBlocks.MINTY_ENDSTONE_BUTTON);
+        endstoneMintyPool.pressurePlate(ModBlocks.MINTY_ENDSTONE_PRESSURE_PLATE);
+        endstoneMintyPool.wall(ModBlocks.MINTY_ENDSTONE_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool endstoneWitheredPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WITHERED_ENDSTONE);
+        endstoneWitheredPool.stairs(ModBlocks.WITHERED_ENDSTONE_STAIRS);
+        endstoneWitheredPool.slab(ModBlocks.WITHERED_ENDSTONE_SLAB);
+        endstoneWitheredPool.button(ModBlocks.WITHERED_ENDSTONE_BUTTON);
+        endstoneWitheredPool.pressurePlate(ModBlocks.WITHERED_ENDSTONE_PRESSURE_PLATE);
+        endstoneWitheredPool.wall(ModBlocks.WITHERED_ENDSTONE_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool endstoneWitheredAndMintyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WITHERED_AND_MINTY_ENDSTONE);
+        endstoneWitheredAndMintyPool.stairs(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_STAIRS);
+        endstoneWitheredAndMintyPool.slab(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_SLAB);
+        endstoneWitheredAndMintyPool.button(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_BUTTON);
+        endstoneWitheredAndMintyPool.pressurePlate(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_PRESSURE_PLATE);
+        endstoneWitheredAndMintyPool.wall(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_WALL);
+
+
+
 
         BlockStateModelGenerator.BlockTexturePool endstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
         endstonePool.stairs(ModBlocks.ENDSTONE_STAIRS);
@@ -90,7 +113,27 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_CRYSTAL);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE_DEEPER);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE);
+
+
+
+        BlockStateModelGenerator.BlockTexturePool mazeStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAZE_STONE);
+        mazeStonePool.stairs(ModBlocks.MAZE_STONE_STAIRS);
+        mazeStonePool.slab(ModBlocks.MAZE_STONE_SLAB);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CIRCULAR_MAZE_STONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RECTANGULAR_MAZE_STONE);
+
+        BlockStateModelGenerator.BlockTexturePool pureSteelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURE_STEEL);
+        pureSteelPool.stairs(ModBlocks.PURE_STEEL_STAIRS);
+        pureSteelPool.slab(ModBlocks.PURE_STEEL_SLAB);
+
+
+        BlockStateModelGenerator.BlockTexturePool smoothTungstenPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_TUNGSTEN);
+        smoothTungstenPool.stairs(ModBlocks.SMOOTH_TUNGSTEN_STAIRS);
+        smoothTungstenPool.slab(ModBlocks.SMOOTH_TUNGSTEN_SLAB);
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REINFORCED_TUNGSTEN_PLATFORM);
 
         blockStateModelGenerator.registerLog(ModBlocks.ENDER_ALVES_LOG).log(ModBlocks.ENDER_ALVES_LOG).wood(ModBlocks.ENDER_ALVES_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ENDER_ALVES_LOG).log(ModBlocks.STRIPPED_ENDER_ALVES_LOG).wood(ModBlocks.STRIPPED_ENDER_ALVES_WOOD);
@@ -104,6 +147,21 @@ public class ModModelProvider extends FabricModelProvider {
         enderAlvesPlanks.pressurePlate(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
         enderAlvesPlanks.fence(ModBlocks.ENDER_ALVES_PLANKS_FENCE);
         enderAlvesPlanks.fenceGate(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE);
+
+
+
+        blockStateModelGenerator.registerLog(ModBlocks.TERMINAL_PINE_LOG).log(ModBlocks.TERMINAL_PINE_LOG).wood(ModBlocks.TERMINAL_PINE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_TERMINAL_PINE_LOG).log(ModBlocks.STRIPPED_TERMINAL_PINE_LOG).wood(ModBlocks.STRIPPED_TERMINAL_PINE_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TERMINAL_PINE_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GILDED_TERMINAL_PINE_LEAVES);
+
+        BlockStateModelGenerator.BlockTexturePool terminalPinePlanks = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TERMINAL_PINE_PLANKS);
+        terminalPinePlanks.stairs(ModBlocks.TERMINAL_PINE_PLANKS_STAIRS);
+        terminalPinePlanks.slab(ModBlocks.TERMINAL_PINE_PLANKS_SLAB);
+        terminalPinePlanks.button(ModBlocks.TERMINAL_PINE_PLANKS_BUTTON);
+        terminalPinePlanks.pressurePlate(ModBlocks.TERMINAL_PINE_PLANKS_PRESSURE_PLATE);
+        terminalPinePlanks.fence(ModBlocks.TERMINAL_PINE_PLANKS_FENCE);
+        terminalPinePlanks.fenceGate(ModBlocks.TERMINAL_PINE_PLANKS_FENCE_GATE);
 
 
         blockStateModelGenerator.registerLog(ModBlocks.BUTTER_NUT_LOG).log(ModBlocks.BUTTER_NUT_LOG).wood(ModBlocks.BUTTER_NUT_WOOD);
@@ -157,6 +215,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CHORUS_FRUIT_GOLDEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHULKER_BULLET, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_BERRIES, Models.GENERATED);
         itemModelGenerator.register(ModItems.augrite_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.augrite_INGOT, Models.GENERATED);

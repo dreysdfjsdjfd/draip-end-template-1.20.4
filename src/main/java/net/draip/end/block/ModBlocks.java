@@ -41,6 +41,57 @@ public class ModBlocks {
     public static final Block augrite_BLOCK = registerBlock("augrite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+
+    public static final Block REINFORCED_TUNGSTEN_PLATFORM = registerBlock("reinforced_tungsten_platform",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+
+
+
+
+
+    public static final Block PURE_STEEL = registerBlock("pure_steel",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHAIN)));
+    public static final Block PURE_STEEL_STAIRS = registerBlock("pure_steel_stairs",
+            new StairsBlock(Blocks.CHAIN.getDefaultState(),FabricBlockSettings.copyOf(Blocks.CHAIN)));
+    public static final Block PURE_STEEL_SLAB = registerBlock("pure_steel_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CHAIN)));
+
+    public static final Block SMOOTH_TUNGSTEN = registerBlock("smooth_tungsten",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block SMOOTH_TUNGSTEN_STAIRS = registerBlock("smooth_tungsten_stairs",
+            new StairsBlock(Blocks.DEEPSLATE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block SMOOTH_TUNGSTEN_SLAB = registerBlock("smooth_tungsten_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+
+
+
+    public static final Block MAZE_STONE = registerBlock("maze_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block MAZE_STONE_STAIRS = registerBlock("maze_stone_stairs",
+            new StairsBlock(Blocks.DEEPSLATE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block MAZE_STONE_SLAB = registerBlock("maze_stone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+
+    public static final Block CIRCULAR_MAZE_STONE = registerBlock("circular_maze_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block RECTANGULAR_MAZE_STONE = registerBlock("rectangular_maze_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+
+    public static final Block MAZE_STONE_PILLAR = registerBlock("maze_stone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block DESTINATIONAL_MAZE_STONE_PILLAR = registerBlock("destinational_maze_stone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+
+
+    public static final Block MINTY_ROSES = registerBlock("minty_roses",
+            new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS)));
+    public static final Block MINTY_SHORT_GRASS = registerBlock("minty_short_grass",
+            new EnderGrassBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS)));
+    public static final Block MINTY_TALL_FLOWERS = registerBlock("minty_tall_flowers",
+            new EnderGrassLongBlock(FabricBlockSettings.copyOf(Blocks.SHORT_GRASS)));
+
+
+
     public static final Block ENDSTONE_WARM = registerBlock("endstone_warm",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
@@ -50,6 +101,47 @@ public class ModBlocks {
     public static final Block PLENTIFUL_GRASS_BLOCK = registerBlock("plentiful_grass_block",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
+
+    public static final Block MINTY_ENDSTONE = registerBlock("minty_endstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block MINTY_ENDSTONE_SLAB = registerBlock("minty_endstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block MINTY_ENDSTONE_STAIRS = registerBlock("minty_endstone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block MINTY_ENDSTONE_BUTTON = registerBlock("minty_endstone_button",
+            new ButtonBlock(BlockSetType.STONE, 10, FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block MINTY_ENDSTONE_PRESSURE_PLATE = registerBlock("minty_endstone_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE,FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block MINTY_ENDSTONE_WALL = registerBlock("minty_endstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+    public static final Block WITHERED_ENDSTONE = registerBlock("withered_endstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_ENDSTONE_SLAB = registerBlock("withered_endstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_ENDSTONE_STAIRS = registerBlock("withered_endstone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_ENDSTONE_BUTTON = registerBlock("withered_endstone_button",
+            new ButtonBlock(BlockSetType.STONE, 10, FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_ENDSTONE_PRESSURE_PLATE = registerBlock("withered_endstone_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE,FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_ENDSTONE_WALL = registerBlock("withered_endstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+
+
+
+    public static final Block WITHERED_AND_MINTY_ENDSTONE = registerBlock("withered_and_minty_endstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_AND_MINTY_ENDSTONE_SLAB = registerBlock("withered_and_minty_endstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_AND_MINTY_ENDSTONE_STAIRS = registerBlock("withered_and_minty_endstone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(),FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_AND_MINTY_ENDSTONE_BUTTON = registerBlock("withered_and_minty_endstone_button",
+            new ButtonBlock(BlockSetType.STONE, 10, FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_AND_MINTY_ENDSTONE_PRESSURE_PLATE = registerBlock("withered_and_minty_endstone_pressure_plate",
+            new PressurePlateBlock(BlockSetType.STONE,FabricBlockSettings.copyOf(Blocks.END_STONE)));
+    public static final Block WITHERED_AND_MINTY_ENDSTONE_WALL = registerBlock("withered_and_minty_endstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
 
 
@@ -139,6 +231,40 @@ public class ModBlocks {
     public static final Block GILDED_ENDER_ALVES_LEAVES = registerBlock("gilded_ender_alves_leaves",
             new enderAlvesLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
 
+
+    public static final Block TERMINAL_PINE_LOG = registerBlock("terminal_pine_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+    public static final Block TERMINAL_PINE_WOOD = registerBlock("terminal_pine_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_TERMINAL_PINE_LOG = registerBlock("stripped_terminal_pine_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
+    public static final Block STRIPPED_TERMINAL_PINE_WOOD = registerBlock("stripped_terminal_pine_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block TERMINAL_PINE_PLANKS = registerBlock("terminal_pine_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_PLANKS_STAIRS = registerBlock("terminal_pine_planks_stairs",
+            new StairsBlock(Blocks.OAK_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_PLANKS_SLAB = registerBlock("terminal_pine_planks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_PLANKS_BUTTON = registerBlock("terminal_pine_planks_button",
+            new ButtonBlock(BlockSetType.OAK, 10, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_PLANKS_PRESSURE_PLATE = registerBlock("terminal_pine_planks_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK,FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_PLANKS_FENCE = registerBlock("terminal_pine_planks_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_PLANKS_FENCE_GATE = registerBlock("terminal_pine_planks_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block TERMINAL_PINE_LEAVES = registerBlock("terminal_pine_leaves",
+            new terminalPineLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+    public static final Block GILDED_TERMINAL_PINE_LEAVES = registerBlock("gilded_terminal_pine_leaves",
+            new terminalPineLeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
+
+
+
+
+
+
+
     public static final Block WINDY_MAPLE_LOG = registerBlock("windy_maple_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
     public static final Block WINDY_MAPLE_WOOD = registerBlock("windy_maple_wood",
@@ -219,6 +345,9 @@ public class ModBlocks {
             });
 
     public static final Block PLENTIFUL_MOSS_PILE = registerBlock("plentiful_moss_pile",
+            new PlentifulMossPilesBlock(FabricBlockSettings.copyOf(Blocks.SNOW)));
+
+    public static final Block MINTY_ENDSTONE_PILE = registerBlock("minty_endstone_pile",
             new PlentifulMossPilesBlock(FabricBlockSettings.copyOf(Blocks.SNOW)));
 
 

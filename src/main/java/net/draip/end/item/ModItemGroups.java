@@ -72,7 +72,8 @@ public class ModItemGroups {
                         entries.add(ModItems.leafy_ENDER_BOOTS);
 
                         entries.add(ModItems.evil_CHESTPLATE);
-                        entries.add(ModItems.SHULKER_CANNON);
+                        //entries.add(ModItems.SHULKER_CANNON);
+                        entries.add(ModItems.SHULKER_BULLET);
 
                         entries.add(ModBlocks.ENDSTONE_BRICK_PILLAR);
                         entries.add(ModBlocks.PURPUR_WALL);
@@ -87,6 +88,32 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLENTIFUL_GRASS_STEM);
                         entries.add(ModBlocks.PLENTIFUL_GRASS_FLOWER);
                         entries.add(ModBlocks.PLENTIFUL_MOSS_PILE);
+
+
+                        entries.add(ModBlocks.MINTY_ENDSTONE);
+                        entries.add(ModBlocks.MINTY_ENDSTONE_SLAB);
+                        entries.add(ModBlocks.MINTY_ENDSTONE_STAIRS);
+                        entries.add(ModBlocks.MINTY_ENDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MINTY_ENDSTONE_BUTTON);
+                        entries.add(ModBlocks.MINTY_ENDSTONE_WALL);
+
+
+                        entries.add(ModBlocks.WITHERED_ENDSTONE);
+                        entries.add(ModBlocks.WITHERED_ENDSTONE_SLAB);
+                        entries.add(ModBlocks.WITHERED_ENDSTONE_STAIRS);
+                        entries.add(ModBlocks.WITHERED_ENDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WITHERED_ENDSTONE_BUTTON);
+                        entries.add(ModBlocks.WITHERED_ENDSTONE_WALL);
+
+
+                        entries.add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE);
+                        entries.add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_SLAB);
+                        entries.add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_STAIRS);
+                        entries.add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_BUTTON);
+                        entries.add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_WALL);
+
+                        entries.add(ModBlocks.MINTY_ENDSTONE_PILE);
 
 
 
@@ -163,6 +190,45 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_SLAB);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_PRESSURE_PLATE);
                         entries.add(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR);
+
+
+                        entries.add(ModBlocks.TERMINAL_PINE_LOG);
+                        entries.add(ModBlocks.TERMINAL_PINE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_TERMINAL_PINE_LOG);
+                        entries.add(ModBlocks.STRIPPED_TERMINAL_PINE_WOOD);
+                        entries.add(ModBlocks.TERMINAL_PINE_LEAVES);
+                        entries.add(ModBlocks.GILDED_TERMINAL_PINE_LEAVES);
+
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS);
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS_BUTTON);
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS_FENCE);
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS_FENCE_GATE);
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS_STAIRS);
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS_SLAB);
+                        entries.add(ModBlocks.TERMINAL_PINE_PLANKS_PRESSURE_PLATE);
+
+
+                        entries.add(ModBlocks.REINFORCED_TUNGSTEN_PLATFORM);
+                        entries.add(ModBlocks.PURE_STEEL);
+                        entries.add(ModBlocks.PURE_STEEL_SLAB);
+                        entries.add(ModBlocks.PURE_STEEL_STAIRS);
+
+                        entries.add(ModBlocks.SMOOTH_TUNGSTEN);
+                        entries.add(ModBlocks.SMOOTH_TUNGSTEN_SLAB);
+                        entries.add(ModBlocks.SMOOTH_TUNGSTEN_STAIRS);
+
+                        entries.add(ModBlocks.MINTY_TALL_FLOWERS);
+                        entries.add(ModBlocks.MINTY_ROSES);
+                        entries.add(ModBlocks.MINTY_SHORT_GRASS);
+
+                        entries.add(ModBlocks.MAZE_STONE);
+                        entries.add(ModBlocks.MAZE_STONE_SLAB);
+                        entries.add(ModBlocks.MAZE_STONE_STAIRS);
+                        entries.add(ModBlocks.CIRCULAR_MAZE_STONE);
+                        entries.add(ModBlocks.RECTANGULAR_MAZE_STONE);
+                        entries.add(ModBlocks.MAZE_STONE_PILLAR);
+                        entries.add(ModBlocks.DESTINATIONAL_MAZE_STONE_PILLAR);
+
 
                         entries.add(ModBlocks.BUTTER_NUT_LOG);
                         entries.add(ModBlocks.BUTTER_NUT_WOOD);

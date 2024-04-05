@@ -14,6 +14,9 @@
   "item.draip-end.endstone_sword": "Endstone Sword",
   "item.draip-end.endstone_hoe": "Endstone Hoe",
 
+  "item.draip-end.shulker_bullet": "Shulker Bullet",
+  "item.draip-end.shulker_cannon": "Shulker Cannon",
+
   "block.draip-end.grueling_flower": "Grueling Flower",
   "block.draip-end.glinting_purple_grass": "Tall Glinting Purple Grass",
 
@@ -42,6 +45,7 @@
   "block.draip-end.plentiful_grass_stem": "Plentiful Grass Stem",
   "block.draip-end.plentiful_grass_flower": "Plentiful Flower",
   "block.draip-end.plentiful_moss_pile": "Plentiful Pile of Moss",
+  "block.draip-end.minty_endstone_pile": "Minty Pile of End Stone",
 
 
 
@@ -117,6 +121,40 @@
   "block.draip-end.ender_alves_leaves": "Ender Alves Leaves",
   "block.draip-end.gilded_ender_alves_leaves": "Gilded Ender Alves Leaves",
 
+
+
+  "block.draip-end.terminal_pine_log": "Terminal Pine Log",
+  "block.draip-end.terminal_pine_wood": "Terminal Pine Wood",
+  "block.draip-end.stripped_terminal_pine_log": "Stripped Terminal Pine Log",
+  "block.draip-end.stripped_terminal_pine_wood": "Stripped Terminal Pine Wood",
+
+  "block.draip-end.terminal_pine_planks": "Terminal Pine Planks",
+  "block.draip-end.terminal_pine_planks_stairs": "Terminal Pine Stairs",
+  "block.draip-end.terminal_pine_planks_slab": "Terminal Pine Slab",
+  "block.draip-end.terminal_pine_planks_button": "Terminal Pine Button",
+  "block.draip-end.terminal_pine_planks_pressure_plate": "Terminal Pine Pressure Plate",
+  "block.draip-end.terminal_pine_planks_fence": "Terminal Pine Fence",
+  "block.draip-end.terminal_pine_planks_fence_gate": "Terminal Pine Fence Gate",
+
+  "block.draip-end.terminal_pine_leaves": "Terminal Pine Leaves",
+  "block.draip-end.gilded_terminal_pine_leaves": "Gilded Terminal Pine Leaves",
+
+  "block.draip-end.pure_steel": "Pure Steel Block",
+  "block.draip-end.pure_steel_slab": "Pure Steel Slab",
+  "block.draip-end.pure_steel_stairs": "Pure Steel Stairs",
+
+  "block.draip-end.smooth_tungsten": "Smooth Tungsten Block",
+  "block.draip-end.smooth_tungsten_slab": "Smooth Tungsten Slab",
+  "block.draip-end.smooth_tungsten_stairs": "Smooth Tungsten Stairs",
+
+
+  "block.draip-end.reinforced_tungsten_platform": "Reinforced Tungsten Platform",
+  "block.draip-end.minty_roses": "Minty Roses",
+  "block.draip-end.minty_short_grass": "Minty Grass",
+  "block.draip-end.minty_tall_flowers": "Towering Minty Flowers",
+
+
+
   "block.draip-end.windy_maple_log": "Windy Maple Log",
   "block.draip-end.windy_maple_wood": "Windy Maple Wood",
   "block.draip-end.stripped_windy_maple_log": "Stripped Windy Maple Log",
@@ -132,6 +170,14 @@
 
   "block.draip-end.windy_maple_leaves": "Windy Maple Leaves",
   "block.draip-end.gilded_windy_maple_leaves": "Gilded Windy Maple Leaves",
+
+  "block.draip-end.maze_stone": "Maze Stone",
+  "block.draip-end.maze_stone_slab": "Maze Stone Slab",
+  "block.draip-end.maze_stone_stairs": "Maze Stone Stairs",
+  "block.draip-end.circular_maze_stone": "Circular Maze Stone",
+  "block.draip-end.rectangular_maze_stone": "Rectangular Maze Stone",
+  "block.draip-end.destinational_maze_stone_pillar": "Destinational Maze Stone Pillar",
+  "block.draip-end.maze_stone_pillar": "Maze Stone Pillar",
 
 
 
@@ -206,6 +252,30 @@
 
   "block.draip-end.ender_alves_planks_trapdoor": "Ender Alves Trapdoor",
 
+  "block.draip-end.minty_endstone": "Minty End Stone",
+  "block.draip-end.minty_endstone_slab": "Minty End Stone Slab",
+  "block.draip-end.minty_endstone_stairs": "Minty End Stone Stairs",
+  "block.draip-end.minty_endstone_pressure_plate": "Minty End Stone Pressure Plate",
+  "block.draip-end.minty_endstone_button": "Minty End Stone Button",
+  "block.draip-end.minty_endstone_wall": "Minty End Stone Wall",
+
+
+
+  "block.draip-end.withered_endstone": "Withered End Stone",
+  "block.draip-end.withered_endstone_slab": "Withered End Stone Slab",
+  "block.draip-end.withered_endstone_stairs": "Withered End Stone Stairs",
+  "block.draip-end.withered_endstone_pressure_plate": "Withered End Stone Pressure Plate",
+  "block.draip-end.withered_endstone_button": "Withered End Stone Button",
+  "block.draip-end.withered_endstone_wall": "Withered End Stone Wall",
+
+
+
+  "block.draip-end.withered_and_minty_endstone": "Withered and Minty End Stone",
+  "block.draip-end.withered_and_minty_endstone_slab": "Withered and Minty End Stone Slab",
+  "block.draip-end.withered_and_minty_endstone_stairs": "Withered and Minty End Stone Stairs",
+  "block.draip-end.withered_and_minty_endstone_pressure_plate": "Withered and Minty End Stone Pressure Plate",
+  "block.draip-end.withered_and_minty_endstone_button": "Withered and Minty End Stone Button",
+  "block.draip-end.withered_and_minty_endstone_wall": "Withered and Minty End Stone Wall",
 
 
   "block.draip-end.endstone_brick_pillar": "End Stone Brick Pillar",
@@ -218,6 +288,7 @@
   "item.draip-end.butter_nut_berry": "Butter Nut Berries",
 
   "tooltip.draip-end.augrite_ore_explosion": "boom boom!",
+  "tooltip.draip-end.charge_with_shulker_bullets": "Charge with [Shulker Bullets]!",
 
 
 

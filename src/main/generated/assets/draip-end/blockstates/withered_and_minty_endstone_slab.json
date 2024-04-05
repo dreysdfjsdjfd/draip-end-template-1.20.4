@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/withered_and_minty_endstone_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/withered_and_minty_endstone"
+    },
+    "type=top": {
+      "model": "draip-end:block/withered_and_minty_endstone_slab_top"
+    }
+  }
+}

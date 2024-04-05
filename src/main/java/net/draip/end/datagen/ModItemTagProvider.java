@@ -27,6 +27,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.ENDER_ALVES_PLANKS.asItem())
                 .add(ModBlocks.WINDY_MAPLE_PLANKS.asItem())
                 .add(ModBlocks.BUTTER_NUT_PLANKS.asItem())
+                .add(ModBlocks.TERMINAL_PINE_PLANKS.asItem())
         ;
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
@@ -44,6 +45,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BUTTER_NUT_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_BUTTER_NUT_LOG.asItem())
                 .add(ModBlocks.STRIPPED_BUTTER_NUT_WOOD.asItem())
+
+                .add(ModBlocks.TERMINAL_PINE_LOG.asItem())
+                .add(ModBlocks.TERMINAL_PINE_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_TERMINAL_PINE_LOG.asItem())
+                .add(ModBlocks.STRIPPED_TERMINAL_PINE_WOOD.asItem())
 
         ;
         }

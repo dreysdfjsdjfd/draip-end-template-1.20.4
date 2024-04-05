@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "draip-end:block/maze_stone_slab"
+    },
+    "type=double": {
+      "model": "draip-end:block/maze_stone"
+    },
+    "type=top": {
+      "model": "draip-end:block/maze_stone_slab_top"
+    }
+  }
+}

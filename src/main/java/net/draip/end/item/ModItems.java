@@ -17,8 +17,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item augrite_DUST = registerItem("augrite_dust", new Item(new FabricItemSettings()));
     public static final Item augrite_INGOT = registerItem("augrite_ingot", new Item(new FabricItemSettings()));
-    public static final Item SHULKER_CANNON = registerItem("shulker_cannon", new ShulkerCannonItem(new FabricItemSettings()
-            .maxCount(1)));
+    public static final Item SHULKER_BULLET = registerItem("shulker_bullet", new Item(new FabricItemSettings()));
+    //public static final Item SHULKER_CANNON = registerItem("shulker_cannon", new ShulkerCannonItem(new FabricItemSettings().maxCount(1)));
 
     public static final Item ENDSTONE_PICKAXE = registerItem("endstone_pickaxe", new PickaxeItem(ModToolMaterial.ENDSTONE, 1, -2.8f,new FabricItemSettings()));
     public static final Item ENDSTONE_AXE = registerItem("endstone_axe", new AxeItem(ModToolMaterial.ENDSTONE, 6, -3.1f,new FabricItemSettings()));

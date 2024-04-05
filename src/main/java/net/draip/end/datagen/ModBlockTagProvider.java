@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
+public class  ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
@@ -47,6 +47,30 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS)
                 .add(ModBlocks.DEEPER_ENDSTONE_BRICK_PILLAR)
 
+                .add(ModBlocks.MINTY_ENDSTONE)
+                .add(ModBlocks.MINTY_ENDSTONE_STAIRS)
+                .add(ModBlocks.MINTY_ENDSTONE_SLAB)
+                .add(ModBlocks.MINTY_ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.MINTY_ENDSTONE_BUTTON)
+                .add(ModBlocks.MINTY_ENDSTONE_WALL)
+
+
+
+                .add(ModBlocks.WITHERED_ENDSTONE)
+                .add(ModBlocks.WITHERED_ENDSTONE_STAIRS)
+                .add(ModBlocks.WITHERED_ENDSTONE_SLAB)
+                .add(ModBlocks.WITHERED_ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.WITHERED_ENDSTONE_BUTTON)
+                .add(ModBlocks.WITHERED_ENDSTONE_WALL)
+
+
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_STAIRS)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_SLAB)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_BUTTON)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_WALL)
+
                 .add(ModBlocks.auravine_ORE)
                 .add(ModBlocks.auravine_ORE_DEEPER)
                 ;
@@ -60,6 +84,43 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GILDED_PURPUR_BLOCK)
                 .add(ModBlocks.PURPUR_STONE)
                 .add(ModBlocks.ENDSTONE_WARM)
+
+
+                .add(ModBlocks.SMOOTH_TUNGSTEN)
+                .add(ModBlocks.SMOOTH_TUNGSTEN_SLAB)
+                .add(ModBlocks.SMOOTH_TUNGSTEN_STAIRS)
+
+
+                .add(ModBlocks.PURE_STEEL)
+                .add(ModBlocks.PURE_STEEL_SLAB)
+                .add(ModBlocks.PURE_STEEL_STAIRS)
+
+                .add(ModBlocks.REINFORCED_TUNGSTEN_PLATFORM)
+
+
+                .add(ModBlocks.MINTY_ENDSTONE)
+                .add(ModBlocks.MINTY_ENDSTONE_STAIRS)
+                .add(ModBlocks.MINTY_ENDSTONE_SLAB)
+                .add(ModBlocks.MINTY_ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.MINTY_ENDSTONE_BUTTON)
+                .add(ModBlocks.MINTY_ENDSTONE_WALL)
+
+
+
+                .add(ModBlocks.WITHERED_ENDSTONE)
+                .add(ModBlocks.WITHERED_ENDSTONE_STAIRS)
+                .add(ModBlocks.WITHERED_ENDSTONE_SLAB)
+                .add(ModBlocks.WITHERED_ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.WITHERED_ENDSTONE_BUTTON)
+                .add(ModBlocks.WITHERED_ENDSTONE_WALL)
+
+
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_STAIRS)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_SLAB)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_PRESSURE_PLATE)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_BUTTON)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_WALL)
 
 
                 .add(ModBlocks.COBBLED_SCYENSITH)
@@ -138,6 +199,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SCYENSITH_PILLAR)
 
 
+                .add(ModBlocks.MAZE_STONE)
+                .add(ModBlocks.MAZE_STONE_SLAB)
+                .add(ModBlocks.MAZE_STONE_STAIRS)
+                .add(ModBlocks.CIRCULAR_MAZE_STONE)
+                .add(ModBlocks.RECTANGULAR_MAZE_STONE)
+                .add(ModBlocks.MAZE_STONE_PILLAR)
+                .add(ModBlocks.DESTINATIONAL_MAZE_STONE_PILLAR)
+
 
 
 
@@ -186,6 +255,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BUTTER_NUT_PLANKS_FENCE_GATE)
                 .add(ModBlocks.BUTTER_NUT_PLANKS_FENCE)
 
+
+                .add(ModBlocks.TERMINAL_PINE_PLANKS)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_PRESSURE_PLATE)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_STAIRS)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_SLAB)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_BUTTON)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_FENCE_GATE)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_FENCE)
+
                 .add(ModBlocks.ENDER_ALVES_PLANKS_LADDER)
                 .add(ModBlocks.ENDER_ALVES_PLANKS_TRAPDOOR)
 
@@ -194,12 +272,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.GRAINY_ENDSTONE)
                 .add(ModBlocks.PLENTIFUL_MOSS_PILE)
+                .add(ModBlocks.MINTY_ENDSTONE_PILE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.augrite_BLOCK)
                 .add(ModBlocks.augrite_ORE_DEEPER_ENDSTONE)
                 .add(ModBlocks.augrite_ORE_ENDSTONE)
+
+                .add(ModBlocks.SMOOTH_TUNGSTEN)
+                .add(ModBlocks.SMOOTH_TUNGSTEN_SLAB)
+                .add(ModBlocks.SMOOTH_TUNGSTEN_STAIRS)
+
+                .add(ModBlocks.MAZE_STONE_SLAB)
+                .add(ModBlocks.MAZE_STONE_STAIRS)
+
+                .add(ModBlocks.MAZE_STONE)
+                .add(ModBlocks.CIRCULAR_MAZE_STONE)
+                .add(ModBlocks.RECTANGULAR_MAZE_STONE)
+                .add(ModBlocks.MAZE_STONE_PILLAR)
+                .add(ModBlocks.DESTINATIONAL_MAZE_STONE_PILLAR)
 
                 .add(ModBlocks.ENDSTONE_BUTTON)
                 .add(ModBlocks.ENDSTONE_PRESSURE_PLATE)
@@ -209,6 +301,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPUR_WALL)
                 .add(ModBlocks.PURPUR_STONE)
                 .add(ModBlocks.GILDED_PURPUR_STONE)
+
+
+                .add(ModBlocks.PURE_STEEL)
+                .add(ModBlocks.PURE_STEEL_SLAB)
+                .add(ModBlocks.PURE_STEEL_STAIRS)
+
+
+
+                .add(ModBlocks.REINFORCED_TUNGSTEN_PLATFORM)
 
                 .add(ModBlocks.PLENTIFUL_GRASS_BLOCK)
 
@@ -294,15 +395,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPUR_WALL)
                 .add(ModBlocks.ENDSTONE_DEEPER_WALL)
                 .add(ModBlocks.DEEPER_END_STONE_BRICKS_WALL)
+                .add(ModBlocks.MINTY_ENDSTONE_WALL)
+                .add(ModBlocks.WITHERED_ENDSTONE_WALL)
+                .add(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_WALL)
         ;
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE)
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_FENCE)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_FENCE)
                 ;
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ENDER_ALVES_PLANKS_FENCE_GATE)
                 .add(ModBlocks.WINDY_MAPLE_PLANKS_FENCE_GATE)
+                .add(ModBlocks.BUTTER_NUT_PLANKS_FENCE_GATE)
+                .add(ModBlocks.TERMINAL_PINE_PLANKS_FENCE_GATE)
         ;
     }
 }

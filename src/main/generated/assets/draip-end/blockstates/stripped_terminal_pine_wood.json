@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "draip-end:block/stripped_terminal_pine_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "draip-end:block/stripped_terminal_pine_wood"
+    },
+    "axis=z": {
+      "model": "draip-end:block/stripped_terminal_pine_wood",
+      "x": 90
+    }
+  }
+}

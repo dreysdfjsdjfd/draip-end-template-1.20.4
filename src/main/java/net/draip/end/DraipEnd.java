@@ -2,21 +2,19 @@ package net.draip.end;
 
 import net.draip.end.block.ModBlocks;
 import net.draip.end.entity.ModEntities;
-import net.draip.end.entity.custom.EndGhostEntity;
-import net.draip.end.entity.custom.EnderSnailEntity;
-import net.draip.end.entity.custom.FireFlyEntity;
-import net.draip.end.entity.custom.WalkingShulkerEntity;
+import net.draip.end.entity.custom.*;
 import net.draip.end.item.ModItemGroups;
 import net.draip.end.item.ModItems;
 import net.draip.end.particle.ModParticles;
 import net.draip.end.sounds.ModSounds;
-import net.draip.end.util.ModModelPredicateProvider;
+//import net.draip.end.util.ModModelPredicateProvider;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.block.TransparentBlock;
+import net.minecraft.entity.projectile.ShulkerBulletEntity;
 import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -36,7 +34,7 @@ public class DraipEnd implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
-		ModModelPredicateProvider.RegisterModModels();
+		//ModModelPredicateProvider.RegisterModModels();
 
 
 		FabricDefaultAttributeRegistry.register(ModEntities.ENDERSNAIL, EnderSnailEntity.createEnderSnailAttributes());

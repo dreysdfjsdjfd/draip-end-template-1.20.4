@@ -42,6 +42,29 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENDSTONE_DEEPER_WALL);
         addDrop(ModBlocks.ENDSTONE_WARM);
 
+        addDrop(ModBlocks.MINTY_ENDSTONE);
+        addDrop(ModBlocks.MINTY_ENDSTONE_STAIRS);
+        addDrop(ModBlocks.MINTY_ENDSTONE_WALL);
+        addDrop(ModBlocks.MINTY_ENDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.MINTY_ENDSTONE_BUTTON);
+        addDrop(ModBlocks.MINTY_ENDSTONE_SLAB, slabDrops(ModBlocks.MINTY_ENDSTONE_SLAB));
+
+
+
+        addDrop(ModBlocks.WITHERED_AND_MINTY_ENDSTONE);
+        addDrop(ModBlocks.WITHERED_ENDSTONE_STAIRS);
+        addDrop(ModBlocks.WITHERED_ENDSTONE_WALL);
+        addDrop(ModBlocks.WITHERED_ENDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.WITHERED_ENDSTONE_BUTTON);
+        addDrop(ModBlocks.WITHERED_ENDSTONE_SLAB, slabDrops(ModBlocks.WITHERED_ENDSTONE_SLAB));
+
+
+        addDrop(ModBlocks.WITHERED_ENDSTONE);
+        addDrop(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_STAIRS);
+        addDrop(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_WALL);
+        addDrop(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_PRESSURE_PLATE);
+        addDrop(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_BUTTON);
+        addDrop(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_SLAB, slabDrops(ModBlocks.WITHERED_AND_MINTY_ENDSTONE_SLAB));
 
         addDrop(ModBlocks.BLUE_CRYSTAL);
         addDrop(ModBlocks.BLUE_CRYSTAL_TRANS);
@@ -93,14 +116,34 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENDER_GRASS_LONG, tallPlantDrops(ModBlocks.ENDER_GRASS_LONG, ModBlocks.ENDER_GRASS_LONG));
         addDrop(ModBlocks.ENDSTONE_GRASS_SLABMAIN);
         addDrop(ModBlocks.ENDSTONE_GRASS);
+
+        addDrop(ModBlocks.PURE_STEEL_STAIRS);
+
+        addDrop(ModBlocks.SMOOTH_TUNGSTEN_STAIRS);
+        addDrop(ModBlocks.SMOOTH_TUNGSTEN);
+
+
+        addDrop(ModBlocks.MAZE_STONE);
+        addDrop(ModBlocks.MAZE_STONE_STAIRS);
+        addDrop(ModBlocks.MAZE_STONE_SLAB);
+        addDrop(ModBlocks.CIRCULAR_MAZE_STONE);
+        addDrop(ModBlocks.RECTANGULAR_MAZE_STONE);
+        addDrop(ModBlocks.MAZE_STONE_PILLAR);
+        addDrop(ModBlocks.DESTINATIONAL_MAZE_STONE_PILLAR);
+
+
         addDrop(ModBlocks.ENDSTONE_GRASS_FULL);
         addDrop(ModBlocks.ENDSTONE_GRASS_FULL_SLAB, slabDrops(ModBlocks.ENDSTONE_GRASS_FULL_SLAB));
+        addDrop(ModBlocks.SMOOTH_TUNGSTEN_SLAB, slabDrops(ModBlocks.SMOOTH_TUNGSTEN_SLAB));
         addDrop(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN);
         addDrop(ModBlocks.GILDED_ENDSTONE_GRASS);
         addDrop(ModBlocks.GILDED_ENDSTONE_GRASS_FULL);
         addDrop(ModBlocks.GILDED_ENDSTONE_GRASS_FULL_SLAB, slabDrops(ModBlocks.ENDSTONE_GRASS_FULL_SLAB));
         addDrop(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB, slabDrops(ModBlocks.ENDSTONE_GRASS_SLABMAIN_SLAB));
         addDrop(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB, slabDrops(ModBlocks.GILDED_ENDSTONE_GRASS_SLABMAIN_SLAB));
+
+
+        addDrop(ModBlocks.PURE_STEEL_SLAB, slabDrops(ModBlocks.PURE_STEEL_SLAB));
 
         addDrop(ModBlocks.DESTINATIONAL_FLOWER_BLUE);
         addDrop(ModBlocks.PLENTIFUL_GRASS_STEM);
@@ -127,10 +170,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
 
+        addDrop(ModBlocks.MINTY_TALL_FLOWERS, tallPlantDrops(ModBlocks.MINTY_TALL_FLOWERS, ModBlocks.MINTY_TALL_FLOWERS));
+        addDrop(ModBlocks.MINTY_ROSES);
+        addDrop(ModBlocks.MINTY_SHORT_GRASS);
+        addDrop(ModBlocks.REINFORCED_TUNGSTEN_PLATFORM);
+        addDrop(ModBlocks.PURE_STEEL);
+
+
+
+
         addDrop(ModBlocks.ENDSTONE_DECAYING);
         addDrop(ModBlocks.GRAINY_ENDSTONE);
         addDrop(ModBlocks.PLENTIFUL_GRASS_FLOWER);
         addDrop(ModBlocks.PLENTIFUL_MOSS_PILE);
+        addDrop(ModBlocks.MINTY_ENDSTONE_PILE);
+
+
+
+
+
+        addDrop(ModBlocks.MINTY_ENDSTONE_PILE);
 
 
         addDrop(ModBlocks.ENDER_ALVES_WOOD);
@@ -148,6 +207,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ENDER_ALVES_LEAVES, leavesDrops(ModBlocks.ENDER_ALVES_LEAVES, ModBlocks.ENDER_ALVES_LEAVES, 0.005f));
         addDrop(ModBlocks.GILDED_ENDER_ALVES_LEAVES, leavesDrops(ModBlocks.GILDED_ENDER_ALVES_LEAVES, ModBlocks.GILDED_ENDER_ALVES_LEAVES, 0.005f));
+
+
+        addDrop(ModBlocks.TERMINAL_PINE_WOOD);
+        addDrop(ModBlocks.TERMINAL_PINE_LOG);
+        addDrop(ModBlocks.STRIPPED_TERMINAL_PINE_WOOD);
+        addDrop(ModBlocks.STRIPPED_TERMINAL_PINE_LOG);
+
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS);
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS_STAIRS);
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS_FENCE);
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS_FENCE_GATE);
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS_BUTTON);
+        addDrop(ModBlocks.TERMINAL_PINE_PLANKS_SLAB, slabDrops(ModBlocks.TERMINAL_PINE_PLANKS_SLAB));
+
+        addDrop(ModBlocks.TERMINAL_PINE_LEAVES, leavesDrops(ModBlocks.TERMINAL_PINE_LEAVES, ModBlocks.TERMINAL_PINE_LEAVES, 0.005f));
+        addDrop(ModBlocks.GILDED_TERMINAL_PINE_LEAVES, leavesDrops(ModBlocks.GILDED_TERMINAL_PINE_LEAVES, ModBlocks.GILDED_TERMINAL_PINE_LEAVES, 0.005f));
 
 
 

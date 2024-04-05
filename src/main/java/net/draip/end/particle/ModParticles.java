@@ -14,6 +14,7 @@ public class ModParticles {
     public static final DefaultParticleType WINDY_LEAVES_PARTICLE = registerParticle("windy_leaves", FabricParticleTypes.simple());
     public static final DefaultParticleType ALVES_LEAVES_PARTICLE = registerParticle("alves_leaves", FabricParticleTypes.simple());
     public static final DefaultParticleType NUT_LEAVES_PARTICLE = registerParticle("nut_leaves", FabricParticleTypes.simple());
+    public static final DefaultParticleType TERMINAL_LEAVES_PARTICLE = registerParticle("terminal_leaves", FabricParticleTypes.simple());
 
     private static DefaultParticleType registerParticle(String name, DefaultParticleType particleType) {
         Identifier id = new Identifier(DraipEnd.MOD_ID, name);
