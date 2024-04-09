@@ -1,6 +1,7 @@
 package net.draip.end;
 
 import net.draip.end.block.ModBlocks;
+import net.draip.end.enchantment.ModEnchantments;
 import net.draip.end.entity.ModEntities;
 import net.draip.end.entity.custom.*;
 import net.draip.end.item.ModItemGroups;
@@ -8,6 +9,7 @@ import net.draip.end.item.ModItems;
 import net.draip.end.particle.ModParticles;
 import net.draip.end.sounds.ModSounds;
 //import net.draip.end.util.ModModelPredicateProvider;
+import net.draip.end.util.ModModelPredicateProvider;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -34,7 +36,10 @@ public class DraipEnd implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
-		//ModModelPredicateProvider.RegisterModModels();
+		ModEnchantments.registerModEnchantments();
+		ModModelPredicateProvider.RegisterModModels();
+
+
 
 
 		FabricDefaultAttributeRegistry.register(ModEntities.ENDERSNAIL, EnderSnailEntity.createEnderSnailAttributes());

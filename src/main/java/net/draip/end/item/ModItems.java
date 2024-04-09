@@ -3,9 +3,8 @@ package net.draip.end.item;
 import net.draip.end.DraipEnd;
 import net.draip.end.block.custom.EnderBerryCropBlock;
 import net.draip.end.entity.ModEntities;
-import net.draip.end.item.custom.ChorusFruitGoldenItem;
-import net.draip.end.item.custom.ShulkerCannonItem;
-import net.draip.end.item.custom.ShulkerShellItem;
+import net.draip.end.item.custom.*;
+import net.draip.end.sounds.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -17,8 +16,11 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item augrite_DUST = registerItem("augrite_dust", new Item(new FabricItemSettings()));
     public static final Item augrite_INGOT = registerItem("augrite_ingot", new Item(new FabricItemSettings()));
-    public static final Item SHULKER_BULLET = registerItem("shulker_bullet", new Item(new FabricItemSettings()));
-    //public static final Item SHULKER_CANNON = registerItem("shulker_cannon", new ShulkerCannonItem(new FabricItemSettings().maxCount(1)));
+    public static final Item SHULKER_BULLET = registerItem("shulker_bullet", new ShulkerShellItem(new FabricItemSettings()));
+    public static final Item GHOST_SHARD = registerItem("ghost_shard", new Item(new FabricItemSettings()));
+
+    public static final Item END_MUSIC_DISC = registerItem("end_music_disc",
+            new MusicDiscItem(7, ModSounds.END_DISC, new FabricItemSettings().maxCount(1), 64));
 
     public static final Item ENDSTONE_PICKAXE = registerItem("endstone_pickaxe", new PickaxeItem(ModToolMaterial.ENDSTONE, 1, -2.8f,new FabricItemSettings()));
     public static final Item ENDSTONE_AXE = registerItem("endstone_axe", new AxeItem(ModToolMaterial.ENDSTONE, 6, -3.1f,new FabricItemSettings()));
@@ -32,12 +34,13 @@ public class ModItems {
     public static final Item augrite_SWORD = registerItem("augrite_sword", new SwordItem(ModToolMaterial.augrite, 3, -2.4f,new FabricItemSettings()));
     public static final Item augrite_HOE = registerItem("augrite_hoe", new HoeItem(ModToolMaterial.augrite, -2, -1f,new FabricItemSettings()));
 
-    public static final Item augrite_HELMET = registerItem("augrite_helmet", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item augrite_CHESTPLATE = registerItem("augrite_chestplate", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item augrite_LEGGINGS = registerItem("augrite_leggings", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item augrite_BOOTS = registerItem("augrite_boots", new ArmorItem(ModArmorMaterials.augrite, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item augrite_HELMET = registerItem("augrite_helmet", new EnchantableArmourItem(ModArmorMaterials.augrite, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item augrite_CHESTPLATE = registerItem("augrite_chestplate", new EnchantableArmourItem(ModArmorMaterials.augrite, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item augrite_LEGGINGS = registerItem("augrite_leggings", new EnchantableArmourItem(ModArmorMaterials.augrite, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item augrite_BOOTS = registerItem("augrite_boots", new EnchantableArmourItem(ModArmorMaterials.augrite, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item auravine_SHARD = registerItem("auravine_shard", new Item(new FabricItemSettings()));
+    public static final Item POWERED_ENDER_PEARL = registerItem("powered_ender_pearl", new poweredEnderPearlItem(new FabricItemSettings()));
 
     public static final Item auravine_PICKAXE = registerItem("auravine_pickaxe", new PickaxeItem(ModToolMaterial.auravine, 1, -2.8f,new FabricItemSettings()));
     public static final Item auravine_AXE = registerItem("auravine_axe", new AxeItem(ModToolMaterial.auravine, 6, -3.1f,new FabricItemSettings()));
@@ -45,17 +48,17 @@ public class ModItems {
     public static final Item auravine_SWORD = registerItem("auravine_sword", new SwordItem(ModToolMaterial.auravine, 3, -2.4f,new FabricItemSettings()));
     public static final Item auravine_HOE = registerItem("auravine_hoe", new HoeItem(ModToolMaterial.auravine, -2, -1f,new FabricItemSettings()));
 
-    public static final Item auravine_HELMET = registerItem("auravine_helmet", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item auravine_CHESTPLATE = registerItem("auravine_chestplate", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item auravine_LEGGINGS = registerItem("auravine_leggings", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item auravine_BOOTS = registerItem("auravine_boots", new ArmorItem(ModArmorMaterials.auravine, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item auravine_HELMET = registerItem("auravine_helmet", new EnchantableArmourItem(ModArmorMaterials.auravine, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item auravine_CHESTPLATE = registerItem("auravine_chestplate", new EnchantableArmourItem(ModArmorMaterials.auravine, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item auravine_LEGGINGS = registerItem("auravine_leggings", new EnchantableArmourItem(ModArmorMaterials.auravine, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item auravine_BOOTS = registerItem("auravine_boots", new EnchantableArmourItem(ModArmorMaterials.auravine, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    public static final Item evil_CHESTPLATE = registerItem("evil_chestplate", new ArmorItem(ModArmorMaterials.evil, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item evil_CHESTPLATE = registerItem("evil_chestplate", new EnchantableArmourItem(ModArmorMaterials.evil, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
 
-    public static final Item leafy_ENDER_HELMET = registerItem("leafy_ender_helmet", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item leafy_ENDER_CHESTPLATE = registerItem("leafy_ender_chestplate", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item leafy_ENDER_LEGGINGS = registerItem("leafy_ender_leggings", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item leafy_ENDER_BOOTS = registerItem("leafy_ender_boots", new ArmorItem(ModArmorMaterials.leafy, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item leafy_ENDER_HELMET = registerItem("leafy_ender_helmet", new EnchantableArmourItem(ModArmorMaterials.leafy, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item leafy_ENDER_CHESTPLATE = registerItem("leafy_ender_chestplate", new EnchantableArmourItem(ModArmorMaterials.leafy, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item leafy_ENDER_LEGGINGS = registerItem("leafy_ender_leggings", new EnchantableArmourItem(ModArmorMaterials.leafy, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item leafy_ENDER_BOOTS = registerItem("leafy_ender_boots", new EnchantableArmourItem(ModArmorMaterials.leafy, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
 

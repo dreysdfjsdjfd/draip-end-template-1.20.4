@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "draip-end:item/shulker_bullet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "charged": 0
+      },
+      "model": "draip-end:item/shulker_bullet_base"
+    },
+    {
+      "predicate": {
+        "drop": 1,
+        "droppercent": 0.3
+      },
+      "model": "draip-end:item/shulker_bullet_pulling"
+    },
+    {
+      "predicate": {
+        "drop": 1,
+        "droppercent": 0.6
+      },
+      "model": "draip-end:item/shulker_bullet_pulling_1"
+    },
+    {
+      "predicate": {
+        "drop": 1,
+        "droppercent": 0.9
+      },
+      "model": "draip-end:item/shulker_bullet_pulling_2"
+    },
+    {
+      "predicate": {
+        "drop": 1,
+        "droppercent": 1
+      },
+      "model": "draip-end:item/shulker_bullet_charged"
+    },
+    {
+      "predicate": {
+        "charged": 1
+      },
+      "model": "draip-end:item/shulker_bullet_charged"
+    }
+  ]
+}

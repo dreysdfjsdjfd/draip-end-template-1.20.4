@@ -121,6 +121,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.SMOOTH_TUNGSTEN_STAIRS);
         addDrop(ModBlocks.SMOOTH_TUNGSTEN);
+        addDrop(ModBlocks.GILDED_MAZE_STONE);
+        addDrop(ModBlocks.FIZZY_MAZE_STONE);
 
 
         addDrop(ModBlocks.MAZE_STONE);

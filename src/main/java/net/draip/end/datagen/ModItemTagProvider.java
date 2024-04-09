@@ -52,6 +52,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.STRIPPED_TERMINAL_PINE_WOOD.asItem())
 
         ;
+
+
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+                .add(ModItems.END_MUSIC_DISC)
+        ;
         }
+
+
 
     }

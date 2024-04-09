@@ -1,4 +1,4 @@
-// 1.20.4	2024-04-05T08:06:17.5811611	Draip End/Recipes
+// 1.20.4	2024-04-08T23:52:12.0209653	Draip End/Recipes
 72310702b7d456753f12ad3ab1a6dbea5b2345fd data\draip-end\advancements\recipes\building_blocks\endstone_deeper_wall.json
 58e76076f12247469beb0b9b661e315fa319cf71 data\draip-end\advancements\recipes\misc\endstone_axe.json
 3076dd4d496b3a336c0577a854594d6f59148784 data\draip-end\recipes\endstone_slab.json
@@ -12,6 +12,7 @@ f287c618b894e9f8292167d8af0ea991f9cd07fc data\draip-end\advancements\recipes\mis
 f096079d49c4959886d2214640581f43110b1c1c data\draip-end\recipes\augrite_ingot.json
 42667054634663abeb6663f96892e930c7489a20 data\draip-end\recipes\augrite_ingot_from_smelting_augrite_dust.json
 70b2613a80c62a2fb66267500ce38117a9c8bf02 data\draip-end\advancements\recipes\building_blocks\augrite_block.json
+4c549a5a30f6f30e0c5072be0dea48f80446ec69 data\draip-end\recipes\auravine_chestplate.json
 f05e3ae6978560d03cfd19e46721449bf5be3de9 data\draip-end\recipes\endstone_wall.json
 7102bea9464eb73e6ce7faefbe4771975dbee62f data\draip-end\recipes\augrite_pickaxe.json
 afb9271ea7ea0177d44d84adba029f947ada54c0 data\draip-end\recipes\windy_maple_planks_pressure_plate.json
@@ -23,6 +24,7 @@ f0849716f9e006e1ffa2aac70502e4d74977b441 data\draip-end\advancements\recipes\mis
 b77cee8705fc2e31db6e4787d79e3307e864ec97 data\draip-end\advancements\recipes\building_blocks\endstone_wall.json
 eb44025436e4010caee6283061046d027615c73c data\draip-end\advancements\recipes\misc\endstone_brick_pillar.json
 1b4783c71be57b277f2b968fc0a0066bc050d2b5 data\draip-end\recipes\augrite_sword.json
+45dd05f8aab3f4bfb4e2872136e60fb42f602838 data\draip-end\advancements\recipes\combat\auravine_chestplate.json
 c46866d41062564ee982f96378ea43aebf8085ad data\draip-end\advancements\recipes\misc\augrite_ingot_from_smelting_augrite_ore_endstone.json
 b8655b72d892dcca176d9d503318767fe0b60ce3 data\draip-end\recipes\auravine_hoe.json
 a5aa1e6870bd271974eeeb2489f1fbed36c6aa0a data\draip-end\recipes\endstone_shovel.json
@@ -59,8 +61,8 @@ ceabd4d611154cb3520d4f8cc23603203c72a6d0 data\draip-end\recipes\augrite_hoe.json
 ef87e45a92503e5c0ad368cfa5aa84ed26d14dc0 data\draip-end\recipes\ender_alves_planks_pressure_plate.json
 aa9b7efba7bbff71bb4ef2389aaf822f3d5b93df data\draip-end\advancements\recipes\redstone\windy_maple_planks_pressure_plate.json
 44645dc213caf248fa0056bbe7e8256a4c84c6ea data\draip-end\advancements\recipes\misc\auravine_axe.json
-6dfd3c284179a864731f70fe6b9ed7829426e67a data\draip-end\advancements\recipes\misc\augrite_axe.json
 e808447489c2ffb1fcc4353c426f2cd00b1e8056 data\draip-end\recipes\augrite_ingot_from_blasting_augrite_ore_deeper_endstone.json
+6dfd3c284179a864731f70fe6b9ed7829426e67a data\draip-end\advancements\recipes\misc\augrite_axe.json
 d32cda1156ea4fc681661234d1b9f3d6100b32fb data\draip-end\advancements\recipes\misc\endstone_pickaxe.json
 a2bde3b8ec689ec73245eedd49b5cdfa135d88ae data\draip-end\advancements\recipes\misc\endstone_sword.json
 41327593a78eb9bc0e0e7af4c3505f6f192b7093 data\draip-end\advancements\recipes\building_blocks\endstone_deeper_slab.json

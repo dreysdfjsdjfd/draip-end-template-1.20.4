@@ -2,6 +2,7 @@ package net.draip.end.item;
 
 import net.draip.end.DraipEnd;
 import net.draip.end.block.ModBlocks;
+import net.draip.end.enchantment.ModEnchantments;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.draip.end.DraipEnd;
 import net.minecraft.item.ItemGroup;
@@ -224,6 +225,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAZE_STONE);
                         entries.add(ModBlocks.MAZE_STONE_SLAB);
                         entries.add(ModBlocks.MAZE_STONE_STAIRS);
+                        entries.add(ModBlocks.FIZZY_MAZE_STONE);
+                        entries.add(ModBlocks.GILDED_MAZE_STONE);
                         entries.add(ModBlocks.CIRCULAR_MAZE_STONE);
                         entries.add(ModBlocks.RECTANGULAR_MAZE_STONE);
                         entries.add(ModBlocks.MAZE_STONE_PILLAR);
@@ -277,6 +280,11 @@ public class ModItemGroups {
 
 
                         entries.add(ModItems.auravine_SHARD);
+                        entries.add(ModItems.GHOST_SHARD);
+                        entries.add(ModItems.END_MUSIC_DISC);
+
+                       // entries.add(ModBlocks.DESTINATIONAL_ENCHANTING_TABLE);
+                        entries.add(ModItems.POWERED_ENDER_PEARL);
 
                         entries.add(ModBlocks.auravine_ORE);
                         entries.add(ModBlocks.auravine_ORE_DEEPER);

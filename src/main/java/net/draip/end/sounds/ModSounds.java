@@ -14,6 +14,9 @@ public class ModSounds {
     public static final SoundEvent ENDGHOST_FLICKER_THREE = registerSoundEvent("endghost_flicker_three");
 
 
+    public static final SoundEvent END_DISC = registerSoundEvent("end_disc");
+
+
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(DraipEnd.MOD_ID, name);

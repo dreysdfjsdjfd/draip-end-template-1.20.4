@@ -113,6 +113,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_CRYSTAL);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE_DEEPER);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.auravine_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GILDED_MAZE_STONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIZZY_MAZE_STONE);
 
 
 
@@ -215,11 +218,12 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CHORUS_FRUIT_GOLDEN, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SHULKER_BULLET, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_BERRIES, Models.GENERATED);
         itemModelGenerator.register(ModItems.augrite_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.augrite_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BUTTER_NUT_BERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GHOST_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.END_MUSIC_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.augrite_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.augrite_AXE, Models.HANDHELD);
@@ -258,6 +262,7 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         itemModelGenerator.register(ModItems.auravine_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POWERED_ENDER_PEARL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ENDERSNAIL_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));

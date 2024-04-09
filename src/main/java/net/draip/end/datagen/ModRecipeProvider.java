@@ -57,6 +57,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.augrite_INGOT), conditionsFromItem(ModItems.augrite_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.augrite_PICKAXE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.auravine_CHESTPLATE, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.auravine_SHARD)
+                .criterion(hasItem(ModItems.auravine_SHARD), conditionsFromItem(ModItems.auravine_SHARD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.auravine_CHESTPLATE)));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.augrite_AXE, 1)
                 .pattern("RR")
                 .pattern("SR")

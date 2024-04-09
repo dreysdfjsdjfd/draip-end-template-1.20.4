@@ -125,6 +125,7 @@ public class ShulkerCannonItem extends Item {
         } else if (isShulkerCount(user) == 0) {
             setChargeTime(0);
         }
+
     }
 
 
@@ -187,7 +188,7 @@ public class ShulkerCannonItem extends Item {
             return UseAction.NONE;
         } else if (isAntiCharge() == 0) {
             if (isShulkerCount(user) > 0) {
-                return UseAction.CROSSBOW;
+                return UseAction.BOW;
             } else {
                 return UseAction.NONE;
             }
@@ -203,25 +204,20 @@ public class ShulkerCannonItem extends Item {
             if (!world.isClient) {
                 ExplosiveShulkerBulletEntity explosiveShulkerBulletEntity = new ExplosiveShulkerBulletEntity(ModEntities.EXPLOSIVESHULKERBULLET, world);
                 explosiveShulkerBulletEntity.setPos(user.getX() , user.getY() + 1.7, user.getZ());
-                System.out.println("pos first =" + user.getX() + " " + user.getY() + " " + user.getZ());
                 world.spawnEntity(explosiveShulkerBulletEntity);
                 explosiveShulkerBulletEntity.setVelocity(user, user.getPitch()+ -3, user.getYaw(), 0.0f, 1.5f, 1.0f);
-
-                System.out.println("pos sec =" + user.getX() + " " + user.getY() + " " + user.getZ());
             }
-
         } else if (isCharged() == 0) {
             setChargeTime(1);
         }
-        System.out.println("test");
         return ItemUsage.consumeHeldItem(world, user, hand);
     }
-
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.charge_with_shulker_bullets").formatted(Formatting.DARK_GRAY));
+        tooltip.add(Text.translatable("Hold [Right Click] to charge!").formatted(Formatting.DARK_GRAY));
         super.appendTooltip(stack, world, tooltip, context);
     }
-
 }
+
+
 

@@ -2,9 +2,7 @@ package net.draip.end.entity.custom;
 
 import net.draip.end.entity.ModEntities;
 import net.draip.end.entity.ai.WalkingShulkerAttackGoal;
-import net.minecraft.entity.AnimationState;
-import net.minecraft.entity.EntityPose;
-import net.minecraft.entity.EntityType;
+import net.minecraft.entity.*;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -12,6 +10,8 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.mob.AbstractSkeletonEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.MobEntity;
@@ -40,10 +40,10 @@ public class WalkingShulkerEntity extends HostileEntity {
 
     public static DefaultAttributeContainer.Builder createWalkingShulkerAttributes() {
         return MobEntity.createMobAttributes()
-                .add(EntityAttributes.GENERIC_MAX_HEALTH, 40)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.3)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 5)
-                .add(EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 3)
+                .add(EntityAttributes.GENERIC_MAX_HEALTH, 20)
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.4)
+                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 2)
+                .add(EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 4)
     ;
     }
 
@@ -108,6 +108,16 @@ public class WalkingShulkerEntity extends HostileEntity {
 
     protected SoundEvent getAmbientSound() {
         return SoundEvents.ENTITY_SHULKER_AMBIENT;
+    }
+
+    @Override
+    public void onAttacking(Entity target) {
+        if (target instanceof LivingEntity livingTarget) {
+            // Apply levitation effect to the target for 1 second
+            StatusEffectInstance effect = new StatusEffectInstance(StatusEffects.LEVITATION, 20, 0);
+            livingTarget.addStatusEffect(effect);
+        }
+        super.onAttacking(target);
     }
 
     @Nullable

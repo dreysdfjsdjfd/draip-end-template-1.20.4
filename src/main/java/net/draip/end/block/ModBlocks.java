@@ -63,6 +63,9 @@ public class ModBlocks {
     public static final Block SMOOTH_TUNGSTEN_SLAB = registerBlock("smooth_tungsten_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
 
+    //public static final Block DESTINATIONAL_ENCHANTING_TABLE = registerBlock("destinational_enchanting_table",
+    //        new DestinationalEnchantmentTableBlock(FabricBlockSettings.copyOf(Blocks.ENCHANTING_TABLE)));
+
 
 
     public static final Block MAZE_STONE = registerBlock("maze_stone",
@@ -76,6 +79,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block RECTANGULAR_MAZE_STONE = registerBlock("rectangular_maze_stone",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+
+    public static final Block FIZZY_MAZE_STONE = registerBlock("fizzy_maze_stone",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block GILDED_MAZE_STONE = registerBlock("gilded_maze_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
     public static final Block MAZE_STONE_PILLAR = registerBlock("maze_stone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));

@@ -207,6 +207,7 @@
 
   "block.draip-end.auravine_ore": "Auravine Ore",
   "block.draip-end.auravine_ore_deeper": "Deeper Auravine Ore",
+  "item.draip-end.ghost_shard": "Ghost Shard",
 
   "block.draip-end.deeper_end_stone_bricks": "Deeper End Stone Bricks",
   "block.draip-end.deeper_end_stone_bricks_button": "Deeper End Stone Bricks Button",
@@ -217,13 +218,16 @@
   "block.draip-end.deeper_endstone_deeper_brick_pillar": "Deeper End Stone Bricks Pillar",
 
   "block.draip-end.endstone_deeper": "Deeper End Stone",
+  "block.draip-end.gilded_maze_stone": "Gilded Maze Stone",
+  "block.draip-end.fizzy_maze_stone": "Fizzy Maze Stone",
   "block.draip-end.endstone_deeper_stairs": "Deeper End Stone Stairs",
   "block.draip-end.endstone_deeper_slab": "Deeper End Stone Slab",
   "block.draip-end.endstone_deeper_button": "Deeper End Stone Button",
   "block.draip-end.endstone_deeper_pressure_plate": "Deeper End Stone Pressure Plate",
   "block.draip-end.endstone_deeper_wall": "Deeper End Stone Wall",
 
-  "block.draip-end.grainy_endstone": "Grainy Endstone",
+  "item.draip-end.end_music_disc": "Destinational Music Disc",
+  "item.draip-end.end_music_disc.desc": "replace this later",
 
   "block.draip-end.endstone_grass": "Grassy End Stone",
   "block.draip-end.endstone_grass_full": "Mossy End Stone",
@@ -267,6 +271,7 @@
   "block.draip-end.withered_endstone_pressure_plate": "Withered End Stone Pressure Plate",
   "block.draip-end.withered_endstone_button": "Withered End Stone Button",
   "block.draip-end.withered_endstone_wall": "Withered End Stone Wall",
+  "item.draip-end.powered_ender_pearl": "Ender Pearl",
 
 
 
@@ -278,6 +283,9 @@
   "block.draip-end.withered_and_minty_endstone_wall": "Withered and Minty End Stone Wall",
 
 
+  "key.category.draip-end.enchants": "End Enchantments",
+  "key.draip-end.dash": "Dash",
+
   "block.draip-end.endstone_brick_pillar": "End Stone Brick Pillar",
 
   "block.draip-end.purpur_wall": "Purpur Wall",
@@ -288,8 +296,9 @@
   "item.draip-end.butter_nut_berry": "Butter Nut Berries",
 
   "tooltip.draip-end.augrite_ore_explosion": "boom boom!",
-  "tooltip.draip-end.charge_with_shulker_bullets": "Charge with [Shulker Bullets]!",
+  "tooltip.draip-end.charge_with_shulker_bullets": "Hold [Right Click] to charge!",
 
+  "enchantment.draip-end.dash": "Dasher",
 
 
   "itemgroup.custom_end": "Draip's End Dimension! <3"

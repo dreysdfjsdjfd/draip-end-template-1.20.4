@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "draip-end:item/shulker_bullet"
+    "layer0": "draip-end:item/end_music_disc"
   }
 }

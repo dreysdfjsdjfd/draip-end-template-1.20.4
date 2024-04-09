@@ -31,6 +31,8 @@ public class augriteOreEndstoneBlock extends ExperienceDroppingBlock {
         double y = pos.getY()+0.5;
         double z = pos.getZ()+0.5;
 
+        System.out.println("x: " + x + ", y: " + y + ", z: " + z);
+
         double yCorrected = y -= 1;
         world.addParticle(ParticleTypes.EXPLOSION, x, y, z, 5.0, 5.0, 5.0);
 
@@ -78,9 +80,9 @@ public class augriteOreEndstoneBlock extends ExperienceDroppingBlock {
                 zPlayer *= -1;
             }
 
-            xPlayer /= 5;
-            yPlayer /= 4;
-            zPlayer /= 5;
+            xPlayer /= 4;
+            yPlayer /= 3;
+            zPlayer /= 4;
 
             player.addVelocity(xPlayer, yPlayer, zPlayer);
 
@@ -94,6 +96,10 @@ public class augriteOreEndstoneBlock extends ExperienceDroppingBlock {
         double x = pos.getX()+0.5;
         double y = pos.getY()+0.5;
         double z = pos.getZ()+0.5;
+
+
+        System.out.println("x: " + x + ", y: " + y + ", z: " + z);
+
 
         double yCorrected = y -= 1;
         world.addParticle(ParticleTypes.EXPLOSION, x, y, z, 5.0, 5.0, 5.0);
@@ -143,9 +149,9 @@ public class augriteOreEndstoneBlock extends ExperienceDroppingBlock {
                 zPlayer *= -1;
             }
 
-            xPlayer /= 5;
-            yPlayer /= 4;
-            zPlayer /= 5;
+            xPlayer /= 2;
+            yPlayer /= 2;
+            zPlayer /= 2;
 
             player.addVelocity(xPlayer, yPlayer, zPlayer);
         }

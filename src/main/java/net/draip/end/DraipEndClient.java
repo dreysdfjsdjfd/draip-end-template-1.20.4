@@ -1,10 +1,10 @@
 package net.draip.end;
 
 import net.draip.end.block.ModBlocks;
+import net.draip.end.client.DashHudOverlay;
 import net.draip.end.entity.ModEntities;
 import net.draip.end.entity.client.*;
-import net.draip.end.item.ModItems;
-import net.draip.end.item.custom.ShulkerCannonItem;
+import net.draip.end.event.KeyInputHandler;
 import net.draip.end.particle.ModParticles;
 import net.draip.end.particle.custom.AlvesLeavesParticle;
 import net.draip.end.particle.custom.WindyLeavesParticle;
@@ -13,10 +13,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
-import net.minecraft.client.item.ModelPredicateProviderRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.entity.ShulkerBulletEntityRenderer;
-import net.minecraft.util.Identifier;
 
 public class DraipEndClient implements ClientModInitializer {
     @Override
@@ -105,6 +103,9 @@ public class DraipEndClient implements ClientModInitializer {
         ParticleFactoryRegistry.getInstance().register(ModParticles.NUT_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.TERMINAL_LEAVES_PARTICLE, WindyLeavesParticle.Factory::new);
 
+        KeyInputHandler.register();
+
+        HudRenderCallback.EVENT.register(new DashHudOverlay());
 
 
     }

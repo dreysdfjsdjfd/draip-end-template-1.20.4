@@ -288,6 +288,8 @@ public class  ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAZE_STONE_STAIRS)
 
                 .add(ModBlocks.MAZE_STONE)
+                .add(ModBlocks.FIZZY_MAZE_STONE)
+                .add(ModBlocks.GILDED_MAZE_STONE)
                 .add(ModBlocks.CIRCULAR_MAZE_STONE)
                 .add(ModBlocks.RECTANGULAR_MAZE_STONE)
                 .add(ModBlocks.MAZE_STONE_PILLAR)

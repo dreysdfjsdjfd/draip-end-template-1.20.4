@@ -22,5 +22,13 @@
     "sounds": [
       "draip-end:endghost_trigger"
     ]
+  },
+  "end_disc": {
+    "sounds": [
+      {
+        "name": "draip-end:end_disc",
+        "stream": true
+      }
+    ]
   }
 }

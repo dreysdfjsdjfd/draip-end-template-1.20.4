@@ -1,9 +1,9 @@
-// 1.20.4	2024-04-05T08:06:17.5896174	Draip End/Tags for minecraft:block
+// 1.20.4	2024-04-08T23:52:12.0310403	Draip End/Tags for minecraft:block
 6bf1ab6c5d7004a76dabde04bab7270577e80228 data\draip-end\tags\blocks\endstone_blocks.json
 be5cd955e64fa89a52e20ef1b42284f44c0e9532 data\minecraft\tags\blocks\fence_gates.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
 bc806810a55f283afe4de0b5213b5ec4f4e08118 data\minecraft\tags\blocks\walls.json
-6b30cbc39cd0b1520b9b5297caa680c92114d147 data\minecraft\tags\blocks\needs_stone_tool.json
+33a6bd25191e722098ae5d7a55ec16ae0f31e124 data\minecraft\tags\blocks\needs_stone_tool.json
 c5c11f6c104e9066fa6bb82708919552ab80d113 data\minecraft\tags\blocks\mineable\shovel.json
 4011374503a04e4868d35ac083e01d3971c88026 data\minecraft\tags\blocks\logs_that_burn.json
 cc809419884300cc02cec8b6d8052b1eadd67367 data\minecraft\tags\blocks\mineable\pickaxe.json
